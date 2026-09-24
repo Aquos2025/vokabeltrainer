@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-game: 'Fredoka', cursive, sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  user-select: none;
+}
+
+.font-game {
+  font-family: var(--font-game);
+}
+
+/* 3D Gaming Button effect */
+.btn-game {
+  transition: all 0.1s ease;
+  position: relative;
+}
+
+.btn-game:active {
+  transform: translateY(3px);
+}
+
+.btn-game-primary {
+  background-color: #3b82f6;
+  border-bottom: 4px solid #1d4ed8;
+  color: white;
+}
+.btn-game-primary:hover {
+  background-color: #2563eb;
+}
+.btn-game-primary:active {
+  border-bottom-width: 1px;
+}
+
+.btn-game-success {
+  background-color: #10b981;
+  border-bottom: 4px solid #047857;
+  color: white;
+}
+.btn-game-success:hover {
+  background-color: #059669;
+}
+.btn-game-success:active {
+  border-bottom-width: 1px;
+}
+
+.btn-game-warning {
+  background-color: #f59e0b;
+  border-bottom: 4px solid #b45309;
+  color: white;
+}
+.btn-game-warning:hover {
+  background-color: #d97706;
+}
+.btn-game-warning:active {
+  border-bottom-width: 1px;
+}
+
+.btn-game-danger {
+  background-color: #ef4444;
+  border-bottom: 4px solid #b91c1c;
+  color: white;
+}
+.btn-game-danger:hover {
+  background-color: #dc2626;
+}
+.btn-game-danger:active {
+  border-bottom-width: 1px;
+}
+
+.btn-game-purple {
+  background-color: #8b5cf6;
+  border-bottom: 4px solid #6d28d9;
+  color: white;
+}
+.btn-game-purple:hover {
+  background-color: #7c3aed;
+}
+.btn-game-purple:active {
+  border-bottom-width: 1px;
+}
+
+/* Shake Animation on Wrong Answer */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+.animate-shake {
+  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Pop Animation on Correct */
+@keyframes popSuccess {
+  0% { transform: scale(0.95); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.animate-pop {
+  animation: popSuccess 0.3s ease-out both;
+}
+
+/* Pulse Flame */
+@keyframes pulseFlame {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.15) rotate(3deg); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.8)); }
+}
+
+.flame-active {
+  animation: pulseFlame 1.2s infinite ease-in-out;
+}
+
+/* Leitner Box Visuals */
+.box-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.box-1 { background-color: #fee2e2; color: #991b1b; border: 1px solid #f87171; }
+.box-2 { background-color: #ffedd5; color: #9a3412; border: 1px solid #fb923c; }
+.box-3 { background-color: #fef9c3; color: #854d0e; border: 1px solid #facc15; }
+.box-4 { background-color: #ecfdf5; color: #065f46; border: 1px solid #34d399; }
+.box-5 { background-color: #e0e7ff; color: #3730a3; border: 1px solid #818cf8; }
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Coin Drop Animation with Physics Bounce */
+@keyframes coinFallBounce {
+  0% {
+    transform: translateY(-120vh) rotate(-720deg) scale(1.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0) rotate(0deg) scale(1.1);
+  }
+  80% {
+    transform: translateY(-45px) rotate(45deg) scale(1.05);
+  }
+  90% {
+    transform: translateY(0) rotate(15deg) scale(1);
+  }
+  95% {
+    transform: translateY(-15px) rotate(5deg) scale(1);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.coin-drop-anim {
+  animation: coinFallBounce 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  filter: drop-shadow(0 10px 15px rgba(217, 119, 6, 0.5));
+}
+
+/* Coin Glow Pulse */
+@keyframes coinGlow {
+  0%, 100% { filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.6)); }
+  50% { filter: drop-shadow(0 0 16px rgba(245, 158, 11, 1)); }
+}
+
+.coin-glow {
+  animation: coinGlow 2s infinite ease-in-out;
+}
+
+/* Modal Transitions */
+.modal-overlay {
+  transition: opacity 0.25s ease-out;
+}
+
+.modal-content-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease-out;
+}

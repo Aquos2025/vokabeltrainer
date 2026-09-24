@@ -1,0 +1,767 @@
+﻿id;modulo;unidad;seite;espanol;deutsch;beispiel
+v_155_01;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¡Apúntate!;Mach mit!;
+v_155_02;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¡Hola!;Hallo!;
+v_155_03;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¿Cómo te llamas?;Wie heißt du?;Hola, ¿cómo te llamas?
+v_155_04;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¿cómo?;wie?;
+v_155_05;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;soy;ich bin;Hola, soy Sofía.
+v_155_06;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¿Y tú?;Und du?;Hola, soy Max. ¿Y tú?
+v_155_07;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;y;und;
+v_155_08;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;me llamo;ich heiße;Me llamo Aitana.
+v_155_09;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;soy de;ich komme aus;Soy de Berlín. ¿Y tú?
+v_155_10;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;de;aus;Soy de Hamburgo.
+v_155_11;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¿De dónde eres?;Woher kommst du?;
+v_155_12;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;¿de dónde?;woher?;
+v_155_13;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;pues;also, na;Pues, soy de Madrid.
+v_155_14;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;aquí;hier;
+v_155_15;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;sí;ja;
+v_155_16;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;claro;klar;-Soy de Madrid. -Claro...
+v_155_17;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;Valencia;Hauptstadt der Autonomen Gemeinschaft Valencia;
+v_155_18;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;Madrid;Hauptstadt Spaniens;
+v_155_19;¡Apúntate!;¡Apúntate! | ¿Cómo te llamas?;155;España;Spanien;
+v_155_20;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Afganistán;Afghanistan;
+v_155_21;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Alemania;Deutschland;
+v_155_22;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Austria;Österreich;
+v_155_23;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;España;Spanien;
+v_155_24;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Francia;Frankreich;
+v_155_25;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Italia;Italien;
+v_155_26;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Marruecos;Marokko;
+v_155_27;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Polonia;Polen;
+v_155_28;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Portugal;Portugal;
+v_155_29;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Rusia;Russland;
+v_155_30;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Ucrania;Ukraine;
+v_155_31;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Siria;Syrien;
+v_155_32;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Somalia;Somalia;
+v_155_33;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Suiza;Schweiz;
+v_155_34;¡Apúntate!;¡Apúntate! | Palabrateca - Soy de...;155;Turquía;Türkei;
+v_156_01;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;¿Qué tal?;Wie geht’s?;Hola, ¿qué tal?
+v_156_02;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;¿qué?;was?, wie?;
+v_156_03;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;Bueno...;Okay, ... / Gut ...;Bueno... adiós...
+v_156_04;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;¡Adiós!;Tschüss!;
+v_156_05;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;¡Hasta luego!;Bis später!;-¡Adiós! -¡Hasta luego!
+v_156_06;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;¡Buenos días!;Guten Tag.;¡Buenos días, Pau!
+v_156_07;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;genial;genial, super, toll;-¿Qué tal? -¡Genial!
+v_156_08;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;(muy) bien;(sehr) gut;-¿Qué tal? -¡Muy bien!
+v_156_09;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;muy;sehr;
+v_156_10;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;gracias;danke;-¿Qué tal? -Bien, gracias.
+v_156_11;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;fatal;furchtbar;
+v_156_12;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;más o menos;geht so;-¿Qué tal? -Más o menos...
+v_156_13;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;regular;geht so;
+v_156_14;¡Apúntate!;¡Apúntate! | ¿Qué tal?;156;(muy) mal;(sehr) schlecht;
+v_156_15;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;¿Cuántos años tienes?;Wie alt bist du?;
+v_156_16;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;Tengo... años.;Ich bin ... Jahre alt.;Tengo 13 años.
+v_156_17;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;el año;das Jahr;
+v_156_18;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;cero;null (0);
+v_156_19;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;uno, una, un;eins (1);
+v_156_20;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;dos;zwei (2);
+v_156_21;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;tres;drei (3);
+v_156_22;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;cuatro;vier (4);
+v_156_23;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;cinco;fünf (5);
+v_156_24;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;seis;sechs (6);
+v_156_25;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;siete;sieben (7);
+v_156_26;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;ocho;acht (8);
+v_156_27;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;nueve;neun (9);
+v_156_28;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;diez;zehn (10);
+v_156_29;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;once;elf (11);
+v_156_30;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;doce;zwölf (12);
+v_156_31;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;trece;dreizehn (13);
+v_156_32;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;catorce;vierzehn (14);
+v_156_33;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;quince;fünfzehn (15);
+v_156_34;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;dieciséis;sechzehn (16);
+v_156_35;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;diecisiete;siebzehn (17);
+v_156_36;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;dieciocho;achtzehn (18);
+v_156_37;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;diecinueve;neunzehn (19);
+v_156_38;¡Apúntate!;¡Apúntate! | ¿Cuántos años tienes?;156;veinte;zwanzig (20);
+v_156_39;Unidad 1;Unidad 1 | Vocabulario;156;la vida;das Leben;
+v_156_40;Unidad 1;Unidad 1 | Vocabulario;156;en;in, an, auf;
+v_156_41;Unidad 1;Unidad 1 | Vocabulario;156;el/la;der, die, das;El parque y la plaza.
+v_157_01;Unidad 1;Unidad 1 | Vocabulario;157;la ciudad;die Stadt;
+v_157_02;Unidad 1;Unidad 1 | Vocabulario;157;el barrio;das Stadtviertel;
+v_157_03;Unidad 1;Unidad 1 | Vocabulario;157;¿Quedamos en...?;Treffen wir uns in/an/auf...?;¿Quedamos en el parque?
+v_157_04;Unidad 1;Unidad 1 | Vocabulario;157;el parque;der Park;
+v_157_05;Unidad 1;Unidad 1 | Vocabulario;157;la plaza;der Platz;¿Quedamos en la plaza?
+v_157_06;Unidad 1;Unidad 1 | Vocabulario;157;el café;das Café, die Cafeteria;
+v_157_07;Unidad 1;Unidad 1 | Vocabulario;157;el mercado;der Markt;
+v_157_08;Unidad 1;Unidad 1 | Vocabulario;157;la heladería;die Eisdiele;
+v_157_09;Unidad 1;Unidad 1 | Vocabulario;157;la biblioteca;die Bibliothek;
+v_157_10;Unidad 1;Unidad 1 | Vocabulario;157;la tienda de cómics;der Comicladen;
+v_157_11;Unidad 1;Unidad 1 | Vocabulario;157;la tienda;das Geschäft, der Laden;
+v_157_12;Unidad 1;Unidad 1 | Vocabulario;157;el cómic, los cómics;der/das Comic;
+v_157_13;Unidad 1;Unidad 1 | Vocabulario;157;la tienda (de ropa);das (Bekleidungs-)Geschäft;
+v_157_14;Unidad 1;Unidad 1 | Vocabulario;157;la ropa;die Kleidung;
+v_157_15;Unidad 1;Unidad 1 | Vocabulario;157;el quiosco;der Kiosk;
+v_157_16;Unidad 1;Unidad 1 | Vocabulario;157;el instituto (el insti);das Gymnasium, die Schule;
+v_157_17;Unidad 1;Unidad 1 | Vocabulario;157;el centro comercial;das Einkaufszentrum;
+v_157_18;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;el cine;das Kino;
+v_157_19;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;el estadio;das Stadion;
+v_157_20;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;la librería;die Buchhandlung;
+v_157_21;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;el museo;das Museum;
+v_157_22;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;la panadería;die Bäckerei;
+v_157_23;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;la piscina;das Schwimmbad;
+v_157_24;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;el río;der Fluss;
+v_157_25;Unidad 1;Unidad 1 | Palabrateca - En el barrio;157;el supermercado;der Supermarkt;
+v_157_26;Unidad 1;Unidad 1 | Texto A;157;ser;sein;¿Cómo es Javi?
+v_157_27;Unidad 1;Unidad 1 | Texto A;157;el/la amigo/-a;der/die Freund/-in;Soy la amiga de Lili.
+v_157_28;Unidad 1;Unidad 1 | Texto A;157;el patio;der Hof;¿Quedamos en el patio?
+v_157_29;Unidad 1;Unidad 1 | Texto A;157;Chicos, ...;Leute, ...;Chicos, ¿qué tal?
+v_157_30;Unidad 1;Unidad 1 | Texto A;157;¿quién? sg., ¿quiénes? pl.;wer?;¿Quién es la chica?
+v_157_31;Unidad 1;Unidad 1 | Texto A;157;el chico;der Junge;¿Quién es el chico?
+v_157_32;Unidad 1;Unidad 1 | Texto A;157;la chica;das Mädchen;La chica es Nora.
+v_158_01;Unidad 1;Unidad 1 | Texto A;158;¡Vamos!;Gehen wir!;
+v_158_02;Unidad 1;Unidad 1 | Texto A;158;yo;ich;
+v_158_03;Unidad 1;Unidad 1 | Texto A;158;tú;du;
+v_158_04;Unidad 1;Unidad 1 | Texto A;158;él;er;
+v_158_05;Unidad 1;Unidad 1 | Texto A;158;ella;sie (sg.);
+v_158_06;Unidad 1;Unidad 1 | Texto A;158;nosotros/-as;wir;
+v_158_07;Unidad 1;Unidad 1 | Texto A;158;vosotros/-as;ihr;
+v_158_08;Unidad 1;Unidad 1 | Texto A;158;ellos/-as;sie (pl.);
+v_158_09;Unidad 1;Unidad 1 | Texto A;158;de;aus, von, über;Soy de Valencia.
+v_158_10;Unidad 1;Unidad 1 | Texto A;158;Ni idea.;Keine Ahnung.;-¿Quién es el chico? -Ni idea.
+v_158_11;Unidad 1;Unidad 1 | Texto A;158;el/la vecino/-a;der/die Nachbar/-in;Lili es la vecina de Pau.
+v_158_12;Unidad 1;Unidad 1 | Texto A;158;¿no?;oder?, stimmt’s?;
+v_158_13;Unidad 1;Unidad 1 | Texto A;158;este/-a es;das ist;Esta es Álex.
+v_158_14;Unidad 1;Unidad 1 | Texto A;158;el/la nuevo/-a;der/die Neue;Pau es el nuevo de la clase.
+v_158_15;Unidad 1;Unidad 1 | Texto A;158;la clase;die Klasse;
+v_158_16;Unidad 1;Unidad 1 | Texto A;158;también;auch;Yo también.
+v_158_17;Unidad 1;Unidad 1 | Texto B;158;quedar;sich verabreden;¿Quedamos por la tarde?
+v_158_18;Unidad 1;Unidad 1 | Texto B;158;por la tarde;nachmittags;Por la tarde estudio en casa.
+v_158_19;Unidad 1;Unidad 1 | Texto B;158;la tarde;der Nachmittag;
+v_158_20;Unidad 1;Unidad 1 | Texto B;158;normalmente;normalerweise;Normalmente quedamos en la plaza.
+v_158_21;Unidad 1;Unidad 1 | Texto B;158;Pues sí.;Ja, klar.;
+v_158_22;Unidad 1;Unidad 1 | Texto B;158;pasar (+ tiempo);(Zeit) verbringen;Pasamos la tarde en la heladería.
+v_158_23;Unidad 1;Unidad 1 | Texto B;158;descansar;sich ausruhen;
+v_158_24;Unidad 1;Unidad 1 | Texto B;158;escuchar algo;etw. hören;
+v_158_25;Unidad 1;Unidad 1 | Texto B;158;la música;die Musik;
+v_158_26;Unidad 1;Unidad 1 | Texto B;158;o;oder;¿Eres de Gijón u Oviedo?
+v_158_27;Unidad 1;Unidad 1 | Texto B;158;mirar algo;etw. anschauen;Pau mira vídeos en casa.
+v_158_28;Unidad 1;Unidad 1 | Texto B;158;tocar;spielen (Instrument);
+v_158_29;Unidad 1;Unidad 1 | Texto B;158;la guitarra;die Gitarre;
+v_158_30;Unidad 1;Unidad 1 | Texto B;158;hablar;sprechen;
+v_158_31;Unidad 1;Unidad 1 | Texto B;158;con;mit;
+v_158_32;Unidad 1;Unidad 1 | Texto B;158;el vídeo;das Video;
+v_158_33;Unidad 1;Unidad 1 | Texto B;158;la casa;das Haus, Zuhause;
+v_158_34;Unidad 1;Unidad 1 | Texto B;158;en casa;zuhause;Normalmente, estudio en casa.
+v_158_35;Unidad 1;Unidad 1 | Texto B;158;pero;aber;
+v_158_36;Unidad 1;Unidad 1 | Texto B;158;estudiar;lernen;
+v_158_37;Unidad 1;Unidad 1 | Texto B;158;no;nein, nicht;
+v_159_01;Unidad 1;Unidad 1 | Texto B;159;buscar algo;etw. suchen;Busco información en la biblioteca.
+v_159_02;Unidad 1;Unidad 1 | Texto B;159;la información;die Information;
+v_159_03;Unidad 1;Unidad 1 | Texto B;159;charlar;plaudern, quatschen;
+v_159_04;Unidad 1;Unidad 1 | Texto B;159;tomar algo;hier: etwas trinken, zu sich nehmen;
+v_159_05;Unidad 1;Unidad 1 | Texto B;159;algo;etwas;¿Tomamos algo en el café?
+v_159_06;Unidad 1;Unidad 1 | Texto B;159;guay;cool, toll;–Toco la guitarra. –¡Guay!
+v_159_07;Módulo 1;Módulo 1;159;la clase;die Klasse, der Unterricht;
+v_159_08;Módulo 1;Módulo 1;159;el español;Spanisch;
+v_159_09;Módulo 1;Módulo 1;159;de... a...;von ... bis ...;
+v_159_10;Módulo 1;Módulo 1;159;el alfabeto;das Alphabet;
+v_159_11;Módulo 1;Módulo 1;159;¿Qué es esto?;Was ist das?;
+v_159_12;Módulo 1;Módulo 1;159;ahora;jetzt;¡Ahora vosotros!
+v_159_13;Módulo 1;Módulo 1;159;La lista está completa.;Die Liste ist vollständig.;
+v_159_14;Módulo 1;Módulo 1;159;la letra;der Buchstabe;
+v_159_15;Módulo 1;Módulo 1;159;la mochila;der Rucksack;
+v_159_16;Módulo 1;Módulo 1;159;el libro;das Buch;
+v_159_17;Módulo 1;Módulo 1;159;el cuaderno;das Heft;
+v_159_18;Módulo 1;Módulo 1;159;la tableta;das Tablet PC;
+v_159_19;Módulo 1;Módulo 1;159;el bolígrafo (= el boli fam.);der Kugelschreiber;
+v_159_20;Módulo 1;Módulo 1;159;el lápiz, los lápices pl.;der Stift;
+v_159_21;Módulo 1;Módulo 1;159;la goma de borrar;der Radiergummi;
+v_159_22;Módulo 1;Módulo 1;159;la regla;das Lineal;
+v_159_23;Módulo 1;Módulo 1;159;el estuche;die Federmappe;
+v_159_24;Módulo 1;Módulo 1;159;el táper;die Brotdose;
+v_159_25;Módulo 1;Módulo 1;159;la botella;die Flasche;
+v_159_26;Módulo 1;Módulo 1;159;el aula f.;das Klassenzimmer;
+v_159_27;Módulo 1;Módulo 1;159;la mesa;der Tisch;
+v_159_28;Módulo 1;Módulo 1;159;el portátil;der Laptop;
+v_159_29;Módulo 1;Módulo 1;159;la pizarra;die Tafel;
+v_160_01;Módulo 1;Módulo 1;160;el/la profesor/-a (= el/la profe fam.);der/die Lehrer/-in;La profe descansa en el parque.
+v_160_02;Módulo 1;Módulo 1;160;la papelera;der Papierkorb;
+v_160_03;Módulo 1;Módulo 1;160;la silla;der Stuhl;
+v_160_04;Módulo 1;Módulo 1;160;el/la alumno/-a;der/die Schüler/-in;
+v_160_05;Módulo 1;Módulo 1;160;la pregunta;die Frage;
+v_160_06;Módulo 1;Módulo 1;160;la respuesta;die Antwort;
+v_160_07;Módulo 1;Módulo 1;160;se dice;man sagt;Se dice «el aula».
+v_160_08;Módulo 1;Módulo 1;160;se escribe;man schreibt;¿Cómo se escribe boli?
+v_160_09;Módulo 1;Módulo 1;160;el baño;das Bad, die Toilette;
+v_160_10;Módulo 1;Módulo 1;160;¿Qué significa...?;Was bedeutet ...?;
+v_160_11;Módulo 1;Módulo 1;160;Significa...;Das bedeutet ...;
+v_160_12;Módulo 1;Módulo 1;160;¿Puedes repetirlo?;Kannst du das wiederholen?;
+v_160_13;Módulo 1;Módulo 1;160;por favor (= porfa fam.);bitte;¿Puedes repetirlo, por favor?
+v_160_14;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;la calculadora;der Taschenrechner;
+v_160_15;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el horario;der Stundenplan;
+v_160_16;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el mapa;die Landkarte;
+v_160_17;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el pegamento;der Leim;
+v_160_18;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el reloj;die Uhr;
+v_160_19;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el rotulador;der Marker;
+v_160_20;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;el sacapuntas;der Anspitzer;
+v_160_21;Módulo 1;Módulo 1 | Palabrateca - Objetos en la clase;160;las tijeras;die Schere;
+v_160_22;Unidad 2;Unidad 2 | Vocabulario;160;mi, mis;mein, meine sg., meine pl.;
+v_160_23;Unidad 2;Unidad 2 | Vocabulario;160;la habitación, las habitaciones pl.;das Zimmer;
+v_160_24;Unidad 2;Unidad 2 | Vocabulario;160;hay;es gibt;En mi habitación hay una cama.
+v_160_25;Unidad 2;Unidad 2 | Vocabulario;160;un/una;ein, eine;
+v_160_26;Unidad 2;Unidad 2 | Vocabulario;160;la cama;das Bett;
+v_160_27;Unidad 2;Unidad 2 | Vocabulario;160;el armario;der Schrank;
+v_160_28;Unidad 2;Unidad 2 | Vocabulario;160;el póster, los pósteres pl.;das Poster;
+v_160_29;Unidad 2;Unidad 2 | Vocabulario;160;la pared;die Wand;En la pared hay fotos.
+v_160_30;Unidad 2;Unidad 2 | Vocabulario;160;la ventana;das Fenster;En mi habitación hay dos ventanas.
+v_161_01;Unidad 2;Unidad 2 | Vocabulario;161;la foto;das Foto;
+v_161_02;Unidad 2;Unidad 2 | Vocabulario;161;el espejo;der Spiegel;
+v_161_03;Unidad 2;Unidad 2 | Vocabulario;161;la puerta;die Tür;
+v_161_04;Unidad 2;Unidad 2 | Vocabulario;161;la lámpara;die Lampe;
+v_161_05;Unidad 2;Unidad 2 | Vocabulario;161;la alfombra;der Teppich;
+v_161_06;Unidad 2;Unidad 2 | Vocabulario;161;el sillón, los sillones pl.;der Sessel;
+v_161_07;Unidad 2;Unidad 2 | Vocabulario;161;la estantería;das Regal;
+v_161_08;Unidad 2;Unidad 2 | Vocabulario;161;la consola (de videojuegos);die Spielkonsole;
+v_161_09;Unidad 2;Unidad 2 | Vocabulario;161;el videojuego;das Videospiel;
+v_161_10;Unidad 2;Unidad 2 | Vocabulario;161;el altavoz, los altavoces pl.;der Lautsprecher, die Lautsprecher-Box;
+v_161_11;Unidad 2;Unidad 2 | Vocabulario;161;el escritorio;der Schreibtisch;En mi escritorio hay un portátil.
+v_161_12;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la cama alta;das Hochbett;
+v_161_13;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la planta;die Pflanze;
+v_161_14;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;el sofá;die Couch, das Sofa;
+v_161_15;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la mesa de noche;der Nachttisch;
+v_161_16;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la guirnalda de luces;die Lichterkette;
+v_161_17;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la almohada;das Kissen;
+v_161_18;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la jaula;der Käfig;
+v_161_19;Unidad 2;Unidad 2 | Palabrateca - En mi habitación;161;la hamaca;die Hängematte;
+v_161_20;Unidad 2;Unidad 2 | Texto A;161;el mundo;die Welt;
+v_161_21;Unidad 2;Unidad 2 | Texto A;161;vivir;leben, wohnen;Vivo en Colonia.
+v_161_22;Unidad 2;Unidad 2 | Texto A;161;hacer algo;etw. machen, tun;
+v_161_23;Unidad 2;Unidad 2 | Texto A;161;el piso;die Wohnung;
+v_161_24;Unidad 2;Unidad 2 | Texto A;161;el centro;das Zentrum;
+v_161_25;Unidad 2;Unidad 2 | Texto A;161;compartir algo (con alguien);etw. (mit jdm) teilen;
+v_161_26;Unidad 2;Unidad 2 | Texto A;161;la hermana;die Schwester;
+v_161_27;Unidad 2;Unidad 2 | Texto A;161;el rincón, los rincones pl.;die Ecke;En mi rincón hay un sillón.
+v_161_28;Unidad 2;Unidad 2 | Texto A;161;hacer los deberes;Hausaufgaben machen;Hago los deberes en mi habitación.
+v_161_29;Unidad 2;Unidad 2 | Texto A;161;los deberes;die Hausaufgaben;
+v_161_30;Unidad 2;Unidad 2 | Texto A;161;escribir algo;etw. schreiben;
+v_161_31;Unidad 2;Unidad 2 | Texto A;161;el diario;das Tagebuch;Por la tarde escribo en mi diario.
+v_162_01;Unidad 2;Unidad 2 | Texto A;162;después;danach;Después escucho música.
+v_162_02;Unidad 2;Unidad 2 | Texto A;162;siempre;immer;
+v_162_03;Unidad 2;Unidad 2 | Texto A;162;esconder algo;etw. verstecken;Siempre escondo mi diario.
+v_162_04;Unidad 2;Unidad 2 | Texto A;162;a veces;manchmal;A veces estudio en el salón.
+v_162_05;Unidad 2;Unidad 2 | Texto A;162;discutir;sich streiten, auch: diskutieren;
+v_162_06;Unidad 2;Unidad 2 | Texto A;162;ver algo;etw. (an)sehen;
+v_162_07;Unidad 2;Unidad 2 | Texto A;162;bailar;tanzen;
+v_162_08;Unidad 2;Unidad 2 | Texto A;162;practicar algo;etw. üben;Con mi hermano practicamos pasos de hiphop.
+v_162_09;Unidad 2;Unidad 2 | Texto A;162;el paso de hiphop;der Hip-Hop Schritt;
+v_162_10;Unidad 2;Unidad 2 | Texto A;162;¡Mola mucho!;Das ist echt cool!;
+v_162_11;Unidad 2;Unidad 2 | Texto A;162;solo adv.;nur;
+v_162_12;Unidad 2;Unidad 2 | Texto A;162;la película;der Film;
+v_162_13;Unidad 2;Unidad 2 | Texto A;162;el móvil;das Handy;
+v_162_14;Unidad 2;Unidad 2 | Texto A;162;leer;lesen;Leo revistas en la cama.
+v_162_15;Unidad 2;Unidad 2 | Texto A;162;la revista;die Zeitschrift;
+v_162_16;Unidad 2;Unidad 2 | Texto A;162;aprender algo;etw. (er-)lernen;
+v_162_17;Unidad 2;Unidad 2 | Texto A;162;la cosa;das Ding, die Sache;
+v_162_18;Unidad 2;Unidad 2 | Texto A;162;sobre;über;
+v_162_19;Unidad 2;Unidad 2 | Texto A;162;la fotografía;die Fotografie;
+v_162_20;Unidad 2;Unidad 2 | Texto A;162;¡Me encanta!;Das gefällt mir total.;
+v_162_21;Unidad 2;Unidad 2 | Texto A;162;el hermano;der Bruder;
+v_162_22;Unidad 2;Unidad 2 | Texto A;162;el salón, los salones pl.;das Wohnzimmer;Descanso en el salón.
+v_162_23;Unidad 2;Unidad 2 | Texto A;162;tomar la merienda;einen Nachmittagssnack essen;
+v_162_24;Unidad 2;Unidad 2 | Texto A;162;la merienda;der Nachmittagssnack;
+v_162_25;Unidad 2;Unidad 2 | Texto A;162;comer algo;etw. essen;¿Qué comemos?
+v_162_26;Unidad 2;Unidad 2 | Texto A;162;el bocadillo;das belegte Brötchen;
+v_162_27;Unidad 2;Unidad 2 | Texto A;162;beber algo;etw. trinken;
+v_162_28;Unidad 2;Unidad 2 | Texto A;162;el zumo;der Saft;En la heladería hay helado, zumo y agua.
+v_162_29;Unidad 2;Unidad 2 | Texto A;162;el agua f.;das Wasser;
+v_162_30;Unidad 2;Unidad 2 | Texto A;162;el helado;das Eis;
+v_162_31;Unidad 2;Unidad 2 | Texto A;162;allí;dort;
+v_162_32;Unidad 2;Unidad 2 | Texto A;162;tu habitación;dein Zimmer;
+v_162_33;Unidad 2;Unidad 2 | Texto A;162;responder (a algo);(auf etw.) antworten;
+v_163_01;Unidad 2;Unidad 2 | Palabrateca;163;dibujar;zeichnen;
+v_163_02;Unidad 2;Unidad 2 | Palabrateca;163;hacer manualidades;basteln;
+v_163_03;Unidad 2;Unidad 2 | Palabrateca;163;navegar en internet;im Internet surfen;
+v_163_04;Unidad 2;Unidad 2 | Palabrateca;163;sacar fotos;Fotos machen;
+v_163_05;Unidad 2;Unidad 2 | Palabrateca;163;montar a caballo;reiten;
+v_163_06;Unidad 2;Unidad 2 | Palabrateca;163;patinar;skaten;
+v_163_07;Unidad 2;Unidad 2 | Palabrateca;163;hacer deporte;Sport machen;
+v_163_08;Unidad 2;Unidad 2 | Palabrateca;163;pasear al perro;mit dem Hund spazieren;
+v_163_09;Unidad 2;Unidad 2 | Texto B;163;¿dónde?;wo?;
+v_163_10;Unidad 2;Unidad 2 | Texto B;163;estar;sein, sich befinden;¿Dónde está mi diario?
+v_163_11;Unidad 2;Unidad 2 | Texto B;163;hoy;heute;
+v_163_12;Unidad 2;Unidad 2 | Texto B;163;el/la gato/-a;der Kater, die Katze;
+v_163_13;Unidad 2;Unidad 2 | Texto B;163;detrás de;hinter;
+v_163_14;Unidad 2;Unidad 2 | Texto B;163;el sofá;die Couch, das Sofa;
+v_163_15;Unidad 2;Unidad 2 | Texto B;163;al lado de;neben;
+v_163_16;Unidad 2;Unidad 2 | Texto B;163;la televisión (= la tele fam.);der Fernseher;
+v_163_17;Unidad 2;Unidad 2 | Texto B;163;debajo de;unter;
+v_163_18;Unidad 2;Unidad 2 | Texto B;163;seguro que;sicherlich, bestimmt;
+v_163_19;Unidad 2;Unidad 2 | Texto B;163;la cocina;die Küche;
+v_163_20;Unidad 2;Unidad 2 | Texto B;163;encima de;auf, über;
+v_163_21;Unidad 2;Unidad 2 | Texto B;163;la nevera;der Kühlschrank;
+v_163_22;Unidad 2;Unidad 2 | Texto B;163;tampoco;auch nicht;
+v_163_23;Unidad 2;Unidad 2 | Texto B;163;el baño;das Bad, Badezimmer;
+v_163_24;Unidad 2;Unidad 2 | Texto B;163;el lavabo;das Waschbecken;
+v_163_25;Unidad 2;Unidad 2 | Texto B;163;la ducha;die Dusche;
+v_163_26;Unidad 2;Unidad 2 | Texto B;163;la mamá fam. (= la madre);die Mama fam. (= die Mutter);
+v_163_27;Unidad 2;Unidad 2 | Texto B;163;delante de;vor;
+v_163_28;Unidad 2;Unidad 2 | Texto B;163;¿Qué pasa?;Was ist los?;
+v_163_29;Unidad 2;Unidad 2 | Texto B;163;quizás;vielleicht;El gato quizás está en la cocina.
+v_163_30;Unidad 2;Unidad 2 | Texto B;163;entre... y...;zwischen ... und...;
+v_163_31;Unidad 2;Unidad 2 | Texto B;163;entonces;dann, also;
+v_163_32;Unidad 2;Unidad 2 | Texto B;163;abrir algo;etw. öffnen;
+v_164_01;Unidad 2;Unidad 2 | Texto B;164;¡Por fin!;Endlich!;
+v_164_02;Unidad 2;Unidad 2 | Texto B;164;la llave;der Schlüssel;
+v_164_03;Unidad 2;Unidad 2 | Texto B;164;encima de;auf, über;
+v_164_04;Unidad 2;Unidad 2 | Texto B;164;debajo de;unter;
+v_164_05;Unidad 2;Unidad 2 | Texto B;164;delante de;vor;
+v_164_06;Unidad 2;Unidad 2 | Texto B;164;detrás de;hinter;
+v_164_07;Unidad 2;Unidad 2 | Texto B;164;al lado de;neben;
+v_164_08;Unidad 2;Unidad 2 | Texto B;164;entre;zwischen;
+v_164_09;Unidad 2;Unidad 2 | Palabrateca;164;el balcón;der Balkon;
+v_164_10;Unidad 2;Unidad 2 | Palabrateca;164;el jardín;der Garten;
+v_164_11;Unidad 2;Unidad 2 | Palabrateca;164;la terraza;die Terrasse;
+v_164_12;Unidad 2;Unidad 2 | Palabrateca;164;el pasillo;der Flur;
+v_164_13;Unidad 2;Unidad 2 | Palabrateca;164;la entrada;der Eingang;
+v_164_14;Módulo 2;Módulo 2;164;la agenda;der Terminkalender;
+v_164_15;Módulo 2;Módulo 2;164;los meses del año;die Monate des Jahres;
+v_164_16;Módulo 2;Módulo 2;164;enero;Januar;
+v_164_17;Módulo 2;Módulo 2;164;febrero;Februar;
+v_164_18;Módulo 2;Módulo 2;164;marzo;März;
+v_164_19;Módulo 2;Módulo 2;164;abril;April;
+v_164_20;Módulo 2;Módulo 2;164;mayo;Mai;
+v_164_21;Módulo 2;Módulo 2;164;junio;Juni;
+v_164_22;Módulo 2;Módulo 2;164;julio;Juli;
+v_164_23;Módulo 2;Módulo 2;164;agosto;August;
+v_164_24;Módulo 2;Módulo 2;164;septiembre;September;
+v_164_25;Módulo 2;Módulo 2;164;octubre;Oktober;
+v_164_26;Módulo 2;Módulo 2;164;noviembre;November;
+v_164_27;Módulo 2;Módulo 2;164;diciembre;Dezember;
+v_164_28;Módulo 2;Módulo 2;164;la fecha;das Datum;
+v_164_29;Módulo 2;Módulo 2;164;los días de la semana;die Wochentage;
+v_164_30;Módulo 2;Módulo 2;164;el lunes;(am) Montag;
+v_164_31;Módulo 2;Módulo 2;164;el martes;(am) Dienstag;
+v_164_32;Módulo 2;Módulo 2;164;el miércoles;(am) Mittwoch;
+v_164_33;Módulo 2;Módulo 2;164;el jueves;(am) Donnerstag;
+v_164_34;Módulo 2;Módulo 2;164;el viernes;(am) Freitag;
+v_164_35;Módulo 2;Módulo 2;164;el sábado;(am) Samstag;
+v_164_36;Módulo 2;Módulo 2;164;el domingo;(am) Sonntag;
+v_164_37;Módulo 2;Módulo 2;164;el cumpleaños (= el cumple fam.);der Geburtstag;
+v_164_38;Módulo 2;Módulo 2;164;la nota;"hier: die Notiz; die Schulnote";
+v_164_39;Módulo 2;Módulo 2;164;olvidar algo;etw. vergessen;Siempre olvido mis libros en casa.
+v_164_40;Módulo 2;Módulo 2;164;comprar algo;etw. kaufen;¿Qué regalo compramos?
+v_164_41;Módulo 2;Módulo 2;164;el regalo;das Geschenk;
+v_164_42;Módulo 2;Módulo 2;164;la semana;die Woche;
+v_164_43;Módulo 2;Módulo 2;164;el fin de semana (= el finde fam.);das Wochenende;
+v_164_44;Módulo 2;Módulo 2;164;hacer un pícnic;picknicken;
+v_165_01;Módulo 2;Módulo 2;165;el pícnic;das Picknick;
+v_165_02;Módulo 2;Módulo 2;165;¿Cuándo es tu cumpleaños?;Wann hast du Geburtstag?;
+v_165_03;Módulo 2;Módulo 2;165;¿cuándo?;wann?;
+v_165_04;Módulo 2;Módulo 2;165;Mi cumpleaños es en + mes.;Ich habe im + Monat Geburtstag.;Mi cumpleaños es en enero.
+v_165_05;Módulo 2;Módulo 2;165;Mi cumpleaños es el + fecha.;Ich habe am + Datum Geburtstag.;Mi cumple es el 30 de enero.
+v_165_06;Módulo 2;Módulo 2;165;ya;schon;¿Ya es jueves?
+v_165_07;Módulo 2;Módulo 2;165;cumplir... años;... Jahre alt werden;En marzo cumplo 14 años.
+v_165_08;Módulo 2;Módulo 2;165;¿verdad?;nicht wahr?, stimmt's?;Hoy es martes, ¿verdad?
+v_165_09;Módulo 2;Módulo 2;165;la fiesta;die Party, die Feier;Pau hace una fiesta el sábado.
+v_165_10;Módulo 2;Módulo 2;165;¿Qué día es hoy?;Welcher Tag ist heute?;¿Qué día es?
+v_165_11;Módulo 2;Módulo 2;165;el día;der Tag;
+v_165_12;Módulo 2;Módulo 2;165;¿por qué?;warum?;¿Por qué siempre discutís?
+v_165_13;Módulo 2;Módulo 2;165;vale;einverstanden, ok;Ah, vale. Gracias.
+v_165_14;Unidad 3;Unidad 3 | Vocabulario;165;la familia;die Familie;
+v_165_15;Unidad 3;Unidad 3 | Vocabulario;165;este/esta;dieser/diese/dieses sg.;
+v_165_16;Unidad 3;Unidad 3 | Vocabulario;165;estos/estas;diese pl.;Estos son mis abuelos.
+v_165_17;Unidad 3;Unidad 3 | Vocabulario;165;los abuelos;die Großeltern;
+v_165_18;Unidad 3;Unidad 3 | Vocabulario;165;el abuelo;der Großvater, Opa;
+v_165_19;Unidad 3;Unidad 3 | Vocabulario;165;la abuela;die Großmutter, Oma;
+v_165_20;Unidad 3;Unidad 3 | Vocabulario;165;el/la primo/-a;der/die Cousin/e;
+v_165_21;Unidad 3;Unidad 3 | Vocabulario;165;los hijos, las hijas;die Kinder (die Kinder einer Person);Estos son los hijos de mi tía.
+v_165_22;Unidad 3;Unidad 3 | Vocabulario;165;el padre;der Vater;
+v_165_23;Unidad 3;Unidad 3 | Vocabulario;165;la pareja (de alguien);der/die Partner/-in (von jdm);
+v_165_24;Unidad 3;Unidad 3 | Vocabulario;165;la madre;die Mutter;
+v_165_25;Unidad 3;Unidad 3 | Vocabulario;165;los padres;die Eltern;Estos son mis padres.
+v_165_26;Unidad 3;Unidad 3 | Vocabulario;165;los hermanos;die Geschwister;
+v_165_27;Unidad 3;Unidad 3 | Vocabulario;165;el hijo;der Sohn;
+v_165_28;Unidad 3;Unidad 3 | Vocabulario;165;la hija;die Tochter;
+v_165_29;Unidad 3;Unidad 3 | Vocabulario;165;el tío;der Onkel;
+v_165_30;Unidad 3;Unidad 3 | Vocabulario;165;la tía;die Tante;
+v_166_01;Unidad 3;Unidad 3 | Vocabulario;166;la mascota;das Haustier;
+v_166_02;Unidad 3;Unidad 3 | Palabrateca;166;el sobrino;der Neffe;
+v_166_03;Unidad 3;Unidad 3 | Palabrateca;166;la sobrina;die Nichte;
+v_166_04;Unidad 3;Unidad 3 | Palabrateca;166;el nieto;der Enkel;
+v_166_05;Unidad 3;Unidad 3 | Palabrateca;166;la nieta;die Enkelin;
+v_166_06;Unidad 3;Unidad 3 | Palabrateca;166;los gemelos, las gemelas;die eineiigen Zwillinge;
+v_166_07;Unidad 3;Unidad 3 | Palabrateca;166;los mellizos, las mellizas;die zweieiigen Zwillinge;
+v_166_08;Unidad 3;Unidad 3 | Palabrateca;166;los bisabuelos;die Urgroßeltern;
+v_166_09;Unidad 3;Unidad 3 | Palabrateca;166;el padrastro;der Stiefvater;
+v_166_10;Unidad 3;Unidad 3 | Palabrateca;166;la madrastra;die Stiefmutter;
+v_166_11;Unidad 3;Unidad 3 | Palabrateca;166;el hermanastro;der Stiefbruder;
+v_166_12;Unidad 3;Unidad 3 | Palabrateca;166;la hermanastra;die Stiefschwester;
+v_166_13;Unidad 3;Unidad 3 | Texto A;166;importante;wichtig;
+v_166_14;Unidad 3;Unidad 3 | Texto A;166;para ti;für dich;
+v_166_15;Unidad 3;Unidad 3 | Texto A;166;la Curiosa;die Neugierige (hier der Name einer Influencerin);
+v_166_16;Unidad 3;Unidad 3 | Texto A;166;la calle;die Straße;
+v_166_17;Unidad 3;Unidad 3 | Texto A;166;hacer entrevistas;Interviews führen;
+v_166_18;Unidad 3;Unidad 3 | Texto A;166;la entrevista;das Interview;
+v_166_19;Unidad 3;Unidad 3 | Texto A;166;tener algo (e → ie);etw. haben;¿Tienes un momento?
+v_166_20;Unidad 3;Unidad 3 | Texto A;166;el momento;der Moment;
+v_166_21;Unidad 3;Unidad 3 | Texto A;166;¡Hala!;Na so was! (Ausdruck des Erstaunens);
+v_166_22;Unidad 3;Unidad 3 | Texto A;166;el Internet;das Internet;
+v_166_23;Unidad 3;Unidad 3 | Texto A;166;para mí;für mich;
+v_166_24;Unidad 3;Unidad 3 | Texto A;166;porque;weil;
+v_166_25;Unidad 3;Unidad 3 | Texto A;166;majo/-a fam.;nett, sympathisch;Mi amigo es majo.
+v_166_26;Unidad 3;Unidad 3 | Texto A;166;el problema m.;das Problem;
+v_166_27;Unidad 3;Unidad 3 | Texto A;166;divertido/-a;lustig;Mi madre es muy divertida.
+v_166_28;Unidad 3;Unidad 3 | Texto A;166;tu, tus;dein, deine sg., deine pl.;
+v_166_29;Unidad 3;Unidad 3 | Texto A;166;grande;groß;
+v_166_30;Unidad 3;Unidad 3 | Texto A;166;sobre todo;vor allem;
+v_166_31;Unidad 3;Unidad 3 | Texto A;166;el tiempo;die Zeit;
+v_166_32;Unidad 3;Unidad 3 | Texto A;166;aburrido/-a;langweilig;
+v_166_33;Unidad 3;Unidad 3 | Texto A;166;además;außerdem;Además, mi tía es muy divertida.
+v_166_34;Unidad 3;Unidad 3 | Texto A;166;ser pesado/-a con algo;mit etwas nerven;
+v_166_35;Unidad 3;Unidad 3 | Texto A;166;pesado/-a;nervig;Mi hermano es un poco pesado.
+v_166_36;Unidad 3;Unidad 3 | Texto A;166;como;wie;
+v_167_01;Unidad 3;Unidad 3 | Texto A;167;bastante;ziemlich;Mi familia es bastante grande.
+v_167_02;Unidad 3;Unidad 3 | Texto A;167;pequeño/-a;klein;
+v_167_03;Unidad 3;Unidad 3 | Texto A;167;por eso;deshalb, deswegen;
+v_167_04;Unidad 3;Unidad 3 | Texto A;167;inteligente;intelligent, klug;
+v_167_05;Unidad 3;Unidad 3 | Texto A;167;simpático/-a;sympathisch;
+v_167_06;Unidad 3;Unidad 3 | Texto A;167;interesante;interessant;
+v_167_07;Unidad 3;Unidad 3 | Texto A;167;su, sus;ihr, ihre sg., ihre pl., sein, seine sg., seine pl.;
+v_167_08;Unidad 3;Unidad 3 | Texto A;167;el chiste;der Witz;Los chistes de Nora son malos.
+v_167_09;Unidad 3;Unidad 3 | Texto A;167;malo/-a;schlecht;
+v_167_10;Unidad 3;Unidad 3 | Palabrateca - La familia;167;tranquilo/-a;ruhig;
+v_167_11;Unidad 3;Unidad 3 | Palabrateca - La familia;167;cariñoso/-a;liebevoll, zärtlich;
+v_167_12;Unidad 3;Unidad 3 | Palabrateca - La familia;167;despistado/-a;zerstreut, schusselig;
+v_167_13;Unidad 3;Unidad 3 | Palabrateca - La familia;167;gracioso/-a;witzig;
+v_167_14;Unidad 3;Unidad 3 | Palabrateca - La familia;167;mono/-a;niedlich;
+v_167_15;Unidad 3;Unidad 3 | Palabrateca - La familia;167;generoso/-a;großzügig;
+v_167_16;Unidad 3;Unidad 3 | Palabrateca - La familia;167;tímido/-a;schüchtern;
+v_167_17;Unidad 3;Unidad 3 | Palabrateca - La familia;167;terco/-a;stur;
+v_167_18;Unidad 3;Unidad 3 | Texto B;167;las tareas del hogar;die Aufgaben im Haushalt;
+v_167_19;Unidad 3;Unidad 3 | Texto B;167;la tarea;die Aufgabe;
+v_167_20;Unidad 3;Unidad 3 | Texto B;167;difícil;schwer, schwierig;
+v_167_21;Unidad 3;Unidad 3 | Texto B;167;cocinar;kochen;
+v_167_22;Unidad 3;Unidad 3 | Texto B;167;hacer la compra;einkaufen;
+v_167_23;Unidad 3;Unidad 3 | Texto B;167;la compra;der Einkauf;
+v_167_24;Unidad 3;Unidad 3 | Texto B;167;limpiar (algo);putzen, sauber machen;Yo limpio el baño y tú haces la compra, ¿vale?
+v_167_25;Unidad 3;Unidad 3 | Texto B;167;ayudar con algo;bei etw. helfen;
+v_167_26;Unidad 3;Unidad 3 | Texto B;167;fácil;einfach, leicht;
+v_167_27;Unidad 3;Unidad 3 | Texto B;167;sacar la basura;den Müll rausbringen;
+v_167_28;Unidad 3;Unidad 3 | Texto B;167;la basura;der Abfall, Müll;
+v_167_29;Unidad 3;Unidad 3 | Texto B;167;tener que + inf. (e → ie);etw. tun müssen;Tengo que hacer la compra hoy.
+v_167_30;Unidad 3;Unidad 3 | Texto B;167;trabajar;arbeiten;Mis padres trabajan en una oficina.
+v_167_31;Unidad 3;Unidad 3 | Texto B;167;(hacer algo) solo/-a;(etw.) alleine (machen);Hoy hago la compra sola.
+v_167_32;Unidad 3;Unidad 3 | Texto B;167;la lista;die Liste;
+v_167_33;Unidad 3;Unidad 3 | Texto B;167;ordenar algo;etw. aufräumen;Tengo que ordenar mi habitación.
+v_167_34;Unidad 3;Unidad 3 | Texto B;167;la ensalada;der Salat;
+v_167_35;Unidad 3;Unidad 3 | Texto B;167;el timbre;die Klingel;
+v_168_01;Unidad 3;Unidad 3 | Texto B;168;de... años;... Jahre alte/-r;Adrián es su primo de seis años.
+v_168_02;Unidad 3;Unidad 3 | Texto B;168;solucionar un problema;ein Problem lösen;
+v_168_03;Unidad 3;Unidad 3 | Texto B;168;la oficina;das Büro;
+v_168_04;Unidad 3;Unidad 3 | Texto B;168;la hora;die Stunde;
+v_168_05;Unidad 3;Unidad 3 | Texto B;168;¡Tranquilo/-a!;Alles gut! Kein Problem! wörtlich: ruhig;
+v_168_06;Unidad 3;Unidad 3 | Texto B;168;el/la niño/-a;das Kind;La niña discute con su padre.
+v_168_07;Unidad 3;Unidad 3 | Texto B;168;necesitar algo;brauchen;Solo necesito mis libros.
+v_168_08;Unidad 3;Unidad 3 | Texto B;168;entrar (en);eintreten, hereinkommen;
+v_168_09;Unidad 3;Unidad 3 | Texto B;168;el castillo;das Schloss;
+v_168_10;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;lavar los platos;Geschirr spülen;
+v_168_11;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;planchar la ropa;die Kleidung bügeln;
+v_168_12;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;poner la mesa;den Tisch decken;
+v_168_13;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;trabajar en el jardín;im Garten arbeiten;
+v_168_14;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;pasear el perro;den Hund rausbringen;
+v_168_15;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;lavar la ropa;Wäsche waschen;
+v_168_16;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;pasar la aspiradora;Staub saugen;
+v_168_17;Unidad 3;Unidad 3 | Palabrateca - Las tareas del hogar;168;hacer las camas;die Betten machen;
+v_168_18;Módulo 3;Módulo 3;168;¿Qué hora es?;Wie spät ist es?;
+v_168_19;Módulo 3;Módulo 3;168;la hora;die Uhrzeit;
+v_168_20;Módulo 3;Módulo 3;168;la invitación, las invitaciones pl.;die Einladung;
+v_168_21;Módulo 3;Módulo 3;168;Año Nuevo;das Neujahr;
+v_168_22;Módulo 3;Módulo 3;168;mañana;morgen;
+v_168_23;Módulo 3;Módulo 3;168;a las + hora;um + Uhrzeit;Quedamos a las cinco (en casa).
+v_168_24;Módulo 3;Módulo 3;168;a la una;um ein/dreizehn Uhr;
+v_168_25;Módulo 3;Módulo 3;168;el lugar;der Ort, die Stelle;
+v_168_26;Módulo 3;Módulo 3;168;¿A qué hora?;Um wieviel Uhr?, Wann?;
+v_168_27;Módulo 3;Módulo 3;168;empezar (e → ie);beginnen, anfangen;¿A qué hora empieza la fiesta?
+v_168_28;Módulo 3;Módulo 3;168;el reloj;die Uhr;¿Qué hora es en tu reloj?
+v_168_29;Módulo 3;Módulo 3;168;son las + hora;es ist + Uhrzeit;Son las tres y media.
+v_168_30;Módulo 3;Módulo 3;168;faltar;fehlen;Faltan cinco minutos.
+v_169_01;Módulo 3;Módulo 3;169;Es la una.;Es ist ein/dreizehn Uhr.;-¿Qué hora es? -Es la una.
+v_169_02;Módulo 3;Módulo 3;169;en punto;Punkt (Uhr), genau;
+v_169_03;Módulo 3;Módulo 3;169;y cuarto;Viertel nach;
+v_169_04;Módulo 3;Módulo 3;169;y media;halb;
+v_169_05;Módulo 3;Módulo 3;169;menos cuarto;Viertel vor;
+v_169_06;Módulo 3;Módulo 3;169;el minuto;die Minute;Tenéis cinco minutos.
+v_169_07;Módulo 3;Módulo 3;169;la madrugada;das Morgengrauen, der frühe Morgen;
+v_169_08;Módulo 3;Módulo 3;169;la mañana;der Morgen, der Vormittag;
+v_169_09;Módulo 3;Módulo 3;169;la tarde;der Nachmittag, der frühe Abend;
+v_169_10;Módulo 3;Módulo 3;169;la noche;der Abend, die Nacht;
+v_169_11;Unidad 4;Unidad 4 | Vocabulario;169;el día a día;der Alltag;
+v_169_12;Unidad 4;Unidad 4 | Vocabulario;169;el horario;der Stundenplan;
+v_169_13;Unidad 4;Unidad 4 | Vocabulario;169;Alemán;Deutsch;
+v_169_14;Unidad 4;Unidad 4 | Vocabulario;169;Educación Física;Sport;
+v_169_15;Unidad 4;Unidad 4 | Vocabulario;169;Educación Plástica y Visual;Kunst;
+v_169_16;Unidad 4;Unidad 4 | Vocabulario;169;Física y Química;Physik und Chemie;
+v_169_17;Unidad 4;Unidad 4 | Vocabulario;169;Geografía e Historia;Geografie und Geschichte;
+v_169_18;Unidad 4;Unidad 4 | Vocabulario;169;Inglés;Englisch;
+v_169_19;Unidad 4;Unidad 4 | Vocabulario;169;Lengua (Castellana y Literatura);Spanisch;
+v_169_20;Unidad 4;Unidad 4 | Vocabulario;169;Matemáticas (Mates fam.);Mathematik;
+v_169_21;Unidad 4;Unidad 4 | Vocabulario;169;Música;Musik;
+v_169_22;Unidad 4;Unidad 4 | Vocabulario;169;Religión/Valores Éticos;Religion/Ethik;
+v_169_23;Unidad 4;Unidad 4 | Vocabulario;169;Tutoría;Klassenleitungsstunde;
+v_169_24;Unidad 4;Unidad 4 | Vocabulario;169;Tecnología y Digitalización/Informática;Informatik;
+v_169_25;Unidad 4;Unidad 4 | Vocabulario;169;2° de ESO;die 8. Klasse;
+v_169_26;Unidad 4;Unidad 4 | Vocabulario;169;la ESO (= Educación Secundaria Obligatoria);die Sekundarstufe I;
+v_169_27;Unidad 4;Unidad 4 | Vocabulario;169;el aula de Música;der Musikraum;
+v_169_28;Unidad 4;Unidad 4 | Vocabulario;169;el recreo;die (Hof-)Pause;
+v_169_29;Unidad 4;Unidad 4 | Vocabulario;169;el laboratorio;das Labor;
+v_169_30;Unidad 4;Unidad 4 | Vocabulario;169;el aula de Informática;der Informatikraum;
+v_169_31;Unidad 4;Unidad 4 | Vocabulario;169;el comedor;die Kantine;
+v_169_32;Unidad 4;Unidad 4 | Vocabulario;169;el taller;das Atelier, die Werkstatt;
+v_169_33;Unidad 4;Unidad 4 | Vocabulario;169;el gimnasio;die Sporthalle, Turnhalle;
+v_170_01;Unidad 4;Unidad 4 | Vocabulario;170;el gimnasio;die Sporthalle;
+v_170_02;Unidad 4;Unidad 4 | Vocabulario;170;el instituto;das Gymnasium;
+v_170_03;Unidad 4;Unidad 4 | Vocabulario;170;el lunes;der Montag / am Montag;
+v_170_04;Unidad 4;Unidad 4 | Vocabulario;170;los lunes;montags / jeden Montag;
+v_170_05;Unidad 4;Unidad 4 | Vocabulario;170;desde las... hasta las...;von ... bis ... (Uhrzeit);
+v_170_06;Unidad 4;Unidad 4 | Vocabulario;170;... (no) es mi fuerte;... ist (nicht) meine Stärke;Mates es mi fuerte.
+v_170_07;Unidad 4;Unidad 4 | Texto A;170;el chat;der Chat;
+v_170_08;Unidad 4;Unidad 4 | Texto A;170;ya no;nicht mehr;
+v_170_09;Unidad 4;Unidad 4 | Texto A;170;tener ganas (de algo) / + inf.;"Lust auf etw. haben; Lust haben, etw. zu tun";Tengo ganas de comer helado.
+v_170_10;Unidad 4;Unidad 4 | Texto A;170;chatear;chatten;
+v_170_11;Unidad 4;Unidad 4 | Texto A;170;¡Es verdad!;Das stimmt.;
+v_170_12;Unidad 4;Unidad 4 | Texto A;170;¿Qué tal + sust.?;Wie ist + S.?;¿Qué tal el examen?
+v_170_13;Unidad 4;Unidad 4 | Texto A;170;la gente;die Leute;La gente aquí es maja.
+v_170_14;Unidad 4;Unidad 4 | Texto A;170;Lo siento.;Es tut mir leid.;
+v_170_15;Unidad 4;Unidad 4 | Texto A;170;el examen;die Klassenarbeit, Prüfung;
+v_170_16;Unidad 4;Unidad 4 | Texto A;170;como siempre;wie immer;
+v_170_17;Unidad 4;Unidad 4 | Texto A;170;tener dificultad/es con algo / + inf.;Schwierigkeiten mit etw. / + Inf. haben;
+v_170_18;Unidad 4;Unidad 4 | Texto A;170;vuestro/-a, vuestros/-as;euer, eure;
+v_170_19;Unidad 4;Unidad 4 | Texto A;170;el año (escolar);das (Schul-)Jahr;
+v_170_20;Unidad 4;Unidad 4 | Texto A;170;nuestro/-a, nuestros/-as;unser, unsere;
+v_170_21;Unidad 4;Unidad 4 | Texto A;170;el/la tutor/a;der/die Klassenlehrer/-in;
+v_170_22;Unidad 4;Unidad 4 | Texto A;170;nuevo/-a;neu;
+v_170_23;Unidad 4;Unidad 4 | Texto A;170;estricto/-a;streng;
+v_170_24;Unidad 4;Unidad 4 | Texto A;170;¡Qué rollo!;Wie nervig!;
+v_170_25;Unidad 4;Unidad 4 | Texto A;170;un poco;ein bisschen;
+v_170_26;Unidad 4;Unidad 4 | Texto A;170;tener suerte;Glück haben;Tengo suerte con mis profes.
+v_170_27;Unidad 4;Unidad 4 | Texto A;170;la suerte;das Glück;
+v_170_28;Unidad 4;Unidad 4 | Texto A;170;su, sus;ihre Pl.;
+v_170_29;Unidad 4;Unidad 4 | Texto A;170;tener clase;Unterricht haben;
+v_170_30;Unidad 4;Unidad 4 | Texto A;170;salir;(hinaus)gehen, ausgehen;
+v_171_01;Unidad 4;Unidad 4 | Texto A;171;tener tiempo;Zeit haben;
+v_171_02;Unidad 4;Unidad 4 | Texto A;171;el día favorito;der Lieblingstag;
+v_171_03;Unidad 4;Unidad 4 | Texto A;171;el grupo de teatro;die Theatergruppe;
+v_171_04;Unidad 4;Unidad 4 | Texto A;171;el grupo;die Gruppe;
+v_171_05;Unidad 4;Unidad 4 | Texto A;171;el teatro;das Theater;
+v_171_06;Unidad 4;Unidad 4 | Texto A;171;cerca (de algo);in der Nähe (von etw.);Mis abuelos viven cerca del insti.
+v_171_07;Unidad 4;Unidad 4 | Texto A;171;me levanto;ich stehe auf;
+v_171_08;Unidad 4;Unidad 4 | Texto A;171;tarde adj.;spät;
+v_171_09;Unidad 4;Unidad 4 | Texto A;171;moderno/-a;modern;
+v_171_10;Unidad 4;Unidad 4 | Texto A;171;¡Qué guay!;Wie cool!;
+v_171_11;Unidad 4;Unidad 4 | Texto A;171;el/la compañero/-a;der Mitschüler, die Mitschülerin;
+v_171_12;Unidad 4;Unidad 4 | Texto A;171;hacer deporte;Sport machen/treiben;
+v_171_13;Unidad 4;Unidad 4 | Texto A;171;el deporte;der Sport;
+v_171_14;Unidad 4;Unidad 4 | Texto A;171;la serie;die TV-Serie;
+v_171_15;Unidad 4;Unidad 4 | Texto B;171;el trabajo en grupo;die Gruppenarbeit;
+v_171_16;Unidad 4;Unidad 4 | Texto B;171;el trabajo;die Arbeit;
+v_171_17;Unidad 4;Unidad 4 | Texto B;171;ese, esa;diese/dieser/dieses da;
+v_171_18;Unidad 4;Unidad 4 | Texto B;171;preparar algo;etw. vorbereiten;
+v_171_19;Unidad 4;Unidad 4 | Texto B;171;la presentación, las presentaciones pl.;der Vortrag, die Präsentation;
+v_171_20;Unidad 4;Unidad 4 | Texto B;171;el proyecto de reciclaje;das Recyclingprojekt;
+v_171_21;Unidad 4;Unidad 4 | Texto B;171;el proyecto;das Projekt;
+v_171_22;Unidad 4;Unidad 4 | Texto B;171;el reciclaje;das Recycling;
+v_171_23;Unidad 4;Unidad 4 | Texto B;171;organizar algo;etw. organisieren;
+v_171_24;Unidad 4;Unidad 4 | Texto B;171;A ver...;Mal sehen ...;
+v_171_25;Unidad 4;Unidad 4 | Texto B;171;¿cuánto/-a?;wie viel/e?;¿Cuánto tiempo tenemos?
+v_171_26;Unidad 4;Unidad 4 | Texto B;171;presentar algo;etw. präsentieren;
+v_171_27;Unidad 4;Unidad 4 | Texto B;171;¡Venga!;Los!;
+v_171_28;Unidad 4;Unidad 4 | Texto B;171;querer algo / + inf. (e → ie);etw. wollen, etw. + Inf. wollen;¿Quieres buscar fotos?
+v_171_29;Unidad 4;Unidad 4 | Texto B;171;el sobresaliente;sehr gut Schulnote;
+v_171_30;Unidad 4;Unidad 4 | Texto B;171;el texto;der Text;El texto es bastante interesante.
+v_171_31;Unidad 4;Unidad 4 | Texto B;171;tener razón;Recht haben;
+v_171_32;Unidad 4;Unidad 4 | Texto B;171;preferir + inf. (e → ie);etw. lieber tun wollen;
+v_172_01;Unidad 4;Unidad 4 | Texto B;172;De acuerdo.;Einverstanden.;
+v_172_02;Unidad 4;Unidad 4 | Texto B;172;Yo paso.;Ich passe.;–¿Escribes el texto? –Yo paso.
+v_172_03;Unidad 4;Unidad 4 | Texto B;172;de nuevo;erneut;
+v_172_04;Unidad 4;Unidad 4 | Texto B;172;¿Qué tal mañana?;Wie wäre es mit morgen?;
+v_172_05;Unidad 4;Unidad 4 | Texto B;172;imposible;unmöglich;
+v_172_06;Unidad 4;Unidad 4 | Texto B;172;Es que...;Es ist so, dass ...;Es que mañana no tengo tiempo.
+v_172_07;Unidad 4;Unidad 4 | Texto B;172;Esa es otra historia.;Das ist eine andere Geschichte.;
+v_172_08;Unidad 4;Unidad 4 | Texto B;172;la historia;die Geschichte;Es una historia muy divertida.
+v_172_09;Unidad 4;Unidad 4 | Texto B;172;Oye, ...;Hör mal, ...;Oye, ¿qué haces mañana?
+v_172_10;Unidad 4;Unidad 4 | Texto B;172;¿con quién?;mit wem?;¿Con quién quedas mañana?
+v_172_11;Unidad 4;Unidad 4 | Texto B;172;la cita;die Verabredung, auch: der Termin;Tengo una cita con mi amiga.
+v_172_12;Módulo 4;Módulo 4;172;¿Qué te gusta hacer?;Was machst du gerne?;¿Qué te gusta hacer el fin de semana?
+v_172_13;Módulo 4;Módulo 4;172;gustar + inf./sust.;gefallen, mögen, gerne tun;
+v_172_14;Módulo 4;Módulo 4;172;te gusta/n;dir gefällt/gefallen;¿Te gusta el programa?
+v_172_15;Módulo 4;Módulo 4;172;el centro juvenil;der Jugendclub;
+v_172_16;Módulo 4;Módulo 4;172;el programa m.;das Programm;
+v_172_17;Módulo 4;Módulo 4;172;la actividad;die Aktivität;
+v_172_18;Módulo 4;Módulo 4;172;el tiempo libre;die Freizeit;¿Qué haces en tu tiempo libre?
+v_172_19;Módulo 4;Módulo 4;172;libre;frei;
+v_172_20;Módulo 4;Módulo 4;172;el curso;der Kurs;
+v_172_21;Módulo 4;Módulo 4;172;probar (o → ue) algo;etw. probieren, testen;Me gusta probar recetas.
+v_172_22;Módulo 4;Módulo 4;172;la receta;das Rezept;
+v_172_23;Módulo 4;Módulo 4;172;experimentar (con algo);(mit etw.) experimentieren, (etw.) ausprobieren;
+v_172_24;Módulo 4;Módulo 4;172;el ingrediente;die Zutat;
+v_172_25;Módulo 4;Módulo 4;172;más + sust.;mehr + S.;
+v_172_26;Módulo 4;Módulo 4;172;la naturaleza;die Natur;
+v_172_27;Módulo 4;Módulo 4;172;el animal;das Tier;
+v_172_28;Módulo 4;Módulo 4;172;la programación;die Programmierung;
+v_172_29;Módulo 4;Módulo 4;172;la tecnología;die Technologie;
+v_172_30;Módulo 4;Módulo 4;172;el fútbol;der Fußball Sportart;
+v_172_31;Módulo 4;Módulo 4;172;el pádel;das Padel Sportart;
+v_172_32;Módulo 4;Módulo 4;172;a mí;mir;A mí me gusta cocinar.
+v_173_01;Módulo 4;Módulo 4;173;a mí no;mir nicht;
+v_173_02;Módulo 4;Módulo 4;173;a mí tampoco;mir auch nicht;
+v_173_03;Módulo 4;Módulo 4;173;a ti;dir;¿Y qué te gusta a ti?
+v_173_04;Módulo 4;Módulo 4;173;a mí sí;mir schon;
+v_173_05;Módulo 4;Módulo 4;173;me gusta/n;mir gefällt/gefallen;Me gusta el deporte.
+v_173_06;Módulo 4;Módulo 4;173;participar en algo;an etw. teilnehmen;
+v_173_07;Módulo 4;Módulo 4;173;el taller;der Workshop;
+v_173_08;Módulo 4;Módulo 4;173;le gusta/n;ihm/ihr gefällt/gefallen;A Pau le gustan los mangas.
+v_173_09;Módulo 4;Palabrateca – Actividades de tiempo libre;173;jugar al baloncesto;Basketball spielen;
+v_173_10;Módulo 4;Palabrateca – Actividades de tiempo libre;173;jugar al voleibol;Volleyball spielen;
+v_173_11;Módulo 4;Palabrateca – Actividades de tiempo libre;173;tocar la flauta;Flöte spielen;
+v_173_12;Módulo 4;Palabrateca – Actividades de tiempo libre;173;tocar la batería;Schlagzeug spielen;
+v_173_13;Módulo 4;Palabrateca – Actividades de tiempo libre;173;tocar el piano;Klavier spielen;
+v_173_14;Módulo 4;Palabrateca – Actividades de tiempo libre;173;cantar;singen;
+v_173_15;Módulo 4;Palabrateca – Actividades de tiempo libre;173;hacer parkour;Parkour machen;
+v_173_16;Módulo 4;Palabrateca – Actividades de tiempo libre;173;nadar;schwimmen;
+v_173_17;Unidad 5;Unidad 5 | Vocabulario;173;el color;die Farbe;
+v_173_18;Unidad 5;Unidad 5 | Vocabulario;173;la pandilla;die Clique;
+v_173_19;Unidad 5;Unidad 5 | Vocabulario;173;el avatar;der Avatar;
+v_173_20;Unidad 5;Unidad 5 | Vocabulario;173;alto/-a;groß Menschen;
+v_173_21;Unidad 5;Unidad 5 | Vocabulario;173;bajo/-a;klein Menschen;
+v_173_22;Unidad 5;Unidad 5 | Vocabulario;173;el pelo;das Haar, die Haare;Mi tía tiene el pelo corto.
+v_173_23;Unidad 5;Unidad 5 | Vocabulario;173;liso/-a;glatt;Tengo el pelo liso.
+v_173_24;Unidad 5;Unidad 5 | Vocabulario;173;rizado/-a;lockig;
+v_173_25;Unidad 5;Unidad 5 | Vocabulario;173;largo/-a;lang;
+v_173_26;Unidad 5;Unidad 5 | Vocabulario;173;corto/-a;kurz;
+v_173_27;Unidad 5;Unidad 5 | Vocabulario;173;rubio/-a;blond;
+v_173_28;Unidad 5;Unidad 5 | Vocabulario;173;castaño/-a;braun Haarfarbe;
+v_173_29;Unidad 5;Unidad 5 | Vocabulario;173;negro/-a;schwarz Farbe;
+v_173_30;Unidad 5;Unidad 5 | Vocabulario;173;ser pelirrojo/-a;rothaarig sein;
+v_173_31;Unidad 5;Unidad 5 | Vocabulario;173;el ojo;das Auge;
+v_173_32;Unidad 5;Unidad 5 | Vocabulario;173;verde;grün Farbe;
+v_174_01;Unidad 5;Unidad 5 | Vocabulario;174;azul;blau Farbe;
+v_174_02;Unidad 5;Unidad 5 | Vocabulario;174;marrón;braun Farbe;
+v_174_03;Unidad 5;Unidad 5 | Vocabulario;174;llevar algo;etw. tragen Kleidung;Llevo gafas y una gorra.
+v_174_04;Unidad 5;Unidad 5 | Vocabulario;174;las gafas;die Brille;
+v_174_05;Unidad 5;Unidad 5 | Vocabulario;174;el aparato de dientes;die Zahnspange;
+v_174_06;Unidad 5;Unidad 5 | Vocabulario;174;la gorra;das Basecap, die Mütze;
+v_174_07;Unidad 5;Unidad 5 | Vocabulario;174;el gorro;die (Woll-)Mütze;
+v_174_08;Unidad 5;Unidad 5 | Vocabulario;174;la bufanda;der Schal;
+v_174_09;Unidad 5;Unidad 5 | Vocabulario;174;los pendientes;die Ohrringe;
+v_174_10;Unidad 5;Unidad 5 | Vocabulario;174;el lunar;der Leberfleck;
+v_174_11;Unidad 5;Unidad 5 | Vocabulario;174;las pecas;die Sommersprossen;Me gustan tus pecas.
+v_174_12;Unidad 5;Unidad 5 | Vocabulario;174;¿cuál?, ¿cuáles?;welcher, welche, welches;¿Cuál es tu avatar?
+v_174_13;Unidad 5;Unidad 5 | Vocabulario;174;que;der, die, das Relativpronomen;Pau es el chico que lee un cómic.
+v_174_14;Unidad 5;Unidad 5 | Vocabulario;174;bonito/-a;hübsch;
+v_174_15;Unidad 5;Unidad 5 | Vocabulario;174;feo/-a;hässlich;Este gorro es feo.
+v_174_16;Unidad 5;Palabrateca – Describir una persona;174;tener el pelo verde;grüne Haare haben;
+v_174_17;Unidad 5;Palabrateca – Describir una persona;174;tener un flequillo;ein Pony tragen;
+v_174_18;Unidad 5;Palabrateca – Describir una persona;174;tener rastas;Dreadlocks tragen;
+v_174_19;Unidad 5;Palabrateca – Describir una persona;174;llevar trenza;einen Zopf haben;
+v_174_20;Unidad 5;Palabrateca – Describir una persona;174;llevar gafas de sol;eine Sonnenbrille tragen;
+v_174_21;Unidad 5;Palabrateca – Describir una persona;174;llevar un pañuelo;ein Tuch tragen;
+v_174_22;Unidad 5;Unidad 5 | Texto A;174;especial;besonders;
+v_174_23;Unidad 5;Unidad 5 | Texto A;174;el patrón, la patrona;der/die Schutzheilige, Schutzpatron/in;
+v_174_24;Unidad 5;Unidad 5 | Texto A;174;las fiestas;die Feierlichkeiten;
+v_174_25;Unidad 5;Unidad 5 | Texto A;174;el concierto;das Konzert;
+v_174_26;Unidad 5;Unidad 5 | Texto A;174;el baile;der Tanz;
+v_174_27;Unidad 5;Unidad 5 | Texto A;174;el juego;das Spiel;
+v_174_28;Unidad 5;Unidad 5 | Texto A;174;poder (o → ue);können;No puedo ir, tengo que estudiar.
+v_174_29;Unidad 5;Unidad 5 | Texto A;174;ir (a + lugar);gehen (zu, nach + Ort);
+v_175_01;Unidad 5;Unidad 5 | Texto A;175;¡Yo voy!;Ich komme mit!;
+v_175_02;Unidad 5;Unidad 5 | Texto A;175;la cola;hier: die Warteschlange;
+v_175_03;Unidad 5;Unidad 5 | Texto A;175;hacer cola;in der Warteschlange stehen;
+v_175_04;Unidad 5;Unidad 5 | Texto A;175;la idea;die Idee;
+v_175_05;Unidad 5;Unidad 5 | Texto A;175;tradicional;traditionell;
+v_175_06;Unidad 5;Unidad 5 | Texto A;175;No sé...;Ich weiß nicht...;
+v_175_07;Unidad 5;Unidad 5 | Texto A;175;el dinero;das Geld;
+v_175_08;Unidad 5;Unidad 5 | Texto A;175;la entrada;die Eintrittskarte;
+v_175_09;Unidad 5;Unidad 5 | Texto A;175;gratis;kostenlos;La entrada es gratis.
+v_175_10;Unidad 5;Unidad 5 | Texto A;175;¿adónde?;wohin?;
+v_175_11;Unidad 5;Unidad 5 | Texto A;175;la caseta;der Stand, die Bude;¿Compramos algo en la caseta?
+v_175_12;Unidad 5;Unidad 5 | Texto A;175;unos, unas;ein paar;¿Compramos unas rosquillas?
+v_175_13;Unidad 5;Unidad 5 | Texto A;175;el hambre f.;der Hunger;Tengo hambre.
+v_175_14;Unidad 5;Unidad 5 | Texto A;175;juntos/-as;zusammen, gemeinsam;¿Estudiamos juntas?
+v_175_15;Unidad 5;Unidad 5 | Texto A;175;al final;schließlich;
+v_175_16;Unidad 5;Unidad 5 | Texto A;175;Fiesta de San Isidro;Fest in Madrid zu Ehren von San Isidro;
+v_175_17;Unidad 5;Unidad 5 | Texto A;175;San Isidro;Schutzheiliger der Stadt Madrid;
+v_175_18;Unidad 5;Unidad 5 | Texto A;175;Pradera de San Isidro;auch parque de San Isidro, Park in Madrid;
+v_175_19;Unidad 5;Unidad 5 | Texto A;175;el chotis;Volkstanz aus Madrid;
+v_175_20;Unidad 5;Unidad 5 | Texto A;175;las rosquillas;ringförmiges Gebäck;
+v_175_21;Unidad 5;Unidad 5 | Texto A;175;Aitana Ocaña Morales;spanische Sängerin;
+v_175_22;Unidad 5;Unidad 5 | Texto B;175;el tipo;der Typ;
+v_175_23;Unidad 5;Unidad 5 | Texto B;175;encontrar algo/a alguien (o → ue);etw./jdn finden;
+v_175_24;Unidad 5;Unidad 5 | Texto B;175;mucho/-a;viel, viele;
+v_175_25;Unidad 5;Unidad 5 | Texto B;175;la persona;die Person;
+v_175_26;Unidad 5;Unidad 5 | Texto B;175;el/la líder m./f.;der/die Anführer/-in;
+v_175_27;Unidad 5;Unidad 5 | Texto B;175;popular;beliebt;
+v_175_28;Unidad 5;Unidad 5 | Texto B;175;para + inf.;um, zu;
+v_175_29;Unidad 5;Unidad 5 | Texto B;175;el plan;der Plan;
+v_175_30;Unidad 5;Unidad 5 | Texto B;175;ideal;ideal;
+v_175_31;Unidad 5;Unidad 5 | Texto B;175;cambiar de idea;seine Meinung ändern;
+v_175_32;Unidad 5;Unidad 5 | Texto B;175;cabezota;stur, dickköpfig;Eres muy cabezota.
+v_175_33;Unidad 5;Unidad 5 | Texto B;175;el/la listillo/-a;der/die Schlauberger/-in;
+v_176_01;Unidad 5;Unidad 5 | Texto B;176;la mano f.;die Hand;Tienes manos grandes.
+v_176_02;Unidad 5;Unidad 5 | Texto B;176;poco/-a adj.;wenig, wenige;
+v_176_03;Unidad 5;Unidad 5 | Texto B;176;explicar algo;etw. erklären;
+v_176_04;Unidad 5;Unidad 5 | Texto B;176;informar a alguien;jdn informieren;
+v_176_05;Unidad 5;Unidad 5 | Texto B;176;ayudar a alguien;jdm helfen;
+v_176_06;Unidad 5;Unidad 5 | Texto B;176;perfecto/-a;perfekt;
+v_176_07;Unidad 5;Unidad 5 | Texto B;176;la solución, las soluciones pl.;die Lösung;
+v_176_08;Unidad 5;Unidad 5 | Texto B;176;paciente;geduldig;
+v_176_09;Unidad 5;Unidad 5 | Texto B;176;fiel;treu;
+v_176_10;Unidad 5;Unidad 5 | Texto B;176;llamar a alguien;jdn (an)rufen;
+v_176_11;Unidad 5;Unidad 5 | Texto B;176;generoso/-a;großzügig;
+v_176_12;Unidad 5;Unidad 5 | Texto B;176;estar allí para alguien;für jdn da sein;
+v_176_13;Unidad 5;Unidad 5 | Texto B;176;la pelea;der Streit;
+v_176_14;Unidad 5;Unidad 5 | Texto B;176;el conflicto;der Konflikt;
+v_176_15;Unidad 5;Unidad 5 | Texto B;176;el/la despistado/-a;der/die Zerstreute;
+v_176_16;Unidad 5;Unidad 5 | Texto B;176;llegar (a);kommen, ankommen (in);Pau siempre llega tarde.
+v_176_17;Unidad 5;Unidad 5 | Texto B;176;creativo/-a;kreativ;
+v_176_18;Unidad 5;Unidad 5 | Texto B;176;el/la deportista m./f.;der/die Sportler/-in;
+v_176_19;Unidad 5;Unidad 5 | Texto B;176;buscar a alguien;jdn suchen;Álex busca a su hermana Lola.
+v_176_20;Unidad 5;Unidad 5 | Texto B;176;para jugar;um zu spielen;Álex y Pau quedan para jugar al fútbol.
+v_176_21;Unidad 5;Unidad 5 | Texto B;176;la liga escolar;die Schulliga;
+v_176_22;Unidad 5;Unidad 5 | Texto B;176;el resultado;das Ergebnis;
+v_176_23;Unidad 5;Unidad 5 | Texto B;176;el partido;das Spiel (Sport);
+v_176_24;Unidad 5;Unidad 5 | Texto B;176;contar con alguien (o → ue);auf jdn zählen;Siempre puedo contar con mi tío.
+v_176_25;Unidad 5;Unidad 5 | Texto B;176;el cinema (= el cine fam.);das Kino;
+v_176_26;Unidad 5;Unidad 5 | Texto B;176;la cualidad;die Eigenschaft;
+v_176_27;Unidad 5;Unidad 5 | Texto B;176;el perfil;das Profil;
+v_176_28;Unidad 5;Unidad 5 | Texto B;176;diferente;unterschiedlich, anders;
+v_176_29;Unidad 5;Unidad 5 | Texto B;176;pensar (e → ie);denken;–¿Qué piensas? –No sé.
+v_176_30;Unidad 5;Unidad 5 | Texto B;176;el e-mail;die E-Mail;
+v_176_31;Módulo 5;Módulo 5;176;de vacaciones;im Urlaub;
+v_176_32;Módulo 5;Módulo 5;176;las vacaciones;die Ferien;
+v_176_33;Módulo 5;Módulo 5;176;el final de curso;das Schuljahresende;Faltan dos días para el final de curso.
+v_177_01;Módulo 5;Módulo 5;177;el verano;der Sommer;¡Me encanta el verano!
+v_177_02;Módulo 5;Módulo 5;177;ir a + inf.;etw. tun werden;Mañana voy a estudiar.
+v_177_03;Módulo 5;Módulo 5;177;el mes;der Monat;
+v_177_04;Módulo 5;Módulo 5;177;el pueblo;das Dorf;
+v_177_05;Módulo 5;Módulo 5;177;viajar (a);reisen (nach);Tengo ganas de viajar.
+v_177_06;Módulo 5;Módulo 5;177;visitar algo/a alguien;etw./jdn besuchen;
+v_177_07;Módulo 5;Módulo 5;177;volver (o → ue);zurückkommen, zurückkehren;¿Cuándo vuelves?
+v_177_08;Módulo 5;Módulo 5;177;el campamento;das Ferienlager;
+v_177_09;Módulo 5;Módulo 5;177;entender (e → ie) algo;etw. verstehen;Lo siento, no entiendo...
+v_177_10;Módulo 5;Módulo 5;177;la situación, las situaciones pl.;die Lage, Situation;
+v_177_11;Módulo 5;Módulo 5;177;el buzón, los buzones pl.;der Briefkasten;
+v_177_12;Módulo 5;Módulo 5;177;la postal;die Postkarte;La postal es muy bonita, gracias.
+v_177_13;Módulo 5;Módulo 5;177;Querido/-a...;Liebe/-r ...;
+v_177_14;Módulo 5;Módulo 5;177;casi;fast;Ya son casi las doce del mediodía.
+v_177_15;Módulo 5;Módulo 5;177;hace calor;es ist heiß;
+v_177_16;Módulo 5;Módulo 5;177;hace buen tiempo;das Wetter ist gut;
+v_177_17;Módulo 5;Módulo 5;177;la playa;der Strand;¡Vamos a la playa!
+v_177_18;Módulo 5;Módulo 5;177;pasear (por);spazieren gehen (in);¿Quieres pasear por el barrio?
+v_177_19;Módulo 5;Módulo 5;177;el museo;das Museum;
+v_177_20;Módulo 5;Módulo 5;177;la sorpresa;die Überraschung;
+v_177_21;Módulo 5;Módulo 5;177;la semana que viene;nächste Woche;
+v_177_22;Módulo 5;Módulo 5;177;el beso;der Kuss, das Küsschen;
+v_177_23;Módulo 5;Módulo 5;177;el abrazo;die Umarmung;
+v_177_24;Módulo 5;Módulo 5;177;Rocafort;Gemeinde in der Autonomen Gemeinschaft Valencia;
+v_177_25;Módulo 5;Módulo 5;177;Asturias;Autonome Gemeinschaft im Norden Spaniens;
+v_177_26;Módulo 5;Módulo 5;177;Granada;Stadt in Andalusien, bekannt für die Alhambra;
+v_177_27;Módulo 5;Módulo 5;177;los Pirineos;Gebirge im Norden Spaniens, an der Grenze zu Frankreich;
+v_177_28;Módulo 5;Módulo 5;177;Colombia;Land in Südamerika;
+v_177_29;Módulo 5;Módulo 5;177;San Sebastián;Stadt im Baskenland;
+v_177_30;Módulo 5;Palabrateca – Actividades en las vacaciones;177;pasar las vacaciones en casa;die Ferien zuhause verbringen;
+v_177_31;Módulo 5;Palabrateca – Actividades en las vacaciones;177;ir a la playa;zum Strand gehen;
+v_177_32;Módulo 5;Palabrateca – Actividades en las vacaciones;177;ir a la piscina;ins Schwimmbad gehen;
+v_177_33;Módulo 5;Palabrateca – Actividades en las vacaciones;177;ir a un concierto / a una exposición;in ein Konzert / in eine Ausstellung gehen;
+v_177_34;Módulo 5;Palabrateca – Actividades en las vacaciones;177;tomar el sol;sich sonnen;
+v_177_35;Módulo 5;Palabrateca – Actividades en las vacaciones;177;esquiar;Ski fahren;
+v_177_36;Módulo 5;Palabrateca – Actividades en las vacaciones;177;hacer senderismo;wandern;
+v_177_37;Módulo 5;Palabrateca – Actividades en las vacaciones;177;hacer barranquismo;Canyoning machen;
+v_177_38;Módulo 5;Palabrateca – Actividades en las vacaciones;177;hacer rutas en bici de montaña;Mountainbike fahren;

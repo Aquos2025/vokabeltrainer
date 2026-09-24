@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>¡Vamos! Spanisch Vokabeltrainer - ¡Apúntate! 1</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css?v=2.1">
+  
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+            },
+            game: {
+              yellow: '#facc15',
+              orange: '#fb923c',
+              red: '#f87171',
+              purple: '#c084fc',
+              blue: '#60a5fa',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="h-full bg-slate-100 text-slate-800 transition-colors duration-200 antialiased flex flex-col min-h-screen">
+
+  <!-- ================= TOP APP HEADER ================= -->
+  <header class="bg-white border-b-2 border-slate-200 shadow-sm sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-3 cursor-pointer" onclick="app.showDashboard()">
+        <div class="w-11 h-11 bg-gradient-to-tr from-amber-400 to-rose-500 rounded-2xl flex items-center justify-center text-white text-2xl shadow-md transform hover:rotate-6 transition-transform">
+          🌮
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <h1 class="font-game font-bold text-2xl tracking-wide bg-gradient-to-r from-rose-600 via-amber-500 to-emerald-600 bg-clip-text text-transparent">¡VAMOS!</h1>
+            <span class="text-xs bg-amber-100 text-amber-800 font-bold px-1.5 py-0.5 rounded-md border border-amber-200">¡Apúntate! 1</span>
+          </div>
+          <p class="text-xs text-slate-600 font-medium">Timos Spanisch-Vokabeltrainer</p>
+        </div>
+      </div>
+
+      <!-- Player Gamification Stats Bar -->
+      <div class="flex items-center gap-2.5 sm:gap-4 md:gap-5">
+        
+        <!-- Coin Counter & Profile Overlay Trigger -->
+        <button id="headerCoinBtn" onclick="app.openProfileModal()" class="flex items-center gap-1.5 bg-gradient-to-r from-amber-100 to-yellow-50 hover:from-amber-200 hover:to-yellow-100 border-2 border-amber-300 px-3 py-1.5 rounded-2xl shadow-sm transition-all active:scale-95 group cursor-pointer" title="Münzen, Profil & Statistiken öffnen">
+          <span class="text-xl group-hover:scale-110 transition-transform">🪙</span>
+          <span id="headerCoinCount" class="font-game font-bold text-amber-700 text-lg">0</span>
+          <span class="text-xs font-bold text-amber-800 hidden sm:inline">Münzen</span>
+        </button>
+
+        <!-- Streak Counter -->
+        <div class="flex items-center gap-1.5 bg-amber-50 border-2 border-amber-300 px-3 py-1.5 rounded-2xl shadow-sm" title="Aktuelle Serie fehlerfreier Runden">
+          <span id="headerStreakFlame" class="text-xl">🔥</span>
+          <span id="headerStreakCount" class="font-game font-bold text-amber-600 text-lg">0</span>
+          <span class="text-xs font-semibold text-amber-700 hidden sm:inline">Streak</span>
+        </div>
+
+        <!-- Level & XP Progress -->
+        <div class="flex flex-col items-end min-w-[120px] sm:min-w-[150px]">
+          <div class="flex items-center gap-1.5 mb-1">
+            <span id="headerLevelBadge" class="text-xs font-game bg-purple-100 text-purple-700 font-bold px-2 py-0.5 rounded-full border border-purple-300">
+              ⭐ Level 1
+            </span>
+            <span id="headerLevelTitle" class="text-xs font-bold text-slate-700 hidden sm:inline">Novato</span>
+          </div>
+          <div class="w-full bg-slate-200 rounded-full h-2.5 overflow-hidden shadow-inner">
+            <div id="headerXpBar" class="bg-gradient-to-r from-emerald-400 to-emerald-500 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+          </div>
+          <span id="headerXpText" class="text-[11px] text-slate-600 font-bold mt-0.5">0 / 100 XP</span>
+        </div>
+
+        <!-- Controls: Sound & Darkmode -->
+        <div class="flex items-center gap-1 border-l border-slate-200 pl-2">
+          <button id="soundToggleBtn" onclick="app.toggleSound()" class="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition-colors" title="Soundeffekte umschalten">
+            <i data-lucide="volume-2" class="w-5 h-5"></i>
+          </button>
+          <button id="ttsAutoToggleBtn" onclick="app.toggleAutoTTS()" class="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition-colors" title="Automatische spanische Sprachausgabe umschalten">
+            <i data-lucide="speech" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT CONTAINER ================= -->
+  <main class="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6 flex flex-col justify-center">
+
+    <!-- VIEW 1: DASHBOARD / SETUP -->
+    <div id="viewDashboard" class="space-y-6">
+      
+      <!-- Welcome Hero Banner -->
+      <div class="bg-gradient-to-br from-indigo-600 via-blue-600 to-sky-500 rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden">
+        <div class="absolute right-0 bottom-0 opacity-15 text-9xl transform translate-x-6 translate-y-6 pointer-events-none">
+          🇪🇸
+        </div>
+        <div class="relative z-10 max-w-2xl">
+          <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold mb-3 border border-white/20">
+            <span>✨ 5. Klasse Vokabeltrainer</span>
+            <span class="w-1 h-1 bg-white rounded-full"></span>
+            <span id="heroTotalVocabCount">Lade Vokabeln...</span>
+          </div>
+          <h2 class="font-game font-bold text-3xl sm:text-4xl leading-tight mb-2">
+            ¡Hola Timo! Bereit für Spanisch?
+          </h2>
+          <p class="text-blue-100 text-sm sm:text-base font-medium mb-6">
+            Wähle dein Módulo, deine Buchseite oder trainiere gezielt Wörter aus dem Spaced-Repetition-Kasten!
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap items-center gap-3">
+            <!-- Tägliches Ziel (20 Vokabeln) -->
+            <button onclick="app.startDailyGoalSession()" class="btn-game bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-400 hover:from-amber-500 hover:to-yellow-500 border-b-4 border-amber-700 text-slate-900 px-6 py-3.5 rounded-2xl font-game font-bold text-lg flex items-center gap-3 shadow-xl transition-all hover:scale-105 active:scale-95 cursor-pointer">
+              <span class="text-2xl animate-pulse">🎯</span>
+              <div class="text-left leading-tight">
+                <span class="block text-base font-extrabold text-white drop-shadow">TÄGLICHES ZIEL</span>
+                <span class="block text-[11px] font-bold text-amber-950/80">20 Vokabeln • 18+ für 🪙</span>
+              </div>
+            </button>
+
+            <!-- Wochenend-Spezial (Bis zu 3 Münzen) -->
+            <button id="heroWeekendBtn" onclick="app.startWeekendSpecialSession()" class="btn-game bg-gradient-to-r from-rose-500 via-pink-500 to-amber-500 hover:from-rose-600 hover:to-amber-600 border-b-4 border-rose-800 text-white px-5 py-3.5 rounded-2xl font-game font-bold text-base flex items-center gap-2.5 shadow-xl transition-all hover:scale-105 active:scale-95 cursor-pointer">
+              <span class="text-xl">🏖️</span>
+              <div class="text-left leading-tight">
+                <span class="block text-sm font-extrabold">WOCHENEND-SPEZIAL</span>
+                <span class="block text-[11px] text-rose-100 font-semibold">Bis zu 3 Münzen 🪙🪙🪙</span>
+              </div>
+            </button>
+
+            <!-- Freies Training nach Filtern -->
+            <button onclick="app.startSession('standard')" class="btn-game btn-game-primary px-5 py-3.5 rounded-2xl font-game font-bold text-base flex items-center gap-2 shadow-lg">
+              <i data-lucide="filter" class="w-4 h-4"></i>
+              <span>Nach Filter üben</span>
+            </button>
+
+            <!-- Schwierige Wörter -->
+            <button onclick="app.startDifficultSession()" class="btn-game btn-game-warning px-4 py-3.5 rounded-2xl font-game font-bold text-sm flex items-center gap-1.5 shadow-lg">
+              <i data-lucide="flame" class="w-4 h-4 fill-current"></i>
+              <span>Wackelkandidaten</span>
+            </button>
+
+            <!-- Blitzmodus -->
+            <button onclick="app.startBlitzSession()" class="btn-game btn-game-purple px-4 py-3.5 rounded-2xl font-game font-bold text-sm flex items-center gap-1.5 shadow-lg">
+              <i data-lucide="zap" class="w-4 h-4 fill-current"></i>
+              <span>Blitzmodus</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5-Leitner-Boxen Übersicht -->
+      <div class="bg-white rounded-3xl p-5 md:p-6 border-2 border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center gap-2">
+            <i data-lucide="layers" class="w-5 h-5 text-indigo-600"></i>
+            <h3 class="font-game font-bold text-xl text-slate-800">5-Fächer-Leitner-System (Spaced Repetition)</h3>
+          </div>
+          <span class="text-xs text-slate-600 font-medium">Automatische Stufen je nach Lernerfolg</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          <!-- Kasten 1 -->
+          <div onclick="app.filterByBox(1)" class="cursor-pointer bg-rose-50 border-2 border-rose-200 hover:border-rose-400 rounded-2xl p-3 text-center transition-all hover:scale-105">
+            <span class="text-xs font-bold text-rose-800 block mb-1">Kasten 1: Neu / Üben</span>
+            <div id="boxCount1" class="font-game font-bold text-2xl text-rose-600">0</div>
+            <span class="text-[10px] text-rose-600 font-semibold">Täglich üben</span>
+          </div>
+          <!-- Kasten 2 -->
+          <div onclick="app.filterByBox(2)" class="cursor-pointer bg-orange-50 border-2 border-orange-200 hover:border-orange-400 rounded-2xl p-3 text-center transition-all hover:scale-105">
+            <span class="text-xs font-bold text-orange-800 block mb-1">Kasten 2: Angefangen</span>
+            <div id="boxCount2" class="font-game font-bold text-2xl text-orange-600">0</div>
+            <span class="text-[10px] text-orange-600 font-semibold">Alle 2 Tage</span>
+          </div>
+          <!-- Kasten 3 -->
+          <div onclick="app.filterByBox(3)" class="cursor-pointer bg-amber-50 border-2 border-amber-200 hover:border-amber-400 rounded-2xl p-3 text-center transition-all hover:scale-105">
+            <span class="text-xs font-bold text-amber-800 block mb-1">Kasten 3: Festigt sich</span>
+            <div id="boxCount3" class="font-game font-bold text-2xl text-amber-600">0</div>
+            <span class="text-[10px] text-amber-600 font-semibold">Alle 4 Tage</span>
+          </div>
+          <!-- Kasten 4 -->
+          <div onclick="app.filterByBox(4)" class="cursor-pointer bg-emerald-50 border-2 border-emerald-200 hover:border-emerald-400 rounded-2xl p-3 text-center transition-all hover:scale-105">
+            <span class="text-xs font-bold text-emerald-800 block mb-1">Kasten 4: Sehr gut</span>
+            <div id="boxCount4" class="font-game font-bold text-2xl text-emerald-600">0</div>
+            <span class="text-[10px] text-emerald-600 font-semibold">Jede Woche</span>
+          </div>
+          <!-- Kasten 5 -->
+          <div onclick="app.filterByBox(5)" class="cursor-pointer bg-indigo-50 border-2 border-indigo-200 hover:border-indigo-400 rounded-2xl p-3 text-center transition-all hover:scale-105 col-span-2 sm:col-span-1">
+            <span class="text-xs font-bold text-indigo-800 block mb-1">Kasten 5: Meister</span>
+            <div id="boxCount5" class="font-game font-bold text-2xl text-indigo-600">0</div>
+            <span class="text-[10px] text-indigo-600 font-semibold">Gekonnt! 🎉</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter & Settings Box -->
+      <div class="bg-white rounded-3xl p-5 md:p-6 border-2 border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4 border-b pb-3 border-slate-100">
+          <div class="flex items-center gap-2">
+            <i data-lucide="sliders-horizontal" class="w-5 h-5 text-blue-600"></i>
+            <h3 class="font-game font-bold text-xl text-slate-800">Lerneinheit anpassen & filtern</h3>
+          </div>
+          <span id="filterMatchesBadge" class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-full">
+            0 Vokabeln ausgewählt
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          <!-- Módulo Filter -->
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Módulo</label>
+            <select id="filterModulo" onchange="app.onModuloChange()" class="w-full bg-slate-50 border-2 border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 focus:outline-none focus:border-blue-500">
+              <option value="ALL">Alle Módulos</option>
+            </select>
+          </div>
+
+          <!-- Unidad Filter -->
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Unidad / Abschnitt</label>
+            <select id="filterUnidad" onchange="app.updateFilterCounts()" class="w-full bg-slate-50 border-2 border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 focus:outline-none focus:border-blue-500">
+              <option value="ALL">Alle Unidades</option>
+            </select>
+          </div>
+
+          <!-- Buchseite Filter -->
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Buchseite / Bereich</label>
+            <div class="flex items-center gap-2">
+              <input type="number" id="filterPageStart" placeholder="von (155)" min="155" max="177" oninput="app.updateFilterCounts()" class="w-1/2 bg-slate-50 border-2 border-slate-200 rounded-xl px-2.5 py-2 text-sm font-semibold text-slate-700 focus:outline-none focus:border-blue-500 text-center">
+              <span class="text-slate-600 font-bold">-</span>
+              <input type="number" id="filterPageEnd" placeholder="bis (177)" min="155" max="177" oninput="app.updateFilterCounts()" class="w-1/2 bg-slate-50 border-2 border-slate-200 rounded-xl px-2.5 py-2 text-sm font-semibold text-slate-700 focus:outline-none focus:border-blue-500 text-center">
+            </div>
+          </div>
+
+          <!-- Abfragerichtung -->
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Richtung</label>
+            <select id="filterDirection" class="w-full bg-slate-50 border-2 border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 focus:outline-none focus:border-blue-500">
+              <option value="ES_TO_DE">🇪🇸 Spanisch ➜ 🇩🇪 Deutsch</option>
+              <option value="DE_TO_ES">🇩🇪 Deutsch ➜ 🇪🇸 Spanisch</option>
+              <option value="MIXED">🔀 Gemischt (Zufall)</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- Zusätzliche Optionen -->
+        <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-4">
+            <label class="flex items-center gap-2 cursor-pointer font-semibold text-slate-600">
+              <input type="checkbox" id="optShuffle" checked class="w-4 h-4 text-blue-600 rounded">
+              Zufällige Reihenfolge
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer font-semibold text-slate-600">
+              <input type="checkbox" id="optLimit20" checked class="w-4 h-4 text-blue-600 rounded">
+              Maximal 20 Wörter pro Runde
+            </label>
+          </div>
+
+          <button onclick="app.resetFilters()" class="text-blue-600 hover:text-blue-800 font-bold">
+            Filter zurücksetzen
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- VIEW 2: ACTIVE TRAINING (TYPING / BLITZ) -->
+    <div id="viewTraining" class="hidden space-y-4 max-w-2xl mx-auto w-full">
+      
+      <!-- Top Session Header -->
+      <div class="flex items-center justify-between bg-white px-4 py-2.5 rounded-2xl border-2 border-slate-200 shadow-sm">
+        <button onclick="app.abortSession()" class="text-slate-600 hover:text-slate-800 font-bold text-xs flex items-center gap-1">
+          <i data-lucide="x" class="w-4 h-4"></i>
+          <span>Beenden</span>
+        </button>
+
+        <!-- Current Progress Bar -->
+        <div class="flex-1 mx-4">
+          <div class="flex justify-between text-xs font-bold text-slate-600 mb-1">
+            <span id="sessionCounterText">Vokabel 1 von 20</span>
+            <span id="sessionStreakText" class="text-amber-600 flex items-center gap-1 font-game">
+              🔥 <span id="sessionStreakCount">0</span> Streak
+            </span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
+            <div id="sessionProgressBar" class="bg-blue-500 h-full rounded-full transition-all duration-300" style="width: 5%"></div>
+          </div>
+        </div>
+
+        <!-- Current Leitner Box Badge -->
+        <span id="cardBoxBadge" class="box-badge box-1">
+          Kasten 1
+        </span>
+      </div>
+
+      <!-- Main Flashcard -->
+      <div id="trainingCard" class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-lg text-center transition-all duration-200 relative">
+        
+        <!-- Metadata Tag (Módulo / Unidad / Buchseite) -->
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <span id="cardMetadata" class="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full border border-slate-200">
+            Módulo 1 • Unidad 1 • Seite 155
+          </span>
+          <button id="ttsPlayBtn" onclick="app.speakCurrentWord()" class="hidden px-2.5 py-1 bg-blue-50 hover:bg-blue-100 text-blue-600 rounded-xl transition-colors flex items-center gap-1.5 text-xs font-bold border border-blue-200 shadow-sm" title="Spanisch vorlesen">
+            <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+            <span>Spanisch vorlesen</span>
+          </button>
+        </div>
+
+        <!-- Question Prompt -->
+        <div class="text-xs uppercase tracking-widest font-bold text-slate-600 mb-1" id="cardPromptLabel">
+          Übersetze ins Deutsche:
+        </div>
+        <div id="cardWord" class="font-game font-bold text-3xl sm:text-4xl text-slate-800 my-4 min-h-[3rem] flex items-center justify-center">
+          ¡Hola!
+        </div>
+
+        <!-- Hint / Beispielsatz (hidden until needed or shown as context) -->
+        <div id="cardContextSentence" class="text-xs text-slate-600 italic mb-4 min-h-[1rem]"></div>
+
+        <!-- MODE A: TYPING INPUT -->
+        <div id="modeTypingContainer" class="space-y-4">
+          <div class="relative">
+            <input type="text" id="answerInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+              placeholder="Deine Übersetzung eingeben..." 
+              class="w-full text-center font-game font-semibold text-xl sm:text-2xl px-4 py-3.5 bg-slate-50 border-2 border-slate-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:bg-white shadow-inner transition-all">
+          </div>
+
+          <!-- Spanish Special Accents Keyboard Bar -->
+          <div class="flex items-center justify-center gap-1.5 flex-wrap">
+            <span class="text-[11px] font-bold text-slate-600 mr-1 hidden sm:inline">Sonderzeichen:</span>
+            <button onclick="app.insertChar('á')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">á</button>
+            <button onclick="app.insertChar('é')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">é</button>
+            <button onclick="app.insertChar('í')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">í</button>
+            <button onclick="app.insertChar('ó')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">ó</button>
+            <button onclick="app.insertChar('ú')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">ú</button>
+            <button onclick="app.insertChar('ñ')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">ñ</button>
+            <button onclick="app.insertChar('¿')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">¿</button>
+            <button onclick="app.insertChar('¡')" class="w-8 h-8 font-game font-bold text-sm bg-slate-100 hover:bg-slate-200 rounded-lg border border-slate-300 active:scale-95 transition-transform">¡</button>
+          </div>
+        </div>
+
+        <!-- MODE B: BLITZ MULTIPLE CHOICE -->
+        <div id="modeBlitzContainer" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
+          <button id="choiceBtn0" onclick="app.selectChoice(0)" class="btn-game bg-white border-2 border-slate-200 hover:border-blue-400 p-3.5 rounded-2xl text-left font-game font-semibold text-slate-700 flex items-center gap-3 transition-all">
+            <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold text-xs flex items-center justify-center text-slate-500">1</span>
+            <span class="choice-text">Option 1</span>
+          </button>
+          <button id="choiceBtn1" onclick="app.selectChoice(1)" class="btn-game bg-white border-2 border-slate-200 hover:border-blue-400 p-3.5 rounded-2xl text-left font-game font-semibold text-slate-700 flex items-center gap-3 transition-all">
+            <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold text-xs flex items-center justify-center text-slate-500">2</span>
+            <span class="choice-text">Option 2</span>
+          </button>
+          <button id="choiceBtn2" onclick="app.selectChoice(2)" class="btn-game bg-white border-2 border-slate-200 hover:border-blue-400 p-3.5 rounded-2xl text-left font-game font-semibold text-slate-700 flex items-center gap-3 transition-all">
+            <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold text-xs flex items-center justify-center text-slate-500">3</span>
+            <span class="choice-text">Option 3</span>
+          </button>
+          <button id="choiceBtn3" onclick="app.selectChoice(3)" class="btn-game bg-white border-2 border-slate-200 hover:border-blue-400 p-3.5 rounded-2xl text-left font-game font-semibold text-slate-700 flex items-center gap-3 transition-all">
+            <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold text-xs flex items-center justify-center text-slate-500">4</span>
+            <span class="choice-text">Option 4</span>
+          </button>
+        </div>
+
+        <!-- Feedback Result Message Banner -->
+        <div id="feedbackBanner" class="hidden mt-4 p-4 rounded-2xl text-sm font-semibold transition-all">
+          <div id="feedbackTitle" class="font-game text-base font-bold mb-1"></div>
+          <div id="feedbackDetail" class="text-xs"></div>
+        </div>
+
+        <!-- Action Button (Check / Next) -->
+        <div class="mt-5">
+          <button id="actionBtn" onclick="app.handleActionClick()" class="btn-game btn-game-primary w-full py-3.5 rounded-2xl font-game font-bold text-lg shadow-md flex items-center justify-center gap-2">
+            <span>PRÜFEN</span>
+            <kbd class="text-xs bg-black/20 px-2 py-0.5 rounded text-white font-sans hidden sm:inline">Enter ↵</kbd>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- VIEW 3: SUMMARY & RECAP -->
+    <div id="viewSummary" class="hidden max-w-xl mx-auto w-full space-y-5">
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-xl text-center">
+        
+        <!-- Dynamic Mood Icon & Cheers -->
+        <div id="summaryIconContainer" class="w-20 h-20 mx-auto bg-gradient-to-tr from-amber-400 to-yellow-300 rounded-3xl flex items-center justify-center text-4xl shadow-lg mb-4 animate-bounce">
+          <span id="summaryIcon">🏆</span>
+        </div>
+        <h2 id="summaryTitle" class="font-game font-bold text-3xl text-slate-800 mb-1">¡Excelente trabajo!</h2>
+        <p id="summarySubtitle" class="text-slate-600 text-sm font-medium mb-6">Du hast diese Trainingseinheit gemeistert!</p>
+
+        <!-- Graphical Success / Failure Bar -->
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 mb-6 text-left">
+          <div class="flex items-center justify-between text-xs font-bold mb-2">
+            <span class="text-emerald-700 flex items-center gap-1">
+              <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+              <span id="summaryGraphCorrectText">0 Richtig (0%)</span>
+            </span>
+            <span class="text-rose-700 flex items-center gap-1">
+              <i data-lucide="x-circle" class="w-4 h-4"></i>
+              <span id="summaryGraphMistakesText">0 Falsch (0%)</span>
+            </span>
+          </div>
+          <!-- Dual Colored Progress Bar -->
+          <div class="w-full h-4 bg-slate-200 rounded-full overflow-hidden flex shadow-inner">
+            <div id="summaryBarCorrect" class="bg-emerald-500 h-full transition-all duration-700" style="width: 50%"></div>
+            <div id="summaryBarMistakes" class="bg-rose-500 h-full transition-all duration-700" style="width: 50%"></div>
+          </div>
+          <div class="mt-2.5 text-center text-xs font-bold text-slate-700" id="summaryFeedbackGrade">
+            Bewertung: Ausgezeichnet! 🌟
+          </div>
+        </div>
+
+        <!-- Round Stats Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+          <div class="bg-slate-50 border border-slate-200 p-3 rounded-2xl">
+            <span class="text-slate-600 text-xs font-bold block">Trefferquote</span>
+            <span id="summaryAccuracy" class="font-game font-bold text-2xl text-emerald-600">100%</span>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 p-3 rounded-2xl">
+            <span class="text-slate-600 text-xs font-bold block">Richtig</span>
+            <span id="summaryCorrectCount" class="font-game font-bold text-2xl text-blue-600">0 / 0</span>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 p-3 rounded-2xl">
+            <span class="text-slate-600 text-xs font-bold block">Streak-Rekord</span>
+            <span id="summaryBestStreak" class="font-game font-bold text-2xl text-amber-500">🔥 0</span>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 p-3 rounded-2xl">
+            <span class="text-slate-600 text-xs font-bold block">Verdiente XP</span>
+            <span id="summaryXpEarned" class="font-game font-bold text-2xl text-purple-600">+0 XP</span>
+          </div>
+        </div>
+
+        <!-- Missed Words Accordion / Section -->
+        <div id="summaryMistakesContainer" class="hidden text-left bg-rose-50 border border-rose-200 rounded-2xl p-4 mb-6">
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="font-game font-bold text-rose-800 text-sm flex items-center gap-1.5">
+              <i data-lucide="alert-circle" class="w-4 h-4"></i>
+              <span>Noch üben (<span id="summaryMistakeCount">0</span> Wörter):</span>
+            </h4>
+          </div>
+          <div id="summaryMistakesList" class="space-y-2 max-h-48 overflow-y-auto pr-1 text-xs">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Summary Action Buttons -->
+        <div class="flex flex-col sm:flex-row gap-3">
+          <button onclick="app.showDashboard()" class="btn-game bg-slate-100 hover:bg-slate-200 border-b-4 border-slate-300 flex-1 py-3 rounded-2xl font-game font-bold text-slate-700">
+            Zur Übersicht
+          </button>
+          <button id="summaryRetryMistakesBtn" onclick="app.retryMistakes()" class="hidden btn-game btn-game-warning flex-1 py-3 rounded-2xl font-game font-bold">
+            Fehler wiederholen
+          </button>
+          <button onclick="app.restartSession()" class="btn-game btn-game-success flex-1 py-3 rounded-2xl font-game font-bold">
+            Noch eine Runde!
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= PERSISTENT BACKGROUND COIN PILE CANVAS ================= -->
+  <canvas id="coinPileCanvas" class="fixed bottom-0 left-0 w-full pointer-events-none z-0 opacity-85 transition-opacity duration-500" style="height: 120px;"></canvas>
+
+  <!-- ================= COIN REWARD DROP OVERLAY ================= -->
+  <div id="coinRewardOverlay" class="hidden fixed inset-0 z-50 pointer-events-none flex flex-col items-center justify-center">
+    <div id="animatedFallingCoin" class="coin-drop-anim flex flex-col items-center">
+      <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-full bg-gradient-to-tr from-amber-500 via-yellow-300 to-amber-200 border-4 border-yellow-100 shadow-2xl flex items-center justify-center text-6xl sm:text-7xl transform hover:rotate-12 transition-transform">
+        🪙
+      </div>
+      <div id="coinRewardText" class="mt-4 bg-amber-500 text-white font-game font-bold text-2xl sm:text-3xl px-6 py-2 rounded-2xl shadow-xl border-2 border-yellow-200 animate-bounce">
+        +1 MÜNZE VERDIENT!
+      </div>
+      <p class="text-white text-sm font-bold drop-shadow mt-1">Sie landet sicher auf deinem Münzhaufen!</p>
+    </div>
+  </div>
+
+  <!-- ================= PROFILE & STATS MODAL OVERLAY ================= -->
+  <div id="profileModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm modal-overlay">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-7 border-2 border-slate-200 shadow-2xl relative modal-content-card max-h-[90vh] overflow-y-auto">
+      
+      <!-- Close Button -->
+      <button onclick="app.closeProfileModal()" class="absolute right-4 top-4 p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-full transition-colors cursor-pointer" title="Schließen">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Profile Header -->
+      <div class="flex items-center gap-3.5 border-b border-slate-100 pb-4 mb-5">
+        <div class="w-14 h-14 bg-gradient-to-tr from-amber-400 to-rose-500 rounded-2xl flex items-center justify-center text-3xl shadow-md">
+          🧒
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h3 class="font-game font-bold text-2xl text-slate-800">Timos Lern-Profil</h3>
+            <span id="profLevelBadge" class="text-xs font-game bg-purple-100 text-purple-700 font-bold px-2 py-0.5 rounded-full border border-purple-300">
+              ⭐ Level 1
+            </span>
+          </div>
+          <p id="profLevelTitle" class="text-xs font-bold text-slate-500">Novato • Spanisch Klasse 5</p>
+        </div>
+      </div>
+
+      <!-- SECTION 1: MÜNZEN-ÜBERSICHT -->
+      <div class="bg-gradient-to-br from-amber-50 to-yellow-50/60 border-2 border-amber-200 rounded-2xl p-4 mb-4">
+        <div class="flex items-center justify-between mb-2.5">
+          <h4 class="font-game font-bold text-amber-900 text-base flex items-center gap-1.5">
+            <span class="text-xl">🪙</span>
+            <span>Gesammelte Münzen</span>
+          </h4>
+          <span class="text-[11px] font-bold text-amber-700 bg-amber-100/80 px-2 py-0.5 rounded-lg">Ziel: ~10 / Woche</span>
+        </div>
+        
+        <div class="grid grid-cols-3 gap-2.5 text-center">
+          <div class="bg-white/80 p-2.5 rounded-xl border border-amber-200 shadow-sm">
+            <span class="text-[11px] font-bold text-slate-500 block">Diese Woche</span>
+            <span id="profCoinsWeek" class="font-game font-bold text-2xl text-amber-600">0</span>
+          </div>
+          <div class="bg-white/80 p-2.5 rounded-xl border border-amber-200 shadow-sm">
+            <span class="text-[11px] font-bold text-slate-500 block">Dieser Monat</span>
+            <span id="profCoinsMonth" class="font-game font-bold text-2xl text-amber-600">0</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-xl border-2 border-amber-300 shadow-md">
+            <span class="text-[11px] font-bold text-amber-800 block">Gesamtbestand</span>
+            <span id="profCoinsTotal" class="font-game font-bold text-2xl text-amber-700">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: LERNZEIT -->
+      <div class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 mb-4">
+        <h4 class="font-game font-bold text-slate-800 text-base flex items-center gap-1.5 mb-2.5">
+          <i data-lucide="clock" class="w-4 h-4 text-blue-500"></i>
+          <span>Gelernte Zeit</span>
+        </h4>
+        <div class="grid grid-cols-3 gap-2.5 text-center">
+          <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-[11px] font-bold text-slate-500 block">Diese Woche</span>
+            <span id="profTimeWeek" class="font-game font-bold text-lg text-blue-600">0 Min.</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-[11px] font-bold text-slate-500 block">Dieser Monat</span>
+            <span id="profTimeMonth" class="font-game font-bold text-lg text-blue-600">0 Min.</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-[11px] font-bold text-slate-700 block">Gesamtzeit</span>
+            <span id="profTimeTotal" class="font-game font-bold text-lg text-slate-800">0 Min.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: REKORD-STREAK -->
+      <div class="bg-rose-50 border-2 border-rose-200 rounded-2xl p-4 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <span class="text-3xl">🔥</span>
+          <div>
+            <span class="text-xs font-bold text-rose-800 block">Längste fehlerfreie Serie</span>
+            <span class="text-[11px] text-rose-600 font-medium">Vokabeln am Stück ohne einzigen Fehler!</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <span id="profAllTimeStreak" class="font-game font-bold text-3xl text-rose-600">0</span>
+          <span class="text-xs font-bold text-rose-700 block">am Stück</span>
+        </div>
+      </div>
+
+      <!-- SECTION 4: WIEDERHOLUNGSTOPF STATUS (Spaced Repetition Light) -->
+      <div class="bg-indigo-50/70 border-2 border-indigo-200 rounded-2xl p-4 mb-4">
+        <div class="flex items-center justify-between mb-2">
+          <h4 class="font-game font-bold text-indigo-900 text-sm flex items-center gap-1.5">
+            <i data-lucide="layers" class="w-4 h-4 text-indigo-600"></i>
+            <span>Aktiver Umlauf-Topf</span>
+          </h4>
+          <span id="profPoolRatioBadge" class="text-[11px] font-bold text-indigo-700 bg-white/80 px-2 py-0.5 rounded-md border border-indigo-200">
+            0 im Umlauf
+          </span>
+        </div>
+        <p class="text-xs text-indigo-800 font-medium mb-3">
+          Nur Vokabeln, die Timo mindestens einmal geübt hat, wandern in den aktiven Umlauf. Der Rest bleibt als neues Buch-Vokabular bereit.
+        </p>
+        <div class="grid grid-cols-2 gap-2 text-center text-xs">
+          <div class="bg-white p-2 rounded-xl border border-indigo-100">
+            <span class="text-slate-500 font-semibold block text-[10px]">Im aktiven Umlauf:</span>
+            <span id="profCirculatingCount" class="font-game font-bold text-base text-indigo-600">0 Vokabeln</span>
+          </div>
+          <div class="bg-white p-2 rounded-xl border border-indigo-100">
+            <span class="text-slate-500 font-semibold block text-[10px]">Noch unberührt:</span>
+            <span id="profUntouchedCount" class="font-game font-bold text-base text-slate-600">766 Vokabeln</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- WOCHENEND-SPEZIAL TEST-OPTION -->
+      <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-center text-xs text-slate-600 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span>🏖️ Wochenend-Spezial:</span>
+          <span id="profWeekendStatus" class="font-bold text-slate-800">Aktiv am Sa / So</span>
+        </div>
+        <button onclick="app.toggleWeekendSimulation()" id="profWeekendToggleBtn" class="text-[11px] bg-slate-200 hover:bg-slate-300 font-bold px-2 py-1 rounded-lg text-slate-700 transition-colors">
+          Wochenend-Modus testen
+        </button>
+      </div>
+
+      <!-- Action Button -->
+      <div class="mt-5">
+        <button onclick="app.closeProfileModal()" class="btn-game btn-game-primary w-full py-3 rounded-2xl font-game font-bold text-base">
+          Alles klar, weiterlernen!
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-white/95 backdrop-blur-sm border-t border-slate-200 py-3 text-center text-xs text-slate-600 font-medium relative z-10">
+    Spanisch Lehrbuch <em>¡Apúntate! 1</em> (Cornelsen) • Entwickelt mit ❤️ für Timo
+  </footer>
+
+  <!-- App Script -->
+  <script src="app.js?v=2.1"></script>
+</body>
+</html>
