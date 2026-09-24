@@ -1,0 +1,6896 @@
+[
+  {
+    "id": "v_155_01",
+    "espanol": "¡Apúntate!",
+    "deutsch": "Mach mit!",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_02",
+    "espanol": "¡Hola!",
+    "deutsch": "Hallo!",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_03",
+    "espanol": "¿Cómo te llamas?",
+    "deutsch": "Wie heißt du?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Hola, ¿cómo te llamas?"
+  },
+  {
+    "id": "v_155_04",
+    "espanol": "¿cómo?",
+    "deutsch": "wie?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_05",
+    "espanol": "soy",
+    "deutsch": "ich bin",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Hola, soy Sofía."
+  },
+  {
+    "id": "v_155_06",
+    "espanol": "¿Y tú?",
+    "deutsch": "Und du?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Hola, soy Max. ¿Y tú?"
+  },
+  {
+    "id": "v_155_07",
+    "espanol": "y",
+    "deutsch": "und",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_08",
+    "espanol": "me llamo",
+    "deutsch": "ich heiße",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Me llamo Aitana."
+  },
+  {
+    "id": "v_155_09",
+    "espanol": "soy de",
+    "deutsch": "ich komme aus",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Soy de Berlín. ¿Y tú?"
+  },
+  {
+    "id": "v_155_10",
+    "espanol": "de",
+    "deutsch": "aus",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Soy de Hamburgo."
+  },
+  {
+    "id": "v_155_11",
+    "espanol": "¿De dónde eres?",
+    "deutsch": "Woher kommst du?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_12",
+    "espanol": "¿de dónde?",
+    "deutsch": "woher?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_13",
+    "espanol": "pues",
+    "deutsch": "also, na",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "Pues, soy de Madrid."
+  },
+  {
+    "id": "v_155_14",
+    "espanol": "aquí",
+    "deutsch": "hier",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_15",
+    "espanol": "sí",
+    "deutsch": "ja",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_16",
+    "espanol": "claro",
+    "deutsch": "klar",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": "-Soy de Madrid. -Claro..."
+  },
+  {
+    "id": "v_155_17",
+    "espanol": "Valencia",
+    "deutsch": "Hauptstadt der Autonomen Gemeinschaft Valencia",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_18",
+    "espanol": "Madrid",
+    "deutsch": "Hauptstadt Spaniens",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_19",
+    "espanol": "España",
+    "deutsch": "Spanien",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cómo te llamas?",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_20",
+    "espanol": "Afganistán",
+    "deutsch": "Afghanistan",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_21",
+    "espanol": "Alemania",
+    "deutsch": "Deutschland",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_22",
+    "espanol": "Austria",
+    "deutsch": "Österreich",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_23",
+    "espanol": "España",
+    "deutsch": "Spanien",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_24",
+    "espanol": "Francia",
+    "deutsch": "Frankreich",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_25",
+    "espanol": "Italia",
+    "deutsch": "Italien",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_26",
+    "espanol": "Marruecos",
+    "deutsch": "Marokko",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_27",
+    "espanol": "Polonia",
+    "deutsch": "Polen",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_28",
+    "espanol": "Portugal",
+    "deutsch": "Portugal",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_29",
+    "espanol": "Rusia",
+    "deutsch": "Russland",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_30",
+    "espanol": "Ucrania",
+    "deutsch": "Ukraine",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_31",
+    "espanol": "Siria",
+    "deutsch": "Syrien",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_32",
+    "espanol": "Somalia",
+    "deutsch": "Somalia",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_33",
+    "espanol": "Suiza",
+    "deutsch": "Schweiz",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_155_34",
+    "espanol": "Turquía",
+    "deutsch": "Türkei",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | Palabrateca - Soy de...",
+    "seite": 155,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_01",
+    "espanol": "¿Qué tal?",
+    "deutsch": "Wie geht’s?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "Hola, ¿qué tal?"
+  },
+  {
+    "id": "v_156_02",
+    "espanol": "¿qué?",
+    "deutsch": "was?, wie?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_03",
+    "espanol": "Bueno...",
+    "deutsch": "Okay, ... / Gut ...",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "Bueno... adiós..."
+  },
+  {
+    "id": "v_156_04",
+    "espanol": "¡Adiós!",
+    "deutsch": "Tschüss!",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_05",
+    "espanol": "¡Hasta luego!",
+    "deutsch": "Bis später!",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "-¡Adiós! -¡Hasta luego!"
+  },
+  {
+    "id": "v_156_06",
+    "espanol": "¡Buenos días!",
+    "deutsch": "Guten Tag.",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "¡Buenos días, Pau!"
+  },
+  {
+    "id": "v_156_07",
+    "espanol": "genial",
+    "deutsch": "genial, super, toll",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "-¿Qué tal? -¡Genial!"
+  },
+  {
+    "id": "v_156_08",
+    "espanol": "(muy) bien",
+    "deutsch": "(sehr) gut",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "-¿Qué tal? -¡Muy bien!"
+  },
+  {
+    "id": "v_156_09",
+    "espanol": "muy",
+    "deutsch": "sehr",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_10",
+    "espanol": "gracias",
+    "deutsch": "danke",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "-¿Qué tal? -Bien, gracias."
+  },
+  {
+    "id": "v_156_11",
+    "espanol": "fatal",
+    "deutsch": "furchtbar",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_12",
+    "espanol": "más o menos",
+    "deutsch": "geht so",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": "-¿Qué tal? -Más o menos..."
+  },
+  {
+    "id": "v_156_13",
+    "espanol": "regular",
+    "deutsch": "geht so",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_14",
+    "espanol": "(muy) mal",
+    "deutsch": "(sehr) schlecht",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Qué tal?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_15",
+    "espanol": "¿Cuántos años tienes?",
+    "deutsch": "Wie alt bist du?",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_16",
+    "espanol": "Tengo... años.",
+    "deutsch": "Ich bin ... Jahre alt.",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": "Tengo 13 años."
+  },
+  {
+    "id": "v_156_17",
+    "espanol": "el año",
+    "deutsch": "das Jahr",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_18",
+    "espanol": "cero",
+    "deutsch": "null (0)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_19",
+    "espanol": "uno, una, un",
+    "deutsch": "eins (1)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_20",
+    "espanol": "dos",
+    "deutsch": "zwei (2)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_21",
+    "espanol": "tres",
+    "deutsch": "drei (3)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_22",
+    "espanol": "cuatro",
+    "deutsch": "vier (4)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_23",
+    "espanol": "cinco",
+    "deutsch": "fünf (5)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_24",
+    "espanol": "seis",
+    "deutsch": "sechs (6)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_25",
+    "espanol": "siete",
+    "deutsch": "sieben (7)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_26",
+    "espanol": "ocho",
+    "deutsch": "acht (8)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_27",
+    "espanol": "nueve",
+    "deutsch": "neun (9)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_28",
+    "espanol": "diez",
+    "deutsch": "zehn (10)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_29",
+    "espanol": "once",
+    "deutsch": "elf (11)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_30",
+    "espanol": "doce",
+    "deutsch": "zwölf (12)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_31",
+    "espanol": "trece",
+    "deutsch": "dreizehn (13)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_32",
+    "espanol": "catorce",
+    "deutsch": "vierzehn (14)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_33",
+    "espanol": "quince",
+    "deutsch": "fünfzehn (15)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_34",
+    "espanol": "dieciséis",
+    "deutsch": "sechzehn (16)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_35",
+    "espanol": "diecisiete",
+    "deutsch": "siebzehn (17)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_36",
+    "espanol": "dieciocho",
+    "deutsch": "achtzehn (18)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_37",
+    "espanol": "diecinueve",
+    "deutsch": "neunzehn (19)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_38",
+    "espanol": "veinte",
+    "deutsch": "zwanzig (20)",
+    "modulo": "¡Apúntate!",
+    "unidad": "¡Apúntate! | ¿Cuántos años tienes?",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_39",
+    "espanol": "la vida",
+    "deutsch": "das Leben",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_40",
+    "espanol": "en",
+    "deutsch": "in, an, auf",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 156,
+    "beispiel": ""
+  },
+  {
+    "id": "v_156_41",
+    "espanol": "el/la",
+    "deutsch": "der, die, das",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 156,
+    "beispiel": "El parque y la plaza."
+  },
+  {
+    "id": "v_157_01",
+    "espanol": "la ciudad",
+    "deutsch": "die Stadt",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_02",
+    "espanol": "el barrio",
+    "deutsch": "das Stadtviertel",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_03",
+    "espanol": "¿Quedamos en...?",
+    "deutsch": "Treffen wir uns in/an/auf...?",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": "¿Quedamos en el parque?"
+  },
+  {
+    "id": "v_157_04",
+    "espanol": "el parque",
+    "deutsch": "der Park",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_05",
+    "espanol": "la plaza",
+    "deutsch": "der Platz",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": "¿Quedamos en la plaza?"
+  },
+  {
+    "id": "v_157_06",
+    "espanol": "el café",
+    "deutsch": "das Café, die Cafeteria",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_07",
+    "espanol": "el mercado",
+    "deutsch": "der Markt",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_08",
+    "espanol": "la heladería",
+    "deutsch": "die Eisdiele",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_09",
+    "espanol": "la biblioteca",
+    "deutsch": "die Bibliothek",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_10",
+    "espanol": "la tienda de cómics",
+    "deutsch": "der Comicladen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_11",
+    "espanol": "la tienda",
+    "deutsch": "das Geschäft, der Laden",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_12",
+    "espanol": "el cómic, los cómics",
+    "deutsch": "der/das Comic",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_13",
+    "espanol": "la tienda (de ropa)",
+    "deutsch": "das (Bekleidungs-)Geschäft",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_14",
+    "espanol": "la ropa",
+    "deutsch": "die Kleidung",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_15",
+    "espanol": "el quiosco",
+    "deutsch": "der Kiosk",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_16",
+    "espanol": "el instituto (el insti)",
+    "deutsch": "das Gymnasium, die Schule",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_17",
+    "espanol": "el centro comercial",
+    "deutsch": "das Einkaufszentrum",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Vocabulario",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_18",
+    "espanol": "el cine",
+    "deutsch": "das Kino",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_19",
+    "espanol": "el estadio",
+    "deutsch": "das Stadion",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_20",
+    "espanol": "la librería",
+    "deutsch": "die Buchhandlung",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_21",
+    "espanol": "el museo",
+    "deutsch": "das Museum",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_22",
+    "espanol": "la panadería",
+    "deutsch": "die Bäckerei",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_23",
+    "espanol": "la piscina",
+    "deutsch": "das Schwimmbad",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_24",
+    "espanol": "el río",
+    "deutsch": "der Fluss",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_25",
+    "espanol": "el supermercado",
+    "deutsch": "der Supermarkt",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Palabrateca - En el barrio",
+    "seite": 157,
+    "beispiel": ""
+  },
+  {
+    "id": "v_157_26",
+    "espanol": "ser",
+    "deutsch": "sein",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "¿Cómo es Javi?"
+  },
+  {
+    "id": "v_157_27",
+    "espanol": "el/la amigo/-a",
+    "deutsch": "der/die Freund/-in",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "Soy la amiga de Lili."
+  },
+  {
+    "id": "v_157_28",
+    "espanol": "el patio",
+    "deutsch": "der Hof",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "¿Quedamos en el patio?"
+  },
+  {
+    "id": "v_157_29",
+    "espanol": "Chicos, ...",
+    "deutsch": "Leute, ...",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "Chicos, ¿qué tal?"
+  },
+  {
+    "id": "v_157_30",
+    "espanol": "¿quién? sg., ¿quiénes? pl.",
+    "deutsch": "wer?",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "¿Quién es la chica?"
+  },
+  {
+    "id": "v_157_31",
+    "espanol": "el chico",
+    "deutsch": "der Junge",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "¿Quién es el chico?"
+  },
+  {
+    "id": "v_157_32",
+    "espanol": "la chica",
+    "deutsch": "das Mädchen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 157,
+    "beispiel": "La chica es Nora."
+  },
+  {
+    "id": "v_158_01",
+    "espanol": "¡Vamos!",
+    "deutsch": "Gehen wir!",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_02",
+    "espanol": "yo",
+    "deutsch": "ich",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_03",
+    "espanol": "tú",
+    "deutsch": "du",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_04",
+    "espanol": "él",
+    "deutsch": "er",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_05",
+    "espanol": "ella",
+    "deutsch": "sie (sg.)",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_06",
+    "espanol": "nosotros/-as",
+    "deutsch": "wir",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_07",
+    "espanol": "vosotros/-as",
+    "deutsch": "ihr",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_08",
+    "espanol": "ellos/-as",
+    "deutsch": "sie (pl.)",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_09",
+    "espanol": "de",
+    "deutsch": "aus, von, über",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "Soy de Valencia."
+  },
+  {
+    "id": "v_158_10",
+    "espanol": "Ni idea.",
+    "deutsch": "Keine Ahnung.",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "-¿Quién es el chico? -Ni idea."
+  },
+  {
+    "id": "v_158_11",
+    "espanol": "el/la vecino/-a",
+    "deutsch": "der/die Nachbar/-in",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "Lili es la vecina de Pau."
+  },
+  {
+    "id": "v_158_12",
+    "espanol": "¿no?",
+    "deutsch": "oder?, stimmt’s?",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_13",
+    "espanol": "este/-a es",
+    "deutsch": "das ist",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "Esta es Álex."
+  },
+  {
+    "id": "v_158_14",
+    "espanol": "el/la nuevo/-a",
+    "deutsch": "der/die Neue",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "Pau es el nuevo de la clase."
+  },
+  {
+    "id": "v_158_15",
+    "espanol": "la clase",
+    "deutsch": "die Klasse",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_16",
+    "espanol": "también",
+    "deutsch": "auch",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto A",
+    "seite": 158,
+    "beispiel": "Yo también."
+  },
+  {
+    "id": "v_158_17",
+    "espanol": "quedar",
+    "deutsch": "sich verabreden",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "¿Quedamos por la tarde?"
+  },
+  {
+    "id": "v_158_18",
+    "espanol": "por la tarde",
+    "deutsch": "nachmittags",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "Por la tarde estudio en casa."
+  },
+  {
+    "id": "v_158_19",
+    "espanol": "la tarde",
+    "deutsch": "der Nachmittag",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_20",
+    "espanol": "normalmente",
+    "deutsch": "normalerweise",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "Normalmente quedamos en la plaza."
+  },
+  {
+    "id": "v_158_21",
+    "espanol": "Pues sí.",
+    "deutsch": "Ja, klar.",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_22",
+    "espanol": "pasar (+ tiempo)",
+    "deutsch": "(Zeit) verbringen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "Pasamos la tarde en la heladería."
+  },
+  {
+    "id": "v_158_23",
+    "espanol": "descansar",
+    "deutsch": "sich ausruhen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_24",
+    "espanol": "escuchar algo",
+    "deutsch": "etw. hören",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_25",
+    "espanol": "la música",
+    "deutsch": "die Musik",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_26",
+    "espanol": "o",
+    "deutsch": "oder",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "¿Eres de Gijón u Oviedo?"
+  },
+  {
+    "id": "v_158_27",
+    "espanol": "mirar algo",
+    "deutsch": "etw. anschauen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "Pau mira vídeos en casa."
+  },
+  {
+    "id": "v_158_28",
+    "espanol": "tocar",
+    "deutsch": "spielen (Instrument)",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_29",
+    "espanol": "la guitarra",
+    "deutsch": "die Gitarre",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_30",
+    "espanol": "hablar",
+    "deutsch": "sprechen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_31",
+    "espanol": "con",
+    "deutsch": "mit",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_32",
+    "espanol": "el vídeo",
+    "deutsch": "das Video",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_33",
+    "espanol": "la casa",
+    "deutsch": "das Haus, Zuhause",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_34",
+    "espanol": "en casa",
+    "deutsch": "zuhause",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": "Normalmente, estudio en casa."
+  },
+  {
+    "id": "v_158_35",
+    "espanol": "pero",
+    "deutsch": "aber",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_36",
+    "espanol": "estudiar",
+    "deutsch": "lernen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_158_37",
+    "espanol": "no",
+    "deutsch": "nein, nicht",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 158,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_01",
+    "espanol": "buscar algo",
+    "deutsch": "etw. suchen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": "Busco información en la biblioteca."
+  },
+  {
+    "id": "v_159_02",
+    "espanol": "la información",
+    "deutsch": "die Information",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_03",
+    "espanol": "charlar",
+    "deutsch": "plaudern, quatschen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_04",
+    "espanol": "tomar algo",
+    "deutsch": "hier: etwas trinken, zu sich nehmen",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_05",
+    "espanol": "algo",
+    "deutsch": "etwas",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": "¿Tomamos algo en el café?"
+  },
+  {
+    "id": "v_159_06",
+    "espanol": "guay",
+    "deutsch": "cool, toll",
+    "modulo": "Unidad 1",
+    "unidad": "Unidad 1 | Texto B",
+    "seite": 159,
+    "beispiel": "–Toco la guitarra. –¡Guay!"
+  },
+  {
+    "id": "v_159_07",
+    "espanol": "la clase",
+    "deutsch": "die Klasse, der Unterricht",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_08",
+    "espanol": "el español",
+    "deutsch": "Spanisch",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_09",
+    "espanol": "de... a...",
+    "deutsch": "von ... bis ...",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_10",
+    "espanol": "el alfabeto",
+    "deutsch": "das Alphabet",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_11",
+    "espanol": "¿Qué es esto?",
+    "deutsch": "Was ist das?",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_12",
+    "espanol": "ahora",
+    "deutsch": "jetzt",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": "¡Ahora vosotros!"
+  },
+  {
+    "id": "v_159_13",
+    "espanol": "La lista está completa.",
+    "deutsch": "Die Liste ist vollständig.",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_14",
+    "espanol": "la letra",
+    "deutsch": "der Buchstabe",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_15",
+    "espanol": "la mochila",
+    "deutsch": "der Rucksack",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_16",
+    "espanol": "el libro",
+    "deutsch": "das Buch",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_17",
+    "espanol": "el cuaderno",
+    "deutsch": "das Heft",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_18",
+    "espanol": "la tableta",
+    "deutsch": "das Tablet PC",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_19",
+    "espanol": "el bolígrafo (= el boli fam.)",
+    "deutsch": "der Kugelschreiber",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_20",
+    "espanol": "el lápiz, los lápices pl.",
+    "deutsch": "der Stift",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_21",
+    "espanol": "la goma de borrar",
+    "deutsch": "der Radiergummi",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_22",
+    "espanol": "la regla",
+    "deutsch": "das Lineal",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_23",
+    "espanol": "el estuche",
+    "deutsch": "die Federmappe",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_24",
+    "espanol": "el táper",
+    "deutsch": "die Brotdose",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_25",
+    "espanol": "la botella",
+    "deutsch": "die Flasche",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_26",
+    "espanol": "el aula f.",
+    "deutsch": "das Klassenzimmer",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_27",
+    "espanol": "la mesa",
+    "deutsch": "der Tisch",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_28",
+    "espanol": "el portátil",
+    "deutsch": "der Laptop",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_159_29",
+    "espanol": "la pizarra",
+    "deutsch": "die Tafel",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 159,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_01",
+    "espanol": "el/la profesor/-a (= el/la profe fam.)",
+    "deutsch": "der/die Lehrer/-in",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": "La profe descansa en el parque."
+  },
+  {
+    "id": "v_160_02",
+    "espanol": "la papelera",
+    "deutsch": "der Papierkorb",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_03",
+    "espanol": "la silla",
+    "deutsch": "der Stuhl",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_04",
+    "espanol": "el/la alumno/-a",
+    "deutsch": "der/die Schüler/-in",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_05",
+    "espanol": "la pregunta",
+    "deutsch": "die Frage",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_06",
+    "espanol": "la respuesta",
+    "deutsch": "die Antwort",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_07",
+    "espanol": "se dice",
+    "deutsch": "man sagt",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": "Se dice «el aula»."
+  },
+  {
+    "id": "v_160_08",
+    "espanol": "se escribe",
+    "deutsch": "man schreibt",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": "¿Cómo se escribe boli?"
+  },
+  {
+    "id": "v_160_09",
+    "espanol": "el baño",
+    "deutsch": "das Bad, die Toilette",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_10",
+    "espanol": "¿Qué significa...?",
+    "deutsch": "Was bedeutet ...?",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_11",
+    "espanol": "Significa...",
+    "deutsch": "Das bedeutet ...",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_12",
+    "espanol": "¿Puedes repetirlo?",
+    "deutsch": "Kannst du das wiederholen?",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_13",
+    "espanol": "por favor (= porfa fam.)",
+    "deutsch": "bitte",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1",
+    "seite": 160,
+    "beispiel": "¿Puedes repetirlo, por favor?"
+  },
+  {
+    "id": "v_160_14",
+    "espanol": "la calculadora",
+    "deutsch": "der Taschenrechner",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_15",
+    "espanol": "el horario",
+    "deutsch": "der Stundenplan",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_16",
+    "espanol": "el mapa",
+    "deutsch": "die Landkarte",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_17",
+    "espanol": "el pegamento",
+    "deutsch": "der Leim",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_18",
+    "espanol": "el reloj",
+    "deutsch": "die Uhr",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_19",
+    "espanol": "el rotulador",
+    "deutsch": "der Marker",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_20",
+    "espanol": "el sacapuntas",
+    "deutsch": "der Anspitzer",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_21",
+    "espanol": "las tijeras",
+    "deutsch": "die Schere",
+    "modulo": "Módulo 1",
+    "unidad": "Módulo 1 | Palabrateca - Objetos en la clase",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_22",
+    "espanol": "mi, mis",
+    "deutsch": "mein, meine sg., meine pl.",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_23",
+    "espanol": "la habitación, las habitaciones pl.",
+    "deutsch": "das Zimmer",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_24",
+    "espanol": "hay",
+    "deutsch": "es gibt",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": "En mi habitación hay una cama."
+  },
+  {
+    "id": "v_160_25",
+    "espanol": "un/una",
+    "deutsch": "ein, eine",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_26",
+    "espanol": "la cama",
+    "deutsch": "das Bett",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_27",
+    "espanol": "el armario",
+    "deutsch": "der Schrank",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_28",
+    "espanol": "el póster, los pósteres pl.",
+    "deutsch": "das Poster",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": ""
+  },
+  {
+    "id": "v_160_29",
+    "espanol": "la pared",
+    "deutsch": "die Wand",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": "En la pared hay fotos."
+  },
+  {
+    "id": "v_160_30",
+    "espanol": "la ventana",
+    "deutsch": "das Fenster",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 160,
+    "beispiel": "En mi habitación hay dos ventanas."
+  },
+  {
+    "id": "v_161_01",
+    "espanol": "la foto",
+    "deutsch": "das Foto",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_02",
+    "espanol": "el espejo",
+    "deutsch": "der Spiegel",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_03",
+    "espanol": "la puerta",
+    "deutsch": "die Tür",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_04",
+    "espanol": "la lámpara",
+    "deutsch": "die Lampe",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_05",
+    "espanol": "la alfombra",
+    "deutsch": "der Teppich",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_06",
+    "espanol": "el sillón, los sillones pl.",
+    "deutsch": "der Sessel",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_07",
+    "espanol": "la estantería",
+    "deutsch": "das Regal",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_08",
+    "espanol": "la consola (de videojuegos)",
+    "deutsch": "die Spielkonsole",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_09",
+    "espanol": "el videojuego",
+    "deutsch": "das Videospiel",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_10",
+    "espanol": "el altavoz, los altavoces pl.",
+    "deutsch": "der Lautsprecher, die Lautsprecher-Box",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_11",
+    "espanol": "el escritorio",
+    "deutsch": "der Schreibtisch",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Vocabulario",
+    "seite": 161,
+    "beispiel": "En mi escritorio hay un portátil."
+  },
+  {
+    "id": "v_161_12",
+    "espanol": "la cama alta",
+    "deutsch": "das Hochbett",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_13",
+    "espanol": "la planta",
+    "deutsch": "die Pflanze",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_14",
+    "espanol": "el sofá",
+    "deutsch": "die Couch, das Sofa",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_15",
+    "espanol": "la mesa de noche",
+    "deutsch": "der Nachttisch",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_16",
+    "espanol": "la guirnalda de luces",
+    "deutsch": "die Lichterkette",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_17",
+    "espanol": "la almohada",
+    "deutsch": "das Kissen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_18",
+    "espanol": "la jaula",
+    "deutsch": "der Käfig",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_19",
+    "espanol": "la hamaca",
+    "deutsch": "die Hängematte",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca - En mi habitación",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_20",
+    "espanol": "el mundo",
+    "deutsch": "die Welt",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_21",
+    "espanol": "vivir",
+    "deutsch": "leben, wohnen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": "Vivo en Colonia."
+  },
+  {
+    "id": "v_161_22",
+    "espanol": "hacer algo",
+    "deutsch": "etw. machen, tun",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_23",
+    "espanol": "el piso",
+    "deutsch": "die Wohnung",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_24",
+    "espanol": "el centro",
+    "deutsch": "das Zentrum",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_25",
+    "espanol": "compartir algo (con alguien)",
+    "deutsch": "etw. (mit jdm) teilen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_26",
+    "espanol": "la hermana",
+    "deutsch": "die Schwester",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_27",
+    "espanol": "el rincón, los rincones pl.",
+    "deutsch": "die Ecke",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": "En mi rincón hay un sillón."
+  },
+  {
+    "id": "v_161_28",
+    "espanol": "hacer los deberes",
+    "deutsch": "Hausaufgaben machen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": "Hago los deberes en mi habitación."
+  },
+  {
+    "id": "v_161_29",
+    "espanol": "los deberes",
+    "deutsch": "die Hausaufgaben",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_30",
+    "espanol": "escribir algo",
+    "deutsch": "etw. schreiben",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": ""
+  },
+  {
+    "id": "v_161_31",
+    "espanol": "el diario",
+    "deutsch": "das Tagebuch",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 161,
+    "beispiel": "Por la tarde escribo en mi diario."
+  },
+  {
+    "id": "v_162_01",
+    "espanol": "después",
+    "deutsch": "danach",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "Después escucho música."
+  },
+  {
+    "id": "v_162_02",
+    "espanol": "siempre",
+    "deutsch": "immer",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_03",
+    "espanol": "esconder algo",
+    "deutsch": "etw. verstecken",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "Siempre escondo mi diario."
+  },
+  {
+    "id": "v_162_04",
+    "espanol": "a veces",
+    "deutsch": "manchmal",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "A veces estudio en el salón."
+  },
+  {
+    "id": "v_162_05",
+    "espanol": "discutir",
+    "deutsch": "sich streiten, auch: diskutieren",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_06",
+    "espanol": "ver algo",
+    "deutsch": "etw. (an)sehen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_07",
+    "espanol": "bailar",
+    "deutsch": "tanzen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_08",
+    "espanol": "practicar algo",
+    "deutsch": "etw. üben",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "Con mi hermano practicamos pasos de hiphop."
+  },
+  {
+    "id": "v_162_09",
+    "espanol": "el paso de hiphop",
+    "deutsch": "der Hip-Hop Schritt",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_10",
+    "espanol": "¡Mola mucho!",
+    "deutsch": "Das ist echt cool!",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_11",
+    "espanol": "solo adv.",
+    "deutsch": "nur",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_12",
+    "espanol": "la película",
+    "deutsch": "der Film",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_13",
+    "espanol": "el móvil",
+    "deutsch": "das Handy",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_14",
+    "espanol": "leer",
+    "deutsch": "lesen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "Leo revistas en la cama."
+  },
+  {
+    "id": "v_162_15",
+    "espanol": "la revista",
+    "deutsch": "die Zeitschrift",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_16",
+    "espanol": "aprender algo",
+    "deutsch": "etw. (er-)lernen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_17",
+    "espanol": "la cosa",
+    "deutsch": "das Ding, die Sache",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_18",
+    "espanol": "sobre",
+    "deutsch": "über",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_19",
+    "espanol": "la fotografía",
+    "deutsch": "die Fotografie",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_20",
+    "espanol": "¡Me encanta!",
+    "deutsch": "Das gefällt mir total.",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_21",
+    "espanol": "el hermano",
+    "deutsch": "der Bruder",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_22",
+    "espanol": "el salón, los salones pl.",
+    "deutsch": "das Wohnzimmer",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "Descanso en el salón."
+  },
+  {
+    "id": "v_162_23",
+    "espanol": "tomar la merienda",
+    "deutsch": "einen Nachmittagssnack essen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_24",
+    "espanol": "la merienda",
+    "deutsch": "der Nachmittagssnack",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_25",
+    "espanol": "comer algo",
+    "deutsch": "etw. essen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "¿Qué comemos?"
+  },
+  {
+    "id": "v_162_26",
+    "espanol": "el bocadillo",
+    "deutsch": "das belegte Brötchen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_27",
+    "espanol": "beber algo",
+    "deutsch": "etw. trinken",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_28",
+    "espanol": "el zumo",
+    "deutsch": "der Saft",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": "En la heladería hay helado, zumo y agua."
+  },
+  {
+    "id": "v_162_29",
+    "espanol": "el agua f.",
+    "deutsch": "das Wasser",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_30",
+    "espanol": "el helado",
+    "deutsch": "das Eis",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_31",
+    "espanol": "allí",
+    "deutsch": "dort",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_32",
+    "espanol": "tu habitación",
+    "deutsch": "dein Zimmer",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_162_33",
+    "espanol": "responder (a algo)",
+    "deutsch": "(auf etw.) antworten",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto A",
+    "seite": 162,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_01",
+    "espanol": "dibujar",
+    "deutsch": "zeichnen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_02",
+    "espanol": "hacer manualidades",
+    "deutsch": "basteln",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_03",
+    "espanol": "navegar en internet",
+    "deutsch": "im Internet surfen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_04",
+    "espanol": "sacar fotos",
+    "deutsch": "Fotos machen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_05",
+    "espanol": "montar a caballo",
+    "deutsch": "reiten",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_06",
+    "espanol": "patinar",
+    "deutsch": "skaten",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_07",
+    "espanol": "hacer deporte",
+    "deutsch": "Sport machen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_08",
+    "espanol": "pasear al perro",
+    "deutsch": "mit dem Hund spazieren",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_09",
+    "espanol": "¿dónde?",
+    "deutsch": "wo?",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_10",
+    "espanol": "estar",
+    "deutsch": "sein, sich befinden",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": "¿Dónde está mi diario?"
+  },
+  {
+    "id": "v_163_11",
+    "espanol": "hoy",
+    "deutsch": "heute",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_12",
+    "espanol": "el/la gato/-a",
+    "deutsch": "der Kater, die Katze",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_13",
+    "espanol": "detrás de",
+    "deutsch": "hinter",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_14",
+    "espanol": "el sofá",
+    "deutsch": "die Couch, das Sofa",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_15",
+    "espanol": "al lado de",
+    "deutsch": "neben",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_16",
+    "espanol": "la televisión (= la tele fam.)",
+    "deutsch": "der Fernseher",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_17",
+    "espanol": "debajo de",
+    "deutsch": "unter",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_18",
+    "espanol": "seguro que",
+    "deutsch": "sicherlich, bestimmt",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_19",
+    "espanol": "la cocina",
+    "deutsch": "die Küche",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_20",
+    "espanol": "encima de",
+    "deutsch": "auf, über",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_21",
+    "espanol": "la nevera",
+    "deutsch": "der Kühlschrank",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_22",
+    "espanol": "tampoco",
+    "deutsch": "auch nicht",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_23",
+    "espanol": "el baño",
+    "deutsch": "das Bad, Badezimmer",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_24",
+    "espanol": "el lavabo",
+    "deutsch": "das Waschbecken",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_25",
+    "espanol": "la ducha",
+    "deutsch": "die Dusche",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_26",
+    "espanol": "la mamá fam. (= la madre)",
+    "deutsch": "die Mama fam. (= die Mutter)",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_27",
+    "espanol": "delante de",
+    "deutsch": "vor",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_28",
+    "espanol": "¿Qué pasa?",
+    "deutsch": "Was ist los?",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_29",
+    "espanol": "quizás",
+    "deutsch": "vielleicht",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": "El gato quizás está en la cocina."
+  },
+  {
+    "id": "v_163_30",
+    "espanol": "entre... y...",
+    "deutsch": "zwischen ... und...",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_31",
+    "espanol": "entonces",
+    "deutsch": "dann, also",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_163_32",
+    "espanol": "abrir algo",
+    "deutsch": "etw. öffnen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 163,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_01",
+    "espanol": "¡Por fin!",
+    "deutsch": "Endlich!",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_02",
+    "espanol": "la llave",
+    "deutsch": "der Schlüssel",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_03",
+    "espanol": "encima de",
+    "deutsch": "auf, über",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_04",
+    "espanol": "debajo de",
+    "deutsch": "unter",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_05",
+    "espanol": "delante de",
+    "deutsch": "vor",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_06",
+    "espanol": "detrás de",
+    "deutsch": "hinter",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_07",
+    "espanol": "al lado de",
+    "deutsch": "neben",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_08",
+    "espanol": "entre",
+    "deutsch": "zwischen",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Texto B",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_09",
+    "espanol": "el balcón",
+    "deutsch": "der Balkon",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_10",
+    "espanol": "el jardín",
+    "deutsch": "der Garten",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_11",
+    "espanol": "la terraza",
+    "deutsch": "die Terrasse",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_12",
+    "espanol": "el pasillo",
+    "deutsch": "der Flur",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_13",
+    "espanol": "la entrada",
+    "deutsch": "der Eingang",
+    "modulo": "Unidad 2",
+    "unidad": "Unidad 2 | Palabrateca",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_14",
+    "espanol": "la agenda",
+    "deutsch": "der Terminkalender",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_15",
+    "espanol": "los meses del año",
+    "deutsch": "die Monate des Jahres",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_16",
+    "espanol": "enero",
+    "deutsch": "Januar",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_17",
+    "espanol": "febrero",
+    "deutsch": "Februar",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_18",
+    "espanol": "marzo",
+    "deutsch": "März",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_19",
+    "espanol": "abril",
+    "deutsch": "April",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_20",
+    "espanol": "mayo",
+    "deutsch": "Mai",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_21",
+    "espanol": "junio",
+    "deutsch": "Juni",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_22",
+    "espanol": "julio",
+    "deutsch": "Juli",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_23",
+    "espanol": "agosto",
+    "deutsch": "August",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_24",
+    "espanol": "septiembre",
+    "deutsch": "September",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_25",
+    "espanol": "octubre",
+    "deutsch": "Oktober",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_26",
+    "espanol": "noviembre",
+    "deutsch": "November",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_27",
+    "espanol": "diciembre",
+    "deutsch": "Dezember",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_28",
+    "espanol": "la fecha",
+    "deutsch": "das Datum",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_29",
+    "espanol": "los días de la semana",
+    "deutsch": "die Wochentage",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_30",
+    "espanol": "el lunes",
+    "deutsch": "(am) Montag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_31",
+    "espanol": "el martes",
+    "deutsch": "(am) Dienstag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_32",
+    "espanol": "el miércoles",
+    "deutsch": "(am) Mittwoch",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_33",
+    "espanol": "el jueves",
+    "deutsch": "(am) Donnerstag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_34",
+    "espanol": "el viernes",
+    "deutsch": "(am) Freitag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_35",
+    "espanol": "el sábado",
+    "deutsch": "(am) Samstag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_36",
+    "espanol": "el domingo",
+    "deutsch": "(am) Sonntag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_37",
+    "espanol": "el cumpleaños (= el cumple fam.)",
+    "deutsch": "der Geburtstag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_38",
+    "espanol": "la nota",
+    "deutsch": "hier: die Notiz; die Schulnote",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_39",
+    "espanol": "olvidar algo",
+    "deutsch": "etw. vergessen",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": "Siempre olvido mis libros en casa."
+  },
+  {
+    "id": "v_164_40",
+    "espanol": "comprar algo",
+    "deutsch": "etw. kaufen",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": "¿Qué regalo compramos?"
+  },
+  {
+    "id": "v_164_41",
+    "espanol": "el regalo",
+    "deutsch": "das Geschenk",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_42",
+    "espanol": "la semana",
+    "deutsch": "die Woche",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_43",
+    "espanol": "el fin de semana (= el finde fam.)",
+    "deutsch": "das Wochenende",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_164_44",
+    "espanol": "hacer un pícnic",
+    "deutsch": "picknicken",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 164,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_01",
+    "espanol": "el pícnic",
+    "deutsch": "das Picknick",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_02",
+    "espanol": "¿Cuándo es tu cumpleaños?",
+    "deutsch": "Wann hast du Geburtstag?",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_03",
+    "espanol": "¿cuándo?",
+    "deutsch": "wann?",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_04",
+    "espanol": "Mi cumpleaños es en + mes.",
+    "deutsch": "Ich habe im + Monat Geburtstag.",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "Mi cumpleaños es en enero."
+  },
+  {
+    "id": "v_165_05",
+    "espanol": "Mi cumpleaños es el + fecha.",
+    "deutsch": "Ich habe am + Datum Geburtstag.",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "Mi cumple es el 30 de enero."
+  },
+  {
+    "id": "v_165_06",
+    "espanol": "ya",
+    "deutsch": "schon",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "¿Ya es jueves?"
+  },
+  {
+    "id": "v_165_07",
+    "espanol": "cumplir... años",
+    "deutsch": "... Jahre alt werden",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "En marzo cumplo 14 años."
+  },
+  {
+    "id": "v_165_08",
+    "espanol": "¿verdad?",
+    "deutsch": "nicht wahr?, stimmt's?",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "Hoy es martes, ¿verdad?"
+  },
+  {
+    "id": "v_165_09",
+    "espanol": "la fiesta",
+    "deutsch": "die Party, die Feier",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "Pau hace una fiesta el sábado."
+  },
+  {
+    "id": "v_165_10",
+    "espanol": "¿Qué día es hoy?",
+    "deutsch": "Welcher Tag ist heute?",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "¿Qué día es?"
+  },
+  {
+    "id": "v_165_11",
+    "espanol": "el día",
+    "deutsch": "der Tag",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_12",
+    "espanol": "¿por qué?",
+    "deutsch": "warum?",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "¿Por qué siempre discutís?"
+  },
+  {
+    "id": "v_165_13",
+    "espanol": "vale",
+    "deutsch": "einverstanden, ok",
+    "modulo": "Módulo 2",
+    "unidad": "Módulo 2",
+    "seite": 165,
+    "beispiel": "Ah, vale. Gracias."
+  },
+  {
+    "id": "v_165_14",
+    "espanol": "la familia",
+    "deutsch": "die Familie",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_15",
+    "espanol": "este/esta",
+    "deutsch": "dieser/diese/dieses sg.",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_16",
+    "espanol": "estos/estas",
+    "deutsch": "diese pl.",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": "Estos son mis abuelos."
+  },
+  {
+    "id": "v_165_17",
+    "espanol": "los abuelos",
+    "deutsch": "die Großeltern",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_18",
+    "espanol": "el abuelo",
+    "deutsch": "der Großvater, Opa",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_19",
+    "espanol": "la abuela",
+    "deutsch": "die Großmutter, Oma",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_20",
+    "espanol": "el/la primo/-a",
+    "deutsch": "der/die Cousin/e",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_21",
+    "espanol": "los hijos, las hijas",
+    "deutsch": "die Kinder (die Kinder einer Person)",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": "Estos son los hijos de mi tía."
+  },
+  {
+    "id": "v_165_22",
+    "espanol": "el padre",
+    "deutsch": "der Vater",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_23",
+    "espanol": "la pareja (de alguien)",
+    "deutsch": "der/die Partner/-in (von jdm)",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_24",
+    "espanol": "la madre",
+    "deutsch": "die Mutter",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_25",
+    "espanol": "los padres",
+    "deutsch": "die Eltern",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": "Estos son mis padres."
+  },
+  {
+    "id": "v_165_26",
+    "espanol": "los hermanos",
+    "deutsch": "die Geschwister",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_27",
+    "espanol": "el hijo",
+    "deutsch": "der Sohn",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_28",
+    "espanol": "la hija",
+    "deutsch": "die Tochter",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_29",
+    "espanol": "el tío",
+    "deutsch": "der Onkel",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_165_30",
+    "espanol": "la tía",
+    "deutsch": "die Tante",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 165,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_01",
+    "espanol": "la mascota",
+    "deutsch": "das Haustier",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Vocabulario",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_02",
+    "espanol": "el sobrino",
+    "deutsch": "der Neffe",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_03",
+    "espanol": "la sobrina",
+    "deutsch": "die Nichte",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_04",
+    "espanol": "el nieto",
+    "deutsch": "der Enkel",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_05",
+    "espanol": "la nieta",
+    "deutsch": "die Enkelin",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_06",
+    "espanol": "los gemelos, las gemelas",
+    "deutsch": "die eineiigen Zwillinge",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_07",
+    "espanol": "los mellizos, las mellizas",
+    "deutsch": "die zweieiigen Zwillinge",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_08",
+    "espanol": "los bisabuelos",
+    "deutsch": "die Urgroßeltern",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_09",
+    "espanol": "el padrastro",
+    "deutsch": "der Stiefvater",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_10",
+    "espanol": "la madrastra",
+    "deutsch": "die Stiefmutter",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_11",
+    "espanol": "el hermanastro",
+    "deutsch": "der Stiefbruder",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_12",
+    "espanol": "la hermanastra",
+    "deutsch": "die Stiefschwester",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_13",
+    "espanol": "importante",
+    "deutsch": "wichtig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_14",
+    "espanol": "para ti",
+    "deutsch": "für dich",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_15",
+    "espanol": "la Curiosa",
+    "deutsch": "die Neugierige (hier der Name einer Influencerin)",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_16",
+    "espanol": "la calle",
+    "deutsch": "die Straße",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_17",
+    "espanol": "hacer entrevistas",
+    "deutsch": "Interviews führen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_18",
+    "espanol": "la entrevista",
+    "deutsch": "das Interview",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_19",
+    "espanol": "tener algo (e → ie)",
+    "deutsch": "etw. haben",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": "¿Tienes un momento?"
+  },
+  {
+    "id": "v_166_20",
+    "espanol": "el momento",
+    "deutsch": "der Moment",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_21",
+    "espanol": "¡Hala!",
+    "deutsch": "Na so was! (Ausdruck des Erstaunens)",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_22",
+    "espanol": "el Internet",
+    "deutsch": "das Internet",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_23",
+    "espanol": "para mí",
+    "deutsch": "für mich",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_24",
+    "espanol": "porque",
+    "deutsch": "weil",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_25",
+    "espanol": "majo/-a fam.",
+    "deutsch": "nett, sympathisch",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": "Mi amigo es majo."
+  },
+  {
+    "id": "v_166_26",
+    "espanol": "el problema m.",
+    "deutsch": "das Problem",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_27",
+    "espanol": "divertido/-a",
+    "deutsch": "lustig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": "Mi madre es muy divertida."
+  },
+  {
+    "id": "v_166_28",
+    "espanol": "tu, tus",
+    "deutsch": "dein, deine sg., deine pl.",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_29",
+    "espanol": "grande",
+    "deutsch": "groß",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_30",
+    "espanol": "sobre todo",
+    "deutsch": "vor allem",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_31",
+    "espanol": "el tiempo",
+    "deutsch": "die Zeit",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_32",
+    "espanol": "aburrido/-a",
+    "deutsch": "langweilig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_33",
+    "espanol": "además",
+    "deutsch": "außerdem",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": "Además, mi tía es muy divertida."
+  },
+  {
+    "id": "v_166_34",
+    "espanol": "ser pesado/-a con algo",
+    "deutsch": "mit etwas nerven",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_166_35",
+    "espanol": "pesado/-a",
+    "deutsch": "nervig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": "Mi hermano es un poco pesado."
+  },
+  {
+    "id": "v_166_36",
+    "espanol": "como",
+    "deutsch": "wie",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 166,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_01",
+    "espanol": "bastante",
+    "deutsch": "ziemlich",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": "Mi familia es bastante grande."
+  },
+  {
+    "id": "v_167_02",
+    "espanol": "pequeño/-a",
+    "deutsch": "klein",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_03",
+    "espanol": "por eso",
+    "deutsch": "deshalb, deswegen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_04",
+    "espanol": "inteligente",
+    "deutsch": "intelligent, klug",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_05",
+    "espanol": "simpático/-a",
+    "deutsch": "sympathisch",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_06",
+    "espanol": "interesante",
+    "deutsch": "interessant",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_07",
+    "espanol": "su, sus",
+    "deutsch": "ihr, ihre sg., ihre pl., sein, seine sg., seine pl.",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_08",
+    "espanol": "el chiste",
+    "deutsch": "der Witz",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": "Los chistes de Nora son malos."
+  },
+  {
+    "id": "v_167_09",
+    "espanol": "malo/-a",
+    "deutsch": "schlecht",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto A",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_10",
+    "espanol": "tranquilo/-a",
+    "deutsch": "ruhig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_11",
+    "espanol": "cariñoso/-a",
+    "deutsch": "liebevoll, zärtlich",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_12",
+    "espanol": "despistado/-a",
+    "deutsch": "zerstreut, schusselig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_13",
+    "espanol": "gracioso/-a",
+    "deutsch": "witzig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_14",
+    "espanol": "mono/-a",
+    "deutsch": "niedlich",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_15",
+    "espanol": "generoso/-a",
+    "deutsch": "großzügig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_16",
+    "espanol": "tímido/-a",
+    "deutsch": "schüchtern",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_17",
+    "espanol": "terco/-a",
+    "deutsch": "stur",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - La familia",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_18",
+    "espanol": "las tareas del hogar",
+    "deutsch": "die Aufgaben im Haushalt",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_19",
+    "espanol": "la tarea",
+    "deutsch": "die Aufgabe",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_20",
+    "espanol": "difícil",
+    "deutsch": "schwer, schwierig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_21",
+    "espanol": "cocinar",
+    "deutsch": "kochen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_22",
+    "espanol": "hacer la compra",
+    "deutsch": "einkaufen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_23",
+    "espanol": "la compra",
+    "deutsch": "der Einkauf",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_24",
+    "espanol": "limpiar (algo)",
+    "deutsch": "putzen, sauber machen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": "Yo limpio el baño y tú haces la compra, ¿vale?"
+  },
+  {
+    "id": "v_167_25",
+    "espanol": "ayudar con algo",
+    "deutsch": "bei etw. helfen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_26",
+    "espanol": "fácil",
+    "deutsch": "einfach, leicht",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_27",
+    "espanol": "sacar la basura",
+    "deutsch": "den Müll rausbringen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_28",
+    "espanol": "la basura",
+    "deutsch": "der Abfall, Müll",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_29",
+    "espanol": "tener que + inf. (e → ie)",
+    "deutsch": "etw. tun müssen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": "Tengo que hacer la compra hoy."
+  },
+  {
+    "id": "v_167_30",
+    "espanol": "trabajar",
+    "deutsch": "arbeiten",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": "Mis padres trabajan en una oficina."
+  },
+  {
+    "id": "v_167_31",
+    "espanol": "(hacer algo) solo/-a",
+    "deutsch": "(etw.) alleine (machen)",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": "Hoy hago la compra sola."
+  },
+  {
+    "id": "v_167_32",
+    "espanol": "la lista",
+    "deutsch": "die Liste",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_33",
+    "espanol": "ordenar algo",
+    "deutsch": "etw. aufräumen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": "Tengo que ordenar mi habitación."
+  },
+  {
+    "id": "v_167_34",
+    "espanol": "la ensalada",
+    "deutsch": "der Salat",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_167_35",
+    "espanol": "el timbre",
+    "deutsch": "die Klingel",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 167,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_01",
+    "espanol": "de... años",
+    "deutsch": "... Jahre alte/-r",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": "Adrián es su primo de seis años."
+  },
+  {
+    "id": "v_168_02",
+    "espanol": "solucionar un problema",
+    "deutsch": "ein Problem lösen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_03",
+    "espanol": "la oficina",
+    "deutsch": "das Büro",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_04",
+    "espanol": "la hora",
+    "deutsch": "die Stunde",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_05",
+    "espanol": "¡Tranquilo/-a!",
+    "deutsch": "Alles gut! Kein Problem! wörtlich: ruhig",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_06",
+    "espanol": "el/la niño/-a",
+    "deutsch": "das Kind",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": "La niña discute con su padre."
+  },
+  {
+    "id": "v_168_07",
+    "espanol": "necesitar algo",
+    "deutsch": "brauchen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": "Solo necesito mis libros."
+  },
+  {
+    "id": "v_168_08",
+    "espanol": "entrar (en)",
+    "deutsch": "eintreten, hereinkommen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_09",
+    "espanol": "el castillo",
+    "deutsch": "das Schloss",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Texto B",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_10",
+    "espanol": "lavar los platos",
+    "deutsch": "Geschirr spülen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_11",
+    "espanol": "planchar la ropa",
+    "deutsch": "die Kleidung bügeln",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_12",
+    "espanol": "poner la mesa",
+    "deutsch": "den Tisch decken",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_13",
+    "espanol": "trabajar en el jardín",
+    "deutsch": "im Garten arbeiten",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_14",
+    "espanol": "pasear el perro",
+    "deutsch": "den Hund rausbringen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_15",
+    "espanol": "lavar la ropa",
+    "deutsch": "Wäsche waschen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_16",
+    "espanol": "pasar la aspiradora",
+    "deutsch": "Staub saugen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_17",
+    "espanol": "hacer las camas",
+    "deutsch": "die Betten machen",
+    "modulo": "Unidad 3",
+    "unidad": "Unidad 3 | Palabrateca - Las tareas del hogar",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_18",
+    "espanol": "¿Qué hora es?",
+    "deutsch": "Wie spät ist es?",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_19",
+    "espanol": "la hora",
+    "deutsch": "die Uhrzeit",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_20",
+    "espanol": "la invitación, las invitaciones pl.",
+    "deutsch": "die Einladung",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_21",
+    "espanol": "Año Nuevo",
+    "deutsch": "das Neujahr",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_22",
+    "espanol": "mañana",
+    "deutsch": "morgen",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_23",
+    "espanol": "a las + hora",
+    "deutsch": "um + Uhrzeit",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": "Quedamos a las cinco (en casa)."
+  },
+  {
+    "id": "v_168_24",
+    "espanol": "a la una",
+    "deutsch": "um ein/dreizehn Uhr",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_25",
+    "espanol": "el lugar",
+    "deutsch": "der Ort, die Stelle",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_26",
+    "espanol": "¿A qué hora?",
+    "deutsch": "Um wieviel Uhr?, Wann?",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": ""
+  },
+  {
+    "id": "v_168_27",
+    "espanol": "empezar (e → ie)",
+    "deutsch": "beginnen, anfangen",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": "¿A qué hora empieza la fiesta?"
+  },
+  {
+    "id": "v_168_28",
+    "espanol": "el reloj",
+    "deutsch": "die Uhr",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": "¿Qué hora es en tu reloj?"
+  },
+  {
+    "id": "v_168_29",
+    "espanol": "son las + hora",
+    "deutsch": "es ist + Uhrzeit",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": "Son las tres y media."
+  },
+  {
+    "id": "v_168_30",
+    "espanol": "faltar",
+    "deutsch": "fehlen",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 168,
+    "beispiel": "Faltan cinco minutos."
+  },
+  {
+    "id": "v_169_01",
+    "espanol": "Es la una.",
+    "deutsch": "Es ist ein/dreizehn Uhr.",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": "-¿Qué hora es? -Es la una."
+  },
+  {
+    "id": "v_169_02",
+    "espanol": "en punto",
+    "deutsch": "Punkt (Uhr), genau",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_03",
+    "espanol": "y cuarto",
+    "deutsch": "Viertel nach",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_04",
+    "espanol": "y media",
+    "deutsch": "halb",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_05",
+    "espanol": "menos cuarto",
+    "deutsch": "Viertel vor",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_06",
+    "espanol": "el minuto",
+    "deutsch": "die Minute",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": "Tenéis cinco minutos."
+  },
+  {
+    "id": "v_169_07",
+    "espanol": "la madrugada",
+    "deutsch": "das Morgengrauen, der frühe Morgen",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_08",
+    "espanol": "la mañana",
+    "deutsch": "der Morgen, der Vormittag",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_09",
+    "espanol": "la tarde",
+    "deutsch": "der Nachmittag, der frühe Abend",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_10",
+    "espanol": "la noche",
+    "deutsch": "der Abend, die Nacht",
+    "modulo": "Módulo 3",
+    "unidad": "Módulo 3",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_11",
+    "espanol": "el día a día",
+    "deutsch": "der Alltag",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_12",
+    "espanol": "el horario",
+    "deutsch": "der Stundenplan",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_13",
+    "espanol": "Alemán",
+    "deutsch": "Deutsch",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_14",
+    "espanol": "Educación Física",
+    "deutsch": "Sport",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_15",
+    "espanol": "Educación Plástica y Visual",
+    "deutsch": "Kunst",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_16",
+    "espanol": "Física y Química",
+    "deutsch": "Physik und Chemie",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_17",
+    "espanol": "Geografía e Historia",
+    "deutsch": "Geografie und Geschichte",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_18",
+    "espanol": "Inglés",
+    "deutsch": "Englisch",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_19",
+    "espanol": "Lengua (Castellana y Literatura)",
+    "deutsch": "Spanisch",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_20",
+    "espanol": "Matemáticas (Mates fam.)",
+    "deutsch": "Mathematik",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_21",
+    "espanol": "Música",
+    "deutsch": "Musik",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_22",
+    "espanol": "Religión/Valores Éticos",
+    "deutsch": "Religion/Ethik",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_23",
+    "espanol": "Tutoría",
+    "deutsch": "Klassenleitungsstunde",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_24",
+    "espanol": "Tecnología y Digitalización/Informática",
+    "deutsch": "Informatik",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_25",
+    "espanol": "2° de ESO",
+    "deutsch": "die 8. Klasse",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_26",
+    "espanol": "la ESO (= Educación Secundaria Obligatoria)",
+    "deutsch": "die Sekundarstufe I",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_27",
+    "espanol": "el aula de Música",
+    "deutsch": "der Musikraum",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_28",
+    "espanol": "el recreo",
+    "deutsch": "die (Hof-)Pause",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_29",
+    "espanol": "el laboratorio",
+    "deutsch": "das Labor",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_30",
+    "espanol": "el aula de Informática",
+    "deutsch": "der Informatikraum",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_31",
+    "espanol": "el comedor",
+    "deutsch": "die Kantine",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_32",
+    "espanol": "el taller",
+    "deutsch": "das Atelier, die Werkstatt",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_169_33",
+    "espanol": "el gimnasio",
+    "deutsch": "die Sporthalle, Turnhalle",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 169,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_01",
+    "espanol": "el gimnasio",
+    "deutsch": "die Sporthalle",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_02",
+    "espanol": "el instituto",
+    "deutsch": "das Gymnasium",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_03",
+    "espanol": "el lunes",
+    "deutsch": "der Montag / am Montag",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_04",
+    "espanol": "los lunes",
+    "deutsch": "montags / jeden Montag",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_05",
+    "espanol": "desde las... hasta las...",
+    "deutsch": "von ... bis ... (Uhrzeit)",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_06",
+    "espanol": "... (no) es mi fuerte",
+    "deutsch": "... ist (nicht) meine Stärke",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Vocabulario",
+    "seite": 170,
+    "beispiel": "Mates es mi fuerte."
+  },
+  {
+    "id": "v_170_07",
+    "espanol": "el chat",
+    "deutsch": "der Chat",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_08",
+    "espanol": "ya no",
+    "deutsch": "nicht mehr",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_09",
+    "espanol": "tener ganas (de algo) / + inf.",
+    "deutsch": "Lust auf etw. haben; Lust haben, etw. zu tun",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": "Tengo ganas de comer helado."
+  },
+  {
+    "id": "v_170_10",
+    "espanol": "chatear",
+    "deutsch": "chatten",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_11",
+    "espanol": "¡Es verdad!",
+    "deutsch": "Das stimmt.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_12",
+    "espanol": "¿Qué tal + sust.?",
+    "deutsch": "Wie ist + S.?",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": "¿Qué tal el examen?"
+  },
+  {
+    "id": "v_170_13",
+    "espanol": "la gente",
+    "deutsch": "die Leute",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": "La gente aquí es maja."
+  },
+  {
+    "id": "v_170_14",
+    "espanol": "Lo siento.",
+    "deutsch": "Es tut mir leid.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_15",
+    "espanol": "el examen",
+    "deutsch": "die Klassenarbeit, Prüfung",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_16",
+    "espanol": "como siempre",
+    "deutsch": "wie immer",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_17",
+    "espanol": "tener dificultad/es con algo / + inf.",
+    "deutsch": "Schwierigkeiten mit etw. / + Inf. haben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_18",
+    "espanol": "vuestro/-a, vuestros/-as",
+    "deutsch": "euer, eure",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_19",
+    "espanol": "el año (escolar)",
+    "deutsch": "das (Schul-)Jahr",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_20",
+    "espanol": "nuestro/-a, nuestros/-as",
+    "deutsch": "unser, unsere",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_21",
+    "espanol": "el/la tutor/a",
+    "deutsch": "der/die Klassenlehrer/-in",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_22",
+    "espanol": "nuevo/-a",
+    "deutsch": "neu",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_23",
+    "espanol": "estricto/-a",
+    "deutsch": "streng",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_24",
+    "espanol": "¡Qué rollo!",
+    "deutsch": "Wie nervig!",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_25",
+    "espanol": "un poco",
+    "deutsch": "ein bisschen",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_26",
+    "espanol": "tener suerte",
+    "deutsch": "Glück haben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": "Tengo suerte con mis profes."
+  },
+  {
+    "id": "v_170_27",
+    "espanol": "la suerte",
+    "deutsch": "das Glück",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_28",
+    "espanol": "su, sus",
+    "deutsch": "ihre Pl.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_29",
+    "espanol": "tener clase",
+    "deutsch": "Unterricht haben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_170_30",
+    "espanol": "salir",
+    "deutsch": "(hinaus)gehen, ausgehen",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 170,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_01",
+    "espanol": "tener tiempo",
+    "deutsch": "Zeit haben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_02",
+    "espanol": "el día favorito",
+    "deutsch": "der Lieblingstag",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_03",
+    "espanol": "el grupo de teatro",
+    "deutsch": "die Theatergruppe",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_04",
+    "espanol": "el grupo",
+    "deutsch": "die Gruppe",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_05",
+    "espanol": "el teatro",
+    "deutsch": "das Theater",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_06",
+    "espanol": "cerca (de algo)",
+    "deutsch": "in der Nähe (von etw.)",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": "Mis abuelos viven cerca del insti."
+  },
+  {
+    "id": "v_171_07",
+    "espanol": "me levanto",
+    "deutsch": "ich stehe auf",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_08",
+    "espanol": "tarde adj.",
+    "deutsch": "spät",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_09",
+    "espanol": "moderno/-a",
+    "deutsch": "modern",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_10",
+    "espanol": "¡Qué guay!",
+    "deutsch": "Wie cool!",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_11",
+    "espanol": "el/la compañero/-a",
+    "deutsch": "der Mitschüler, die Mitschülerin",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_12",
+    "espanol": "hacer deporte",
+    "deutsch": "Sport machen/treiben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_13",
+    "espanol": "el deporte",
+    "deutsch": "der Sport",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_14",
+    "espanol": "la serie",
+    "deutsch": "die TV-Serie",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto A",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_15",
+    "espanol": "el trabajo en grupo",
+    "deutsch": "die Gruppenarbeit",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_16",
+    "espanol": "el trabajo",
+    "deutsch": "die Arbeit",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_17",
+    "espanol": "ese, esa",
+    "deutsch": "diese/dieser/dieses da",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_18",
+    "espanol": "preparar algo",
+    "deutsch": "etw. vorbereiten",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_19",
+    "espanol": "la presentación, las presentaciones pl.",
+    "deutsch": "der Vortrag, die Präsentation",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_20",
+    "espanol": "el proyecto de reciclaje",
+    "deutsch": "das Recyclingprojekt",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_21",
+    "espanol": "el proyecto",
+    "deutsch": "das Projekt",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_22",
+    "espanol": "el reciclaje",
+    "deutsch": "das Recycling",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_23",
+    "espanol": "organizar algo",
+    "deutsch": "etw. organisieren",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_24",
+    "espanol": "A ver...",
+    "deutsch": "Mal sehen ...",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_25",
+    "espanol": "¿cuánto/-a?",
+    "deutsch": "wie viel/e?",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": "¿Cuánto tiempo tenemos?"
+  },
+  {
+    "id": "v_171_26",
+    "espanol": "presentar algo",
+    "deutsch": "etw. präsentieren",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_27",
+    "espanol": "¡Venga!",
+    "deutsch": "Los!",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_28",
+    "espanol": "querer algo / + inf. (e → ie)",
+    "deutsch": "etw. wollen, etw. + Inf. wollen",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": "¿Quieres buscar fotos?"
+  },
+  {
+    "id": "v_171_29",
+    "espanol": "el sobresaliente",
+    "deutsch": "sehr gut Schulnote",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_30",
+    "espanol": "el texto",
+    "deutsch": "der Text",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": "El texto es bastante interesante."
+  },
+  {
+    "id": "v_171_31",
+    "espanol": "tener razón",
+    "deutsch": "Recht haben",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_171_32",
+    "espanol": "preferir + inf. (e → ie)",
+    "deutsch": "etw. lieber tun wollen",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 171,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_01",
+    "espanol": "De acuerdo.",
+    "deutsch": "Einverstanden.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_02",
+    "espanol": "Yo paso.",
+    "deutsch": "Ich passe.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "–¿Escribes el texto? –Yo paso."
+  },
+  {
+    "id": "v_172_03",
+    "espanol": "de nuevo",
+    "deutsch": "erneut",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_04",
+    "espanol": "¿Qué tal mañana?",
+    "deutsch": "Wie wäre es mit morgen?",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_05",
+    "espanol": "imposible",
+    "deutsch": "unmöglich",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_06",
+    "espanol": "Es que...",
+    "deutsch": "Es ist so, dass ...",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "Es que mañana no tengo tiempo."
+  },
+  {
+    "id": "v_172_07",
+    "espanol": "Esa es otra historia.",
+    "deutsch": "Das ist eine andere Geschichte.",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_08",
+    "espanol": "la historia",
+    "deutsch": "die Geschichte",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "Es una historia muy divertida."
+  },
+  {
+    "id": "v_172_09",
+    "espanol": "Oye, ...",
+    "deutsch": "Hör mal, ...",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "Oye, ¿qué haces mañana?"
+  },
+  {
+    "id": "v_172_10",
+    "espanol": "¿con quién?",
+    "deutsch": "mit wem?",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "¿Con quién quedas mañana?"
+  },
+  {
+    "id": "v_172_11",
+    "espanol": "la cita",
+    "deutsch": "die Verabredung, auch: der Termin",
+    "modulo": "Unidad 4",
+    "unidad": "Unidad 4 | Texto B",
+    "seite": 172,
+    "beispiel": "Tengo una cita con mi amiga."
+  },
+  {
+    "id": "v_172_12",
+    "espanol": "¿Qué te gusta hacer?",
+    "deutsch": "Was machst du gerne?",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": "¿Qué te gusta hacer el fin de semana?"
+  },
+  {
+    "id": "v_172_13",
+    "espanol": "gustar + inf./sust.",
+    "deutsch": "gefallen, mögen, gerne tun",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_14",
+    "espanol": "te gusta/n",
+    "deutsch": "dir gefällt/gefallen",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": "¿Te gusta el programa?"
+  },
+  {
+    "id": "v_172_15",
+    "espanol": "el centro juvenil",
+    "deutsch": "der Jugendclub",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_16",
+    "espanol": "el programa m.",
+    "deutsch": "das Programm",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_17",
+    "espanol": "la actividad",
+    "deutsch": "die Aktivität",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_18",
+    "espanol": "el tiempo libre",
+    "deutsch": "die Freizeit",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": "¿Qué haces en tu tiempo libre?"
+  },
+  {
+    "id": "v_172_19",
+    "espanol": "libre",
+    "deutsch": "frei",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_20",
+    "espanol": "el curso",
+    "deutsch": "der Kurs",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_21",
+    "espanol": "probar (o → ue) algo",
+    "deutsch": "etw. probieren, testen",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": "Me gusta probar recetas."
+  },
+  {
+    "id": "v_172_22",
+    "espanol": "la receta",
+    "deutsch": "das Rezept",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_23",
+    "espanol": "experimentar (con algo)",
+    "deutsch": "(mit etw.) experimentieren, (etw.) ausprobieren",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_24",
+    "espanol": "el ingrediente",
+    "deutsch": "die Zutat",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_25",
+    "espanol": "más + sust.",
+    "deutsch": "mehr + S.",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_26",
+    "espanol": "la naturaleza",
+    "deutsch": "die Natur",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_27",
+    "espanol": "el animal",
+    "deutsch": "das Tier",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_28",
+    "espanol": "la programación",
+    "deutsch": "die Programmierung",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_29",
+    "espanol": "la tecnología",
+    "deutsch": "die Technologie",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_30",
+    "espanol": "el fútbol",
+    "deutsch": "der Fußball Sportart",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_31",
+    "espanol": "el pádel",
+    "deutsch": "das Padel Sportart",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": ""
+  },
+  {
+    "id": "v_172_32",
+    "espanol": "a mí",
+    "deutsch": "mir",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 172,
+    "beispiel": "A mí me gusta cocinar."
+  },
+  {
+    "id": "v_173_01",
+    "espanol": "a mí no",
+    "deutsch": "mir nicht",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_02",
+    "espanol": "a mí tampoco",
+    "deutsch": "mir auch nicht",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_03",
+    "espanol": "a ti",
+    "deutsch": "dir",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": "¿Y qué te gusta a ti?"
+  },
+  {
+    "id": "v_173_04",
+    "espanol": "a mí sí",
+    "deutsch": "mir schon",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_05",
+    "espanol": "me gusta/n",
+    "deutsch": "mir gefällt/gefallen",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": "Me gusta el deporte."
+  },
+  {
+    "id": "v_173_06",
+    "espanol": "participar en algo",
+    "deutsch": "an etw. teilnehmen",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_07",
+    "espanol": "el taller",
+    "deutsch": "der Workshop",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_08",
+    "espanol": "le gusta/n",
+    "deutsch": "ihm/ihr gefällt/gefallen",
+    "modulo": "Módulo 4",
+    "unidad": "Módulo 4",
+    "seite": 173,
+    "beispiel": "A Pau le gustan los mangas."
+  },
+  {
+    "id": "v_173_09",
+    "espanol": "jugar al baloncesto",
+    "deutsch": "Basketball spielen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_10",
+    "espanol": "jugar al voleibol",
+    "deutsch": "Volleyball spielen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_11",
+    "espanol": "tocar la flauta",
+    "deutsch": "Flöte spielen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_12",
+    "espanol": "tocar la batería",
+    "deutsch": "Schlagzeug spielen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_13",
+    "espanol": "tocar el piano",
+    "deutsch": "Klavier spielen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_14",
+    "espanol": "cantar",
+    "deutsch": "singen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_15",
+    "espanol": "hacer parkour",
+    "deutsch": "Parkour machen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_16",
+    "espanol": "nadar",
+    "deutsch": "schwimmen",
+    "modulo": "Módulo 4",
+    "unidad": "Palabrateca – Actividades de tiempo libre",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_17",
+    "espanol": "el color",
+    "deutsch": "die Farbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_18",
+    "espanol": "la pandilla",
+    "deutsch": "die Clique",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_19",
+    "espanol": "el avatar",
+    "deutsch": "der Avatar",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_20",
+    "espanol": "alto/-a",
+    "deutsch": "groß Menschen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_21",
+    "espanol": "bajo/-a",
+    "deutsch": "klein Menschen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_22",
+    "espanol": "el pelo",
+    "deutsch": "das Haar, die Haare",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": "Mi tía tiene el pelo corto."
+  },
+  {
+    "id": "v_173_23",
+    "espanol": "liso/-a",
+    "deutsch": "glatt",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": "Tengo el pelo liso."
+  },
+  {
+    "id": "v_173_24",
+    "espanol": "rizado/-a",
+    "deutsch": "lockig",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_25",
+    "espanol": "largo/-a",
+    "deutsch": "lang",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_26",
+    "espanol": "corto/-a",
+    "deutsch": "kurz",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_27",
+    "espanol": "rubio/-a",
+    "deutsch": "blond",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_28",
+    "espanol": "castaño/-a",
+    "deutsch": "braun Haarfarbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_29",
+    "espanol": "negro/-a",
+    "deutsch": "schwarz Farbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_30",
+    "espanol": "ser pelirrojo/-a",
+    "deutsch": "rothaarig sein",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_31",
+    "espanol": "el ojo",
+    "deutsch": "das Auge",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_173_32",
+    "espanol": "verde",
+    "deutsch": "grün Farbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 173,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_01",
+    "espanol": "azul",
+    "deutsch": "blau Farbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_02",
+    "espanol": "marrón",
+    "deutsch": "braun Farbe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_03",
+    "espanol": "llevar algo",
+    "deutsch": "etw. tragen Kleidung",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": "Llevo gafas y una gorra."
+  },
+  {
+    "id": "v_174_04",
+    "espanol": "las gafas",
+    "deutsch": "die Brille",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_05",
+    "espanol": "el aparato de dientes",
+    "deutsch": "die Zahnspange",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_06",
+    "espanol": "la gorra",
+    "deutsch": "das Basecap, die Mütze",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_07",
+    "espanol": "el gorro",
+    "deutsch": "die (Woll-)Mütze",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_08",
+    "espanol": "la bufanda",
+    "deutsch": "der Schal",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_09",
+    "espanol": "los pendientes",
+    "deutsch": "die Ohrringe",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_10",
+    "espanol": "el lunar",
+    "deutsch": "der Leberfleck",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_11",
+    "espanol": "las pecas",
+    "deutsch": "die Sommersprossen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": "Me gustan tus pecas."
+  },
+  {
+    "id": "v_174_12",
+    "espanol": "¿cuál?, ¿cuáles?",
+    "deutsch": "welcher, welche, welches",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": "¿Cuál es tu avatar?"
+  },
+  {
+    "id": "v_174_13",
+    "espanol": "que",
+    "deutsch": "der, die, das Relativpronomen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": "Pau es el chico que lee un cómic."
+  },
+  {
+    "id": "v_174_14",
+    "espanol": "bonito/-a",
+    "deutsch": "hübsch",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_15",
+    "espanol": "feo/-a",
+    "deutsch": "hässlich",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Vocabulario",
+    "seite": 174,
+    "beispiel": "Este gorro es feo."
+  },
+  {
+    "id": "v_174_16",
+    "espanol": "tener el pelo verde",
+    "deutsch": "grüne Haare haben",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_17",
+    "espanol": "tener un flequillo",
+    "deutsch": "ein Pony tragen",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_18",
+    "espanol": "tener rastas",
+    "deutsch": "Dreadlocks tragen",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_19",
+    "espanol": "llevar trenza",
+    "deutsch": "einen Zopf haben",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_20",
+    "espanol": "llevar gafas de sol",
+    "deutsch": "eine Sonnenbrille tragen",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_21",
+    "espanol": "llevar un pañuelo",
+    "deutsch": "ein Tuch tragen",
+    "modulo": "Unidad 5",
+    "unidad": "Palabrateca – Describir una persona",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_22",
+    "espanol": "especial",
+    "deutsch": "besonders",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_23",
+    "espanol": "el patrón, la patrona",
+    "deutsch": "der/die Schutzheilige, Schutzpatron/in",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_24",
+    "espanol": "las fiestas",
+    "deutsch": "die Feierlichkeiten",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_25",
+    "espanol": "el concierto",
+    "deutsch": "das Konzert",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_26",
+    "espanol": "el baile",
+    "deutsch": "der Tanz",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_27",
+    "espanol": "el juego",
+    "deutsch": "das Spiel",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_174_28",
+    "espanol": "poder (o → ue)",
+    "deutsch": "können",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": "No puedo ir, tengo que estudiar."
+  },
+  {
+    "id": "v_174_29",
+    "espanol": "ir (a + lugar)",
+    "deutsch": "gehen (zu, nach + Ort)",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 174,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_01",
+    "espanol": "¡Yo voy!",
+    "deutsch": "Ich komme mit!",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_02",
+    "espanol": "la cola",
+    "deutsch": "hier: die Warteschlange",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_03",
+    "espanol": "hacer cola",
+    "deutsch": "in der Warteschlange stehen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_04",
+    "espanol": "la idea",
+    "deutsch": "die Idee",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_05",
+    "espanol": "tradicional",
+    "deutsch": "traditionell",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_06",
+    "espanol": "No sé...",
+    "deutsch": "Ich weiß nicht...",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_07",
+    "espanol": "el dinero",
+    "deutsch": "das Geld",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_08",
+    "espanol": "la entrada",
+    "deutsch": "die Eintrittskarte",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_09",
+    "espanol": "gratis",
+    "deutsch": "kostenlos",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": "La entrada es gratis."
+  },
+  {
+    "id": "v_175_10",
+    "espanol": "¿adónde?",
+    "deutsch": "wohin?",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_11",
+    "espanol": "la caseta",
+    "deutsch": "der Stand, die Bude",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": "¿Compramos algo en la caseta?"
+  },
+  {
+    "id": "v_175_12",
+    "espanol": "unos, unas",
+    "deutsch": "ein paar",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": "¿Compramos unas rosquillas?"
+  },
+  {
+    "id": "v_175_13",
+    "espanol": "el hambre f.",
+    "deutsch": "der Hunger",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": "Tengo hambre."
+  },
+  {
+    "id": "v_175_14",
+    "espanol": "juntos/-as",
+    "deutsch": "zusammen, gemeinsam",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": "¿Estudiamos juntas?"
+  },
+  {
+    "id": "v_175_15",
+    "espanol": "al final",
+    "deutsch": "schließlich",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_16",
+    "espanol": "Fiesta de San Isidro",
+    "deutsch": "Fest in Madrid zu Ehren von San Isidro",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_17",
+    "espanol": "San Isidro",
+    "deutsch": "Schutzheiliger der Stadt Madrid",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_18",
+    "espanol": "Pradera de San Isidro",
+    "deutsch": "auch parque de San Isidro, Park in Madrid",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_19",
+    "espanol": "el chotis",
+    "deutsch": "Volkstanz aus Madrid",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_20",
+    "espanol": "las rosquillas",
+    "deutsch": "ringförmiges Gebäck",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_21",
+    "espanol": "Aitana Ocaña Morales",
+    "deutsch": "spanische Sängerin",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto A",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_22",
+    "espanol": "el tipo",
+    "deutsch": "der Typ",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_23",
+    "espanol": "encontrar algo/a alguien (o → ue)",
+    "deutsch": "etw./jdn finden",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_24",
+    "espanol": "mucho/-a",
+    "deutsch": "viel, viele",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_25",
+    "espanol": "la persona",
+    "deutsch": "die Person",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_26",
+    "espanol": "el/la líder m./f.",
+    "deutsch": "der/die Anführer/-in",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_27",
+    "espanol": "popular",
+    "deutsch": "beliebt",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_28",
+    "espanol": "para + inf.",
+    "deutsch": "um, zu",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_29",
+    "espanol": "el plan",
+    "deutsch": "der Plan",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_30",
+    "espanol": "ideal",
+    "deutsch": "ideal",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_31",
+    "espanol": "cambiar de idea",
+    "deutsch": "seine Meinung ändern",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_175_32",
+    "espanol": "cabezota",
+    "deutsch": "stur, dickköpfig",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": "Eres muy cabezota."
+  },
+  {
+    "id": "v_175_33",
+    "espanol": "el/la listillo/-a",
+    "deutsch": "der/die Schlauberger/-in",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 175,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_01",
+    "espanol": "la mano f.",
+    "deutsch": "die Hand",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "Tienes manos grandes."
+  },
+  {
+    "id": "v_176_02",
+    "espanol": "poco/-a adj.",
+    "deutsch": "wenig, wenige",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_03",
+    "espanol": "explicar algo",
+    "deutsch": "etw. erklären",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_04",
+    "espanol": "informar a alguien",
+    "deutsch": "jdn informieren",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_05",
+    "espanol": "ayudar a alguien",
+    "deutsch": "jdm helfen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_06",
+    "espanol": "perfecto/-a",
+    "deutsch": "perfekt",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_07",
+    "espanol": "la solución, las soluciones pl.",
+    "deutsch": "die Lösung",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_08",
+    "espanol": "paciente",
+    "deutsch": "geduldig",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_09",
+    "espanol": "fiel",
+    "deutsch": "treu",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_10",
+    "espanol": "llamar a alguien",
+    "deutsch": "jdn (an)rufen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_11",
+    "espanol": "generoso/-a",
+    "deutsch": "großzügig",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_12",
+    "espanol": "estar allí para alguien",
+    "deutsch": "für jdn da sein",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_13",
+    "espanol": "la pelea",
+    "deutsch": "der Streit",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_14",
+    "espanol": "el conflicto",
+    "deutsch": "der Konflikt",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_15",
+    "espanol": "el/la despistado/-a",
+    "deutsch": "der/die Zerstreute",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_16",
+    "espanol": "llegar (a)",
+    "deutsch": "kommen, ankommen (in)",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "Pau siempre llega tarde."
+  },
+  {
+    "id": "v_176_17",
+    "espanol": "creativo/-a",
+    "deutsch": "kreativ",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_18",
+    "espanol": "el/la deportista m./f.",
+    "deutsch": "der/die Sportler/-in",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_19",
+    "espanol": "buscar a alguien",
+    "deutsch": "jdn suchen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "Álex busca a su hermana Lola."
+  },
+  {
+    "id": "v_176_20",
+    "espanol": "para jugar",
+    "deutsch": "um zu spielen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "Álex y Pau quedan para jugar al fútbol."
+  },
+  {
+    "id": "v_176_21",
+    "espanol": "la liga escolar",
+    "deutsch": "die Schulliga",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_22",
+    "espanol": "el resultado",
+    "deutsch": "das Ergebnis",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_23",
+    "espanol": "el partido",
+    "deutsch": "das Spiel (Sport)",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_24",
+    "espanol": "contar con alguien (o → ue)",
+    "deutsch": "auf jdn zählen",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "Siempre puedo contar con mi tío."
+  },
+  {
+    "id": "v_176_25",
+    "espanol": "el cinema (= el cine fam.)",
+    "deutsch": "das Kino",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_26",
+    "espanol": "la cualidad",
+    "deutsch": "die Eigenschaft",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_27",
+    "espanol": "el perfil",
+    "deutsch": "das Profil",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_28",
+    "espanol": "diferente",
+    "deutsch": "unterschiedlich, anders",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_29",
+    "espanol": "pensar (e → ie)",
+    "deutsch": "denken",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": "–¿Qué piensas? –No sé."
+  },
+  {
+    "id": "v_176_30",
+    "espanol": "el e-mail",
+    "deutsch": "die E-Mail",
+    "modulo": "Unidad 5",
+    "unidad": "Unidad 5 | Texto B",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_31",
+    "espanol": "de vacaciones",
+    "deutsch": "im Urlaub",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_32",
+    "espanol": "las vacaciones",
+    "deutsch": "die Ferien",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 176,
+    "beispiel": ""
+  },
+  {
+    "id": "v_176_33",
+    "espanol": "el final de curso",
+    "deutsch": "das Schuljahresende",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 176,
+    "beispiel": "Faltan dos días para el final de curso."
+  },
+  {
+    "id": "v_177_01",
+    "espanol": "el verano",
+    "deutsch": "der Sommer",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "¡Me encanta el verano!"
+  },
+  {
+    "id": "v_177_02",
+    "espanol": "ir a + inf.",
+    "deutsch": "etw. tun werden",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "Mañana voy a estudiar."
+  },
+  {
+    "id": "v_177_03",
+    "espanol": "el mes",
+    "deutsch": "der Monat",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_04",
+    "espanol": "el pueblo",
+    "deutsch": "das Dorf",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_05",
+    "espanol": "viajar (a)",
+    "deutsch": "reisen (nach)",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "Tengo ganas de viajar."
+  },
+  {
+    "id": "v_177_06",
+    "espanol": "visitar algo/a alguien",
+    "deutsch": "etw./jdn besuchen",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_07",
+    "espanol": "volver (o → ue)",
+    "deutsch": "zurückkommen, zurückkehren",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "¿Cuándo vuelves?"
+  },
+  {
+    "id": "v_177_08",
+    "espanol": "el campamento",
+    "deutsch": "das Ferienlager",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_09",
+    "espanol": "entender (e → ie) algo",
+    "deutsch": "etw. verstehen",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "Lo siento, no entiendo..."
+  },
+  {
+    "id": "v_177_10",
+    "espanol": "la situación, las situaciones pl.",
+    "deutsch": "die Lage, Situation",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_11",
+    "espanol": "el buzón, los buzones pl.",
+    "deutsch": "der Briefkasten",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_12",
+    "espanol": "la postal",
+    "deutsch": "die Postkarte",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "La postal es muy bonita, gracias."
+  },
+  {
+    "id": "v_177_13",
+    "espanol": "Querido/-a...",
+    "deutsch": "Liebe/-r ...",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_14",
+    "espanol": "casi",
+    "deutsch": "fast",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "Ya son casi las doce del mediodía."
+  },
+  {
+    "id": "v_177_15",
+    "espanol": "hace calor",
+    "deutsch": "es ist heiß",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_16",
+    "espanol": "hace buen tiempo",
+    "deutsch": "das Wetter ist gut",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_17",
+    "espanol": "la playa",
+    "deutsch": "der Strand",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "¡Vamos a la playa!"
+  },
+  {
+    "id": "v_177_18",
+    "espanol": "pasear (por)",
+    "deutsch": "spazieren gehen (in)",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": "¿Quieres pasear por el barrio?"
+  },
+  {
+    "id": "v_177_19",
+    "espanol": "el museo",
+    "deutsch": "das Museum",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_20",
+    "espanol": "la sorpresa",
+    "deutsch": "die Überraschung",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_21",
+    "espanol": "la semana que viene",
+    "deutsch": "nächste Woche",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_22",
+    "espanol": "el beso",
+    "deutsch": "der Kuss, das Küsschen",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_23",
+    "espanol": "el abrazo",
+    "deutsch": "die Umarmung",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_24",
+    "espanol": "Rocafort",
+    "deutsch": "Gemeinde in der Autonomen Gemeinschaft Valencia",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_25",
+    "espanol": "Asturias",
+    "deutsch": "Autonome Gemeinschaft im Norden Spaniens",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_26",
+    "espanol": "Granada",
+    "deutsch": "Stadt in Andalusien, bekannt für die Alhambra",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_27",
+    "espanol": "los Pirineos",
+    "deutsch": "Gebirge im Norden Spaniens, an der Grenze zu Frankreich",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_28",
+    "espanol": "Colombia",
+    "deutsch": "Land in Südamerika",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_29",
+    "espanol": "San Sebastián",
+    "deutsch": "Stadt im Baskenland",
+    "modulo": "Módulo 5",
+    "unidad": "Módulo 5",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_30",
+    "espanol": "pasar las vacaciones en casa",
+    "deutsch": "die Ferien zuhause verbringen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_31",
+    "espanol": "ir a la playa",
+    "deutsch": "zum Strand gehen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_32",
+    "espanol": "ir a la piscina",
+    "deutsch": "ins Schwimmbad gehen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_33",
+    "espanol": "ir a un concierto / a una exposición",
+    "deutsch": "in ein Konzert / in eine Ausstellung gehen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_34",
+    "espanol": "tomar el sol",
+    "deutsch": "sich sonnen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_35",
+    "espanol": "esquiar",
+    "deutsch": "Ski fahren",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_36",
+    "espanol": "hacer senderismo",
+    "deutsch": "wandern",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_37",
+    "espanol": "hacer barranquismo",
+    "deutsch": "Canyoning machen",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  },
+  {
+    "id": "v_177_38",
+    "espanol": "hacer rutas en bici de montaña",
+    "deutsch": "Mountainbike fahren",
+    "modulo": "Módulo 5",
+    "unidad": "Palabrateca – Actividades en las vacaciones",
+    "seite": 177,
+    "beispiel": ""
+  }
+]
