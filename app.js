@@ -920,11 +920,10 @@ class VocabTrainerApp {
       this.dom.ttsPlayBtn.classList.add('hidden');
     }
 
-    // Context / Beispielsatz
-    if (item.beispiel && item.beispiel.trim()) {
-      this.dom.cardContextSentence.textContent = `Beispiel: „${item.beispiel}“`;
-    } else {
+    // Beispielsätze / Tipps vor der Eingabe komplett entfernen (verrät sonst die Vokabel)
+    if (this.dom.cardContextSentence) {
       this.dom.cardContextSentence.textContent = '';
+      this.dom.cardContextSentence.classList.add('hidden');
     }
 
     // Reset feedback and styles
@@ -941,6 +940,9 @@ class VocabTrainerApp {
       this.dom.modeBlitzContainer.classList.add('hidden');
       this.dom.answerInput.value = '';
       this.dom.answerInput.disabled = false;
+      // Zufälliger Name pro Vokabelkarte verhindert jegliches Browser-Autofill / Dropdown-Vorschläge
+      this.dom.answerInput.name = 'vocab_ans_' + Date.now() + '_' + Math.random().toString(36).substring(2, 8);
+      this.dom.answerInput.setAttribute('autocomplete', 'off');
       this.dom.answerInput.className = "w-full text-center font-game font-semibold text-xl sm:text-2xl px-4 py-3.5 bg-slate-50 border-2 border-slate-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:bg-white shadow-inner transition-all";
       setTimeout(() => this.dom.answerInput.focus(), 50);
     } else {
