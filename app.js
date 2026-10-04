@@ -176,6 +176,8 @@ class VocabTrainerApp {
     this.currentSessionType = 'standard'; // 'standard', 'daily', 'weekend', 'mistakes'
     this.sessionStartTime = null;
     this.simulateWeekend = false;
+    this.mustRetryCurrentCard = false; // Wird true, wenn die aktuelle Vokabel falsch war
+    this.isCardRetry = false; // Flag für wiederholte Abfrage der gleichen Vokabel
     
     // Canvas & Pile
     this.coinCanvas = null;
@@ -893,6 +895,8 @@ class VocabTrainerApp {
 
     this.sessionVocab = pool;
     this.currentIndex = 0;
+    this.mustRetryCurrentCard = false;
+    this.isCardRetry = false;
     this.sessionStats = {
       totalAnswered: 0,
       correctCount: 0,
@@ -909,11 +913,13 @@ class VocabTrainerApp {
     this.renderCurrentCard();
   }
 
-  renderCurrentCard() {
+  renderCurrentCard(isRetry = false) {
     if (this.currentIndex >= this.sessionVocab.length) {
       this.finishSession();
       return;
     }
+
+    this.isCardRetry = !!isRetry;
 
     const item = this.sessionVocab[this.currentIndex];
     const box = this.getBox(item.id);
@@ -938,20 +944,23 @@ class VocabTrainerApp {
     if (item.seite) metaParts.push(`Seite ${item.seite}`);
     this.dom.cardMetadata.textContent = metaParts.join(' • ');
 
-    // Direction Decision
-    const dirSetting = this.dom.filterDirection.value;
-    if (dirSetting === 'MIXED') {
-      this.currentDirection = Math.random() > 0.5 ? 'ES_TO_DE' : 'DE_TO_ES';
-    } else {
-      this.currentDirection = dirSetting;
+    if (!isRetry) {
+      // Direction Decision
+      const dirSetting = this.dom.filterDirection.value;
+      if (dirSetting === 'MIXED') {
+        this.currentDirection = Math.random() > 0.5 ? 'ES_TO_DE' : 'DE_TO_ES';
+      } else {
+        this.currentDirection = dirSetting;
+      }
     }
 
     // Display Card Prompt and Word
+    const retryPrefix = isRetry ? `<span class="inline-flex items-center gap-1 text-amber-800 bg-amber-100 border border-amber-300 px-2.5 py-0.5 rounded-full text-xs font-bold mr-1.5 shadow-2xs">🔁 Nochmal versuchen</span> ` : '';
     if (this.currentDirection === 'ES_TO_DE') {
-      this.dom.cardPromptLabel.textContent = "🇪🇸 Übersetze ins Deutsche:";
+      this.dom.cardPromptLabel.innerHTML = `${retryPrefix}🇪🇸 Übersetze ins Deutsche:`;
       this.dom.cardWord.textContent = item.espanol;
     } else {
-      this.dom.cardPromptLabel.textContent = "🇩🇪 Übersetze ins Spanische:";
+      this.dom.cardPromptLabel.innerHTML = `${retryPrefix}🇩🇪 Übersetze ins Spanische:`;
       this.dom.cardWord.textContent = item.deutsch;
     }
 
@@ -1048,9 +1057,16 @@ class VocabTrainerApp {
         this.checkTypingAnswer();
       }
     } else {
-      // Advance to next card
-      this.currentIndex++;
-      this.renderCurrentCard();
+      if (this.mustRetryCurrentCard) {
+        // Bei falscher Eingabe: Gleiche Vokabel direkt danach nochmal abfragen
+        this.isCardRetry = true;
+        this.renderCurrentCard(true);
+      } else {
+        // Vokabel wurde erfolgreich gelöst: Weiter zur nächsten Vokabel
+        this.isCardRetry = false;
+        this.currentIndex++;
+        this.renderCurrentCard(false);
+      }
     }
   }
 
@@ -1252,12 +1268,17 @@ class VocabTrainerApp {
   }
 
   handleSuccess(item, expected, title, xp = 10, userInput = '') {
+    const wasRetry = this.isCardRetry || this.mustRetryCurrentCard;
+    this.mustRetryCurrentCard = false; // Vokabel erfolgreich gelöst! Nächster Klick geht weiter.
+
     this.cardState = 'SHOWING_FEEDBACK';
     this.feedbackShownAt = Date.now();
     this.sessionStats.totalAnswered++;
     this.sessionStats.correctCount++;
-    this.incrementStreak();
-    this.addXp(xp);
+    if (!wasRetry) {
+      this.incrementStreak();
+    }
+    this.addXp(wasRetry ? 6 : xp);
     this.recordVocabPractice(item, true);
 
     // Promote Leitner Box
@@ -1278,10 +1299,11 @@ class VocabTrainerApp {
       this.dom.answerInput.className = "w-full text-center font-game font-semibold text-xl sm:text-2xl px-4 py-3.5 bg-emerald-50 border-2 border-emerald-500 text-emerald-800 rounded-2xl shadow-inner transition-all";
     }
 
+    const successTitle = wasRetry ? "🎉 Super eingeprägt! Jetzt sitzt die Vokabel! ⭐" : title;
     const detailHtml = `
       <div class="my-2 text-sm text-emerald-900 flex items-center justify-center gap-2 flex-wrap">
-        <div>Lösung: <span class="font-bold bg-white/90 px-3 py-1 rounded-xl shadow-sm text-emerald-700 text-base inline-block">${expected}</span> <span class="ml-1 font-bold text-emerald-600">(+${xp} XP)</span></div>
-        <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-emerald-800 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-emerald-300" title="Nochmal anhören">
+        <div>Lösung: <span class="font-bold bg-white/90 px-3 py-1 rounded-xl shadow-sm text-emerald-700 text-base inline-block">${expected}</span> <span class="ml-1 font-bold text-emerald-600">(+${wasRetry ? 6 : xp} XP)</span></div>
+        <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-emerald-800 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-emerald-300 cursor-pointer" title="Nochmal anhören">
           <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
           <span>Nochmal</span>
         </button>
@@ -1291,16 +1313,21 @@ class VocabTrainerApp {
       </div>
     `;
 
-    this.showFeedback('success', title, detailHtml);
-    this.prepareAdvanceButton();
+    this.showFeedback('success', successTitle, detailHtml);
+    this.prepareAdvanceButton(false);
   }
 
   handleAccentWarning(item, expected, message, xp = 8, userInput = '') {
+    const wasRetry = this.isCardRetry || this.mustRetryCurrentCard;
+    this.mustRetryCurrentCard = false; // Gewertet!
+
     this.cardState = 'SHOWING_FEEDBACK';
     this.feedbackShownAt = Date.now();
     this.sessionStats.totalAnswered++;
     this.sessionStats.correctCount++;
-    this.incrementStreak();
+    if (!wasRetry) {
+      this.incrementStreak();
+    }
     this.addXp(xp);
     this.recordVocabPractice(item, true);
 
@@ -1327,7 +1354,7 @@ class VocabTrainerApp {
         <div>Deine Eingabe: <span class="font-bold bg-white/70 px-2.5 py-0.5 rounded text-amber-900">${escapedUser}</span></div>
         <div class="font-medium text-base flex items-center justify-center gap-2 flex-wrap">
           <span>Exakte Schreibweise mit Akzent: <span class="font-bold bg-white/90 px-3 py-1 rounded-xl shadow-sm text-emerald-700 inline-block">${expected}</span> <span class="ml-1 text-xs font-bold text-amber-700">(+${xp} XP)</span></span>
-          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-amber-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-amber-300" title="Nochmal anhören">
+          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-amber-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-amber-300 cursor-pointer" title="Nochmal anhören">
             <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
             <span>Anhören</span>
           </button>
@@ -1339,15 +1366,20 @@ class VocabTrainerApp {
     `;
 
     this.showFeedback('warning', "⚠️ Fast perfekt! Achte auf die Akzente!", detailHtml);
-    this.prepareAdvanceButton();
+    this.prepareAdvanceButton(false);
   }
 
   handleTypoSuccess(item, expected, message, xp = 8, userInput = '') {
+    const wasRetry = this.isCardRetry || this.mustRetryCurrentCard;
+    this.mustRetryCurrentCard = false; // Gewertet!
+
     this.cardState = 'SHOWING_FEEDBACK';
     this.feedbackShownAt = Date.now();
     this.sessionStats.totalAnswered++;
     this.sessionStats.correctCount++;
-    this.incrementStreak();
+    if (!wasRetry) {
+      this.incrementStreak();
+    }
     this.addXp(xp);
     this.recordVocabPractice(item, true);
 
@@ -1374,7 +1406,7 @@ class VocabTrainerApp {
         <div>Deine Eingabe: <span class="font-bold bg-white/70 px-2.5 py-0.5 rounded text-blue-900">${escapedUser}</span></div>
         <div class="font-medium text-base flex items-center justify-center gap-2 flex-wrap">
           <span>Richtig geschrieben: <span class="font-bold bg-white/90 px-3 py-1 rounded-xl shadow-sm text-emerald-700 inline-block">${expected}</span> <span class="ml-1 text-xs font-bold text-blue-700">(+${xp} XP)</span></span>
-          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-blue-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-blue-300" title="Nochmal anhören">
+          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-blue-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-blue-300 cursor-pointer" title="Nochmal anhören">
             <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
             <span>Anhören</span>
           </button>
@@ -1386,20 +1418,28 @@ class VocabTrainerApp {
     `;
 
     this.showFeedback('info', "💡 Tippfehler erkannt, aber gewertet!", detailHtml);
-    this.prepareAdvanceButton();
+    this.prepareAdvanceButton(false);
   }
 
   handleFailure(item, expected, userInput = '') {
+    this.mustRetryCurrentCard = true; // Diese Vokabel sofort als Nächstes wiederholen!
     this.cardState = 'SHOWING_FEEDBACK';
     this.feedbackShownAt = Date.now();
     this.sessionStats.totalAnswered++;
     this.resetStreak();
     this.recordVocabPractice(item, false);
-    this.sessionStats.mistakes.push({
-      item,
-      userAnswer: userInput || "(Keine Antwort)",
-      expected
-    });
+
+    // Vokabel in Fehlerliste eintragen (ohne Duplikate bei mehrfachem Fehlversuch)
+    const existingMistakeIdx = this.sessionStats.mistakes.findIndex(m => m.item.id === item.id);
+    if (existingMistakeIdx >= 0) {
+      this.sessionStats.mistakes[existingMistakeIdx].userAnswer = userInput || "(Keine Antwort)";
+    } else {
+      this.sessionStats.mistakes.push({
+        item,
+        userAnswer: userInput || "(Keine Antwort)",
+        expected
+      });
+    }
 
     // Demote Leitner Box to 1
     this.setBox(item.id, 1);
@@ -1422,19 +1462,19 @@ class VocabTrainerApp {
         <div class="text-rose-800 font-medium">Deine Eingabe: <span class="line-through font-bold bg-white/70 px-2.5 py-0.5 rounded text-rose-900">${escapedUser}</span></div>
         <div class="text-emerald-950 font-medium text-base flex items-center justify-center gap-2 flex-wrap">
           <span>Richtige Vokabel: <span class="font-bold bg-white/90 px-3 py-1 rounded-xl shadow-sm text-emerald-700 inline-block">${expected}</span></span>
-          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-rose-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-rose-300" title="Aussprache anhören">
+          <button onclick="app.tts.speak('${this.escapeHtml(item.espanol).replace(/'/g, "\\'")}')" class="p-1.5 bg-white/90 hover:bg-white text-rose-900 rounded-xl shadow-sm text-xs font-bold inline-flex items-center gap-1 border border-rose-300 cursor-pointer" title="Aussprache anhören">
             <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
             <span>Aussprache</span>
           </button>
         </div>
       </div>
       <div class="mt-3 pt-2 border-t border-rose-200/60 text-xs text-rose-800 font-medium flex items-center justify-center gap-1.5">
-        <span>⌨️ Drücke eine <strong>beliebige Taste</strong> oder <strong>Enter</strong> für die nächste Vokabel</span>
+        <span>⌨️ Drücke eine <strong>beliebige Taste</strong> oder <strong>Enter</strong>, um die Vokabel gleich nochmal zu üben!</span>
       </div>
     `;
 
-    this.showFeedback('danger', "❌ Leider nicht ganz richtig!", detailHtml);
-    this.prepareAdvanceButton();
+    this.showFeedback('danger', "❌ Nicht ganz richtig – gleich nochmal probieren!", detailHtml);
+    this.prepareAdvanceButton(true);
   }
 
   showFeedback(type, title, detail) {
@@ -1464,9 +1504,13 @@ class VocabTrainerApp {
     if (window.lucide) window.lucide.createIcons();
   }
 
-  prepareAdvanceButton() {
-    this.dom.actionBtn.innerHTML = `<span>WEITER</span><kbd class="text-xs bg-black/20 px-2 py-0.5 rounded text-white font-sans hidden sm:inline">Beliebige Taste ↵</kbd>`;
-    this.dom.actionBtn.className = "btn-game btn-game-success w-full py-3.5 rounded-2xl font-game font-bold text-lg shadow-md flex items-center justify-center gap-2";
+  prepareAdvanceButton(isRetry = false) {
+    const btnLabel = isRetry ? "NOCHMAL PROBIEREN" : "WEITER";
+    const keyLabel = isRetry ? "Nochmal ↵" : "Beliebige Taste ↵";
+    this.dom.actionBtn.innerHTML = `<span>${btnLabel}</span><kbd class="text-xs bg-black/20 px-2 py-0.5 rounded text-white font-sans hidden sm:inline">${keyLabel}</kbd>`;
+    this.dom.actionBtn.className = isRetry 
+      ? "btn-game bg-amber-500 hover:bg-amber-600 text-white w-full py-3.5 rounded-2xl font-game font-bold text-lg shadow-md flex items-center justify-center gap-2 cursor-pointer"
+      : "btn-game btn-game-success w-full py-3.5 rounded-2xl font-game font-bold text-lg shadow-md flex items-center justify-center gap-2 cursor-pointer";
     if (this.dom.answerInput) {
       this.dom.answerInput.blur();
     }
@@ -1524,21 +1568,24 @@ class VocabTrainerApp {
 
     // 2. Check and Award Coins
     let coinsEarnedThisRound = 0;
+    const distinctCardsCount = this.sessionVocab.length;
+    const cardsPassedFirstTry = Math.max(0, distinctCardsCount - mistakesCount);
+
     if (this.currentSessionType === 'daily') {
-      // 18, 19, or 20 correct answers in Daily Goal -> 1 Coin
-      if (correct >= 18 && total >= 18) {
+      // 18, 19 oder 20 richtige Antworten auf Anhieb (max. 2 Fehler) -> 1 Münze
+      if (cardsPassedFirstTry >= 18 && distinctCardsCount >= 18) {
         coinsEarnedThisRound = 1;
         this.awardCoins(1, 'daily');
       }
     } else if (this.currentSessionType === 'weekend') {
       // Weekend Special (25 words)
-      if (correct >= 23) {
+      if (cardsPassedFirstTry >= 23) {
         coinsEarnedThisRound = 3;
         this.awardCoins(3, 'weekend');
-      } else if (correct >= 20) {
+      } else if (cardsPassedFirstTry >= 20) {
         coinsEarnedThisRound = 2;
         this.awardCoins(2, 'weekend');
-      } else if (correct >= 17) {
+      } else if (cardsPassedFirstTry >= 17) {
         coinsEarnedThisRound = 1;
         this.awardCoins(1, 'weekend');
       }
