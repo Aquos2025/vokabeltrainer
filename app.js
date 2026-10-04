@@ -217,7 +217,9 @@ class VocabTrainerApp {
         history: [] // [{ date: '2026-09-23', timestamp: 1774378..., seconds: 180 }]
       },
       vocabStats: {}, // id -> { seenCount: 1, correctCount: 1, lastPracticed: 1774378... }
-      weekendChallengeClaimed: {}
+      weekendChallengeClaimed: {},
+      dailyStats: {}, // 'YYYY-MM-DD' -> { total: 0, correct: 0, mistakes: 0, seconds: 0 }
+      sessionHistory: [] // [{ timestamp, date, sessionType, total, correct, mistakes, seconds, accuracy }]
     };
 
     const saved = localStorage.getItem('apuntate_user_state');
@@ -241,6 +243,14 @@ class VocabTrainerApp {
 
         if (!state.vocabStats || typeof state.vocabStats !== 'object') {
           state.vocabStats = {};
+        }
+
+        if (!state.dailyStats || typeof state.dailyStats !== 'object') {
+          state.dailyStats = {};
+        }
+
+        if (!Array.isArray(state.sessionHistory)) {
+          state.sessionHistory = [];
         }
 
         if (!state.allTimeBestStreak) {
@@ -399,6 +409,36 @@ class VocabTrainerApp {
     this.dom.profPoolRatioBadge = document.getElementById('profPoolRatioBadge');
     this.dom.profWeekendStatus = document.getElementById('profWeekendStatus');
     this.dom.profWeekendToggleBtn = document.getElementById('profWeekendToggleBtn');
+
+    // Parents Dashboard Modal & Stats Elements
+    this.dom.headerParentsBtn = document.getElementById('headerParentsBtn');
+    this.dom.parentsModal = document.getElementById('parentsModal');
+    this.dom.parentsTime7Days = document.getElementById('parentsTime7Days');
+    this.dom.parentsVocab7Days = document.getElementById('parentsVocab7Days');
+    this.dom.parentsCorrect7Days = document.getElementById('parentsCorrect7Days');
+    this.dom.parentsCorrectPct7Days = document.getElementById('parentsCorrectPct7Days');
+    this.dom.parentsMistakes7Days = document.getElementById('parentsMistakes7Days');
+    this.dom.parentsMistakesPct7Days = document.getElementById('parentsMistakesPct7Days');
+    this.dom.parentsBar7Days = document.getElementById('parentsBar7Days');
+    this.dom.parentsBarLabelCorrect7Days = document.getElementById('parentsBarLabelCorrect7Days');
+    this.dom.parentsBarLabelMistakes7Days = document.getElementById('parentsBarLabelMistakes7Days');
+    this.dom.parentsDaysList = document.getElementById('parentsDaysList');
+
+    this.dom.parentsTimeTotal = document.getElementById('parentsTimeTotal');
+    this.dom.parentsVocabTotal = document.getElementById('parentsVocabTotal');
+    this.dom.parentsCorrectTotal = document.getElementById('parentsCorrectTotal');
+    this.dom.parentsCorrectPctTotal = document.getElementById('parentsCorrectPctTotal');
+    this.dom.parentsMistakesTotal = document.getElementById('parentsMistakesTotal');
+    this.dom.parentsMistakesPctTotal = document.getElementById('parentsMistakesPctTotal');
+    this.dom.parentsBarTotal = document.getElementById('parentsBarTotal');
+    this.dom.parentsBarLabelCorrectTotal = document.getElementById('parentsBarLabelCorrectTotal');
+    this.dom.parentsBarLabelMistakesTotal = document.getElementById('parentsBarLabelMistakesTotal');
+
+    this.dom.parentsBox1 = document.getElementById('parentsBox1');
+    this.dom.parentsBox2 = document.getElementById('parentsBox2');
+    this.dom.parentsBox3 = document.getElementById('parentsBox3');
+    this.dom.parentsBox4 = document.getElementById('parentsBox4');
+    this.dom.parentsBox5 = document.getElementById('parentsBox5');
   }
 
   bindEvents() {
@@ -1193,6 +1233,21 @@ class VocabTrainerApp {
       stat.correctCount = (stat.correctCount || 0) + 1;
     }
     stat.lastPracticed = Date.now();
+
+    // Record to dailyStats
+    if (!this.userState.dailyStats) this.userState.dailyStats = {};
+    const dateStr = this.getLocalDateString();
+    if (!this.userState.dailyStats[dateStr]) {
+      this.userState.dailyStats[dateStr] = { total: 0, correct: 0, mistakes: 0, seconds: 0 };
+    }
+    const dayStat = this.userState.dailyStats[dateStr];
+    dayStat.total = (dayStat.total || 0) + 1;
+    if (isCorrect) {
+      dayStat.correct = (dayStat.correct || 0) + 1;
+    } else {
+      dayStat.mistakes = (dayStat.mistakes || 0) + 1;
+    }
+
     this.saveUserState();
   }
 
@@ -1450,6 +1505,23 @@ class VocabTrainerApp {
     const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
     const mistakesPct = total > 0 ? (100 - pct) : 0;
 
+    // Log session to sessionHistory for parent statistics
+    if (!this.userState.sessionHistory) this.userState.sessionHistory = [];
+    this.userState.sessionHistory.push({
+      timestamp: Date.now(),
+      date: this.getLocalDateString(),
+      sessionType: this.currentSessionType,
+      total,
+      correct,
+      mistakes: mistakesCount,
+      seconds: elapsedSeconds,
+      accuracy: pct
+    });
+    if (this.userState.sessionHistory.length > 200) {
+      this.userState.sessionHistory = this.userState.sessionHistory.slice(-200);
+    }
+    this.saveUserState();
+
     // 2. Check and Award Coins
     let coinsEarnedThisRound = 0;
     if (this.currentSessionType === 'daily') {
@@ -1581,12 +1653,20 @@ class VocabTrainerApp {
     }
     this.userState.learningTime.totalSeconds = (this.userState.learningTime.totalSeconds || 0) + seconds;
     const now = new Date();
-    const dateStr = now.toISOString().slice(0, 10);
+    const dateStr = this.getLocalDateString(now);
     this.userState.learningTime.history.push({
       date: dateStr,
       timestamp: Date.now(),
       seconds: seconds
     });
+
+    // Record seconds in dailyStats
+    if (!this.userState.dailyStats) this.userState.dailyStats = {};
+    if (!this.userState.dailyStats[dateStr]) {
+      this.userState.dailyStats[dateStr] = { total: 0, correct: 0, mistakes: 0, seconds: 0 };
+    }
+    this.userState.dailyStats[dateStr].seconds = (this.userState.dailyStats[dateStr].seconds || 0) + seconds;
+
     this.saveUserState();
   }
 
@@ -1857,6 +1937,233 @@ class VocabTrainerApp {
     if (this.dom.profileModal) {
       this.dom.profileModal.classList.add('hidden');
     }
+  }
+
+  openParentsModal() {
+    if (!this.dom.parentsModal) return;
+
+    const stats = this.calculateParentStats();
+
+    // 7 Days UI
+    if (this.dom.parentsTime7Days) this.dom.parentsTime7Days.textContent = this.formatDuration(stats.time7Days);
+    if (this.dom.parentsVocab7Days) this.dom.parentsVocab7Days.textContent = stats.vocab7Days;
+    if (this.dom.parentsCorrect7Days) this.dom.parentsCorrect7Days.textContent = stats.correct7Days;
+    if (this.dom.parentsCorrectPct7Days) this.dom.parentsCorrectPct7Days.textContent = `${stats.correctPct7Days}%`;
+    if (this.dom.parentsMistakes7Days) this.dom.parentsMistakes7Days.textContent = stats.mistakes7Days;
+    if (this.dom.parentsMistakesPct7Days) this.dom.parentsMistakesPct7Days.textContent = `${stats.mistakesPct7Days}%`;
+    if (this.dom.parentsBar7Days) this.dom.parentsBar7Days.style.width = `${stats.barPct7Days}%`;
+    if (this.dom.parentsBarLabelCorrect7Days) this.dom.parentsBarLabelCorrect7Days.textContent = `${stats.correctPct7Days}%`;
+    if (this.dom.parentsBarLabelMistakes7Days) this.dom.parentsBarLabelMistakes7Days.textContent = `${stats.mistakesPct7Days}%`;
+
+    // Render Daily Breakdown
+    this.renderParentsDailyBreakdown(stats.last7Days);
+
+    // All Time UI
+    if (this.dom.parentsTimeTotal) this.dom.parentsTimeTotal.textContent = this.formatDuration(stats.timeTotal);
+    if (this.dom.parentsVocabTotal) this.dom.parentsVocabTotal.textContent = stats.vocabTotal;
+    if (this.dom.parentsCorrectTotal) this.dom.parentsCorrectTotal.textContent = stats.correctTotal;
+    if (this.dom.parentsCorrectPctTotal) this.dom.parentsCorrectPctTotal.textContent = `${stats.correctPctTotal}%`;
+    if (this.dom.parentsMistakesTotal) this.dom.parentsMistakesTotal.textContent = stats.mistakesTotal;
+    if (this.dom.parentsMistakesPctTotal) this.dom.parentsMistakesPctTotal.textContent = `${stats.mistakesPctTotal}%`;
+    if (this.dom.parentsBarTotal) this.dom.parentsBarTotal.style.width = `${stats.barPctTotal}%`;
+    if (this.dom.parentsBarLabelCorrectTotal) this.dom.parentsBarLabelCorrectTotal.textContent = `${stats.correctPctTotal}%`;
+    if (this.dom.parentsBarLabelMistakesTotal) this.dom.parentsBarLabelMistakesTotal.textContent = `${stats.mistakesPctTotal}%`;
+
+    // Wissensstand Leitner Boxes
+    const counts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+    this.allVocab.forEach(v => {
+      const b = this.getBox(v.id);
+      counts[b] = (counts[b] || 0) + 1;
+    });
+    for (let i = 1; i <= 5; i++) {
+      const el = document.getElementById(`parentsBox${i}`);
+      if (el) el.textContent = counts[i];
+    }
+
+    this.dom.parentsModal.classList.remove('hidden');
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  closeParentsModal() {
+    if (this.dom.parentsModal) {
+      this.dom.parentsModal.classList.add('hidden');
+    }
+  }
+
+  getLocalDateString(d = new Date()) {
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+
+  calculateParentStats() {
+    const now = new Date();
+    const last7Days = [];
+    let time7Days = 0;
+    let vocab7Days = 0;
+    let correct7Days = 0;
+    let mistakes7Days = 0;
+
+    // 1. Calculate rolling 7 days (from 6 days ago up to today)
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
+      const isoStr = d.toISOString().slice(0, 10);
+      const localStr = this.getLocalDateString(d);
+
+      const dayStat = (this.userState.dailyStats && (this.userState.dailyStats[localStr] || this.userState.dailyStats[isoStr])) || { total: 0, correct: 0, mistakes: 0, seconds: 0 };
+
+      // Learning time for this day
+      let daySeconds = dayStat.seconds || 0;
+      if (!daySeconds && this.userState.learningTime?.history) {
+        daySeconds = this.userState.learningTime.history
+          .filter(h => h.date === localStr || h.date === isoStr)
+          .reduce((sum, h) => sum + (h.seconds || 0), 0);
+      }
+
+      // Vocab counts for this day
+      let dayTotal = dayStat.total || 0;
+      let dayCorrect = dayStat.correct || 0;
+      let dayMistakes = dayStat.mistakes || 0;
+
+      // Fallback from sessionHistory if dailyStats for that day was 0
+      if (dayTotal === 0 && this.userState.sessionHistory) {
+        const daySessions = this.userState.sessionHistory.filter(s => s.date === localStr || s.date === isoStr);
+        if (daySessions.length > 0) {
+          dayTotal = daySessions.reduce((sum, s) => sum + (s.total || 0), 0);
+          dayCorrect = daySessions.reduce((sum, s) => sum + (s.correct || 0), 0);
+          dayMistakes = daySessions.reduce((sum, s) => sum + (s.mistakes || 0), 0);
+        }
+      }
+
+      time7Days += daySeconds;
+      vocab7Days += dayTotal;
+      correct7Days += dayCorrect;
+      mistakes7Days += dayMistakes;
+
+      const dayNames = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+      const dayLabel = i === 0 ? 'Heute' : (i === 1 ? 'Gestern' : dayNames[d.getDay()]);
+      const dateFormatted = `${String(d.getDate()).padStart(2, '0')}.${String(d.getMonth() + 1).padStart(2, '0')}.`;
+
+      last7Days.push({
+        dateStr: localStr,
+        dayLabel,
+        dateFormatted,
+        seconds: daySeconds,
+        total: dayTotal,
+        correct: dayCorrect,
+        mistakes: dayMistakes,
+        isToday: i === 0
+      });
+    }
+
+    // Fallback: If vocab7Days is 0, check if vocabStats has items practiced in the last 7 days
+    const sevenDaysAgoTs = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 6).setHours(0, 0, 0, 0);
+    if (vocab7Days === 0 && this.userState.vocabStats) {
+      const recentVocab = Object.values(this.userState.vocabStats).filter(s => (s.lastPracticed || 0) >= sevenDaysAgoTs);
+      if (recentVocab.length > 0) {
+        vocab7Days = recentVocab.reduce((sum, s) => sum + (s.seenCount || 1), 0);
+        correct7Days = recentVocab.reduce((sum, s) => sum + (s.correctCount || 0), 0);
+        mistakes7Days = Math.max(0, vocab7Days - correct7Days);
+      }
+    }
+    if (time7Days === 0 && this.userState.learningTime?.history) {
+      time7Days = this.userState.learningTime.history
+        .filter(h => (h.timestamp || new Date(h.date).getTime()) >= sevenDaysAgoTs)
+        .reduce((sum, h) => sum + (h.seconds || 0), 0);
+    }
+
+    // 2. All-Time Totals
+    let dailyAllTotal = 0;
+    let dailyAllCorrect = 0;
+    let dailyAllMistakes = 0;
+    Object.values(this.userState.dailyStats || {}).forEach(d => {
+      dailyAllTotal += d.total || 0;
+      dailyAllCorrect += d.correct || 0;
+      dailyAllMistakes += d.mistakes || 0;
+    });
+
+    let vocabStatsTotalSeen = 0;
+    let vocabStatsTotalCorrect = 0;
+    Object.values(this.userState.vocabStats || {}).forEach(s => {
+      vocabStatsTotalSeen += s.seenCount || 0;
+      vocabStatsTotalCorrect += s.correctCount || 0;
+    });
+
+    let sessionTotal = 0;
+    let sessionCorrect = 0;
+    let sessionMistakes = 0;
+    (this.userState.sessionHistory || []).forEach(s => {
+      sessionTotal += s.total || 0;
+      sessionCorrect += s.correct || 0;
+      sessionMistakes += s.mistakes || 0;
+    });
+
+    const vocabTotal = Math.max(dailyAllTotal, vocabStatsTotalSeen, sessionTotal);
+    const correctTotal = Math.max(dailyAllCorrect, vocabStatsTotalCorrect, sessionCorrect);
+    const mistakesTotal = Math.max(0, Math.max(dailyAllMistakes, sessionMistakes, vocabTotal - correctTotal));
+
+    let timeTotal = this.userState.learningTime?.totalSeconds || 0;
+    if (timeTotal === 0 && this.userState.learningTime?.history) {
+      timeTotal = this.userState.learningTime.history.reduce((sum, h) => sum + (h.seconds || 0), 0);
+    }
+
+    // 3. Percentages & Bar Widths
+    const correctPct7Days = vocab7Days > 0 ? ((correct7Days / vocab7Days) * 100).toFixed(1) : "0.0";
+    const mistakesPct7Days = vocab7Days > 0 ? ((mistakes7Days / vocab7Days) * 100).toFixed(1) : "0.0";
+    const barPct7Days = vocab7Days > 0 ? Math.round((correct7Days / vocab7Days) * 100) : 0;
+
+    const correctPctTotal = vocabTotal > 0 ? ((correctTotal / vocabTotal) * 100).toFixed(1) : "0.0";
+    const mistakesPctTotal = vocabTotal > 0 ? ((mistakesTotal / vocabTotal) * 100).toFixed(1) : "0.0";
+    const barPctTotal = vocabTotal > 0 ? Math.round((correctTotal / vocabTotal) * 100) : 0;
+
+    return {
+      time7Days,
+      vocab7Days,
+      correct7Days,
+      mistakes7Days,
+      correctPct7Days,
+      mistakesPct7Days,
+      barPct7Days,
+      last7Days,
+      timeTotal,
+      vocabTotal,
+      correctTotal,
+      mistakesTotal,
+      correctPctTotal,
+      mistakesPctTotal,
+      barPctTotal
+    };
+  }
+
+  renderParentsDailyBreakdown(last7Days) {
+    if (!this.dom.parentsDaysList) return;
+
+    this.dom.parentsDaysList.innerHTML = last7Days.map(d => {
+      const active = d.total > 0 || d.seconds > 0;
+      const timeFormatted = this.formatDuration(d.seconds);
+      const borderClass = d.isToday 
+        ? 'border-indigo-400 bg-indigo-50/70 ring-1 ring-indigo-300' 
+        : (active ? 'border-slate-200 bg-white' : 'border-slate-100 bg-slate-50/60 opacity-75');
+
+      return `
+        <div class="p-2 rounded-xl border ${borderClass} flex flex-col justify-between shadow-2xs">
+          <div>
+            <span class="block font-bold text-[11px] ${d.isToday ? 'text-indigo-800' : 'text-slate-700'}">${d.dayLabel}</span>
+            <span class="block text-[9px] text-slate-400">${d.dateFormatted}</span>
+          </div>
+          <div class="my-1.5">
+            <span class="block font-bold text-xs ${d.total > 0 ? 'text-indigo-700' : 'text-slate-500'}">${d.total} Vok.</span>
+            <span class="block text-[10px] text-slate-500">${timeFormatted}</span>
+          </div>
+          <div>
+            ${d.total > 0 
+              ? `<span class="inline-block text-[10px] font-bold px-1.5 py-0.5 rounded ${d.correct >= d.mistakes ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'}">${d.correct}✓ / ${d.mistakes}✗</span>` 
+              : `<span class="inline-block text-[10px] text-slate-400">-</span>`}
+          </div>
+        </div>
+      `;
+    }).join('');
   }
 
   getStartOfWeek(d = new Date()) {
